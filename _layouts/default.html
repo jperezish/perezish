@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- zurb foundation css links -->
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/foundation.css">
+
+    </head>
+    <body>
+        <nav class="top-bar hide-for-small">
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="/">{{ site.name }}</a></h1>
+            </li>
+            <li class="toggle-topbar">
+              <a href="#"></a>
+            </li>
+          </ul>
+          <section class="top-bar-section">
+            <ul class="right">
+              <li class>
+                <a href="/">home</a>
+              </li>
+            </ul>
+          </section>
+        </nav>
+        <section class="main">
+          <div class="row">
+            <div class="large-8 columns">
+              {{ content }}
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact">
+              <p>
+                Jason Perez<br />
+                Mystery Man<br />
+                jason@perezish.com
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/jperezish">github.com/jperezish</a><br />
+                <a href="http://www.linkedin.com/in/perezjason">linkedin.com/in/perezjason</a><br />
+              </p>
+            </div>
+          </div>
+        </section>
+
+    </body>
+</html>
