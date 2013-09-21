@@ -1,4 +1,4 @@
 name: Perezish
-markdown: redcarpet
+markdown: redcloth
 pygments: true
 permalink: pretty

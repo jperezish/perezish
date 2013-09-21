@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-<div class="row">
-  <div class="large-12 columns">
-    <h2>{{ page.title }}</h2>
-  </div>
-</div>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="large-9 columns" role="content">
 
-<div class="post">
-{{ content }}
+  <article>
+
+    <h3>{{ page.title }}</h3>
+    <h6>Written by {{ page.author }}</h6>
+    <p class="meta">{{ page.date | date_to_string }}</p>
+
+    {{ content }}
+
+  </article>
 </div>
