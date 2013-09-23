@@ -7,37 +7,39 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- zurb foundation css links -->
-        <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/css/foundation.css">
+        <link rel="stylesheet" href="/css/normalize.css" media="screen">
+        <link rel="stylesheet" href="/css/foundation.css" media="screen">
+        <link rel="stylesheet" href="/css/style.css" media="screen">
 
     </head>
     <body>
-      <!-- Nav Bar -->
-      <div class="row">
-        <div class="large-5 columns right">
-          <div class="nav-bar">
+      <!-- Site Header -->
+      <header id="site-header" class="row">
+        <div class="large-6 columns right">
+          <nav class="nav-bar">
            <ul class="button-group">
              <li><a href="#" class="button">Home</a></li>
              <li><a href="#" class="button">Articles</a></li>
              <li><a href="#" class="button">About</a></li>
              <li><a href="#" class="button">Contact</a></li>
             </ul>
-          </div>
+          </nav>
         </div>
-        <div class="large-4 columns right">
-          <h1>{{ site.name }} <small>Catch the bacon.</small></h1>
-        </div>
+        <hgroup class="large-3 columns right">
+          <h1 id="site-name">{{ site.name }}</h1>
+          <h2 id="site-tagline"><small>Catch the bacon.</small></h2>
+        </hgroup>
         <div class="large-3 columns">
           <img src="http://placehold.it/250x110&text=[img]" />
         </div>
-      </div>
+      </header>
 
-      <!-- End Nav -->
+      <!-- End Site Header -->
 
 
       <!-- Main Page Content and Sidebar -->
 
-      <div class="row">
+      <div id="site-main-content" class="row">
 
         <!-- Main Blog Content -->
 
@@ -52,7 +54,7 @@
 
           <h5>Categories</h5>
           <ul class="side-nav">
-            <li><a href="#">News</a></li>
+            <li><a href="#">New</a></li>
             <li><a href="#">Code</a></li>
             <li><a href="#">Design</a></li>
             <li><a href="#">Fun</a></li>
@@ -73,7 +75,7 @@
       <!-- End Main Content and Sidebar -->
 
 
-      <!-- Footer -->
+      <!-- Site Footer -->
 
       <footer class="row">
         <div class="large-12 columns">
@@ -82,14 +84,14 @@
             <div class="large-6 columns">
               <p>&copy; 2014 - Jason Perez</p>
             </div>
-            <div class="large-6 columns">
+            <nav class="large-6 columns">
               <ul class="inline-list right">
                 <li><a href="#">Link 1</a></li>
                 <li><a href="#">Link 2</a></li>
                 <li><a href="#">Link 3</a></li>
                 <li><a href="#">Link 4</a></li>
               </ul>
-            </div>
+            </nav>
           </div>
         </div>
       </footer>

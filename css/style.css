@@ -1,0 +1,33 @@
+/***-------------***/
+/*** SITE STYLES ***/
+/***-------------***/
+/*........*/
+/* Header */
+/*........*/
+/* line 9, ../_compass/style.scss */
+#site-header {
+  border-bottom-left-radius: 30px;
+  box-shadow: -10px 0 0 10px blue, -20px 0 0 20px red, -7px 15px 10px #666666;
+}
+
+/* line 19, ../_compass/style.scss */
+#site-name {
+  margin-bottom: 0;
+}
+
+/* line 23, ../_compass/style.scss */
+#site-tagline {
+  margin-top: -.775em;
+}
+
+/*..............*/
+/* Main Content */
+/*..............*/
+/* line 31, ../_compass/style.scss */
+#site-main-content {
+  margin-top: 40px;
+}
+
+/***----------------***/
+/*** SECTION STYLES ***/
+/***----------------***/

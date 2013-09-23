@@ -4,10 +4,11 @@ layout: default
 <div class="large-9 columns" role="content">
 
   <article>
-
-    <h3>{{ page.title }}</h3>
-    <h6>Written by {{ page.author }}</h6>
-    <p class="meta">{{ page.date | date_to_string }}</p>
+    <header>
+      <h3>{{ page.title }}</h3>
+      <h6>Written by {{ page.author }}</h6>
+      <p class="meta">{{ page.date | date_to_string }}</p>
+    </header>
 
     {{ content }}
 

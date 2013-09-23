@@ -1,0 +1,37 @@
+/***-------------***/
+/*** SITE STYLES ***/
+/***-------------***/
+
+/*........*/
+/* Header */
+/*........*/
+
+#site-header {
+  // border-bottom: 12px solid;
+  // border-left:   12px solid;
+  border-bottom-left-radius: 30px;
+  box-shadow:
+    -10px 0 0 10px blue,
+    -20px 0 0 20px red,
+    -7px 15px 10px #666666;
+}
+
+#site-name {
+  margin-bottom: 0;
+}
+
+#site-tagline {
+  margin-top: -.775em;
+}
+
+/*..............*/
+/* Main Content */
+/*..............*/
+
+#site-main-content {
+  margin-top: 40px;
+}
+
+/***----------------***/
+/*** SECTION STYLES ***/
+/***----------------***/
