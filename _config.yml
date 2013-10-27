@@ -2,4 +2,4 @@ name: Perezish
 markdown: redcloth
 pygments: true
 permalink: /:categories/:title
-exclude: [config.rb, gemfile, Gemfile.lock, Guardfile, rakefile, s3_website.yml]
+exclude: [config.rb, gemfile, Gemfile.lock, Guardfile, rakefile, s3_website.yml, README.md]
