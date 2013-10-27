@@ -1,37 +1,401 @@
+@import "foundation/variables";
+@import "foundation/components/global";
+@import "foundation/components/buttons";
+
+/***-------------***/
+/***  VARIABLES  ***/
+/***-------------***/
+
+$primaryblue:   #155280;
+$primaryred:    #8C2318;
+$lightgray:     #D8DADE;
+$lightblue:     #9AB4CB;
+$pooh-yellow:   #F2C45A;
+$grass-green:   #88A65E;
+$pine-green:    #5E8C6A;
+
+$font-headings:       "andadabold", Helvetica, Arial, sans-serif;
+$font-paragraphs:     "Georgia", Cambria, Times New Roman, Times, serif;
+$font-site-name:      'franchiseregular', sans-serif;
+
+$bg: $pine-green;
+
 /***-------------***/
 /*** SITE STYLES ***/
 /***-------------***/
 
-/*........*/
-/* Header */
-/*........*/
-
-#site-header {
-  // border-bottom: 12px solid;
-  // border-left:   12px solid;
-  border-bottom-left-radius: 30px;
-  box-shadow:
-    -10px 0 0 10px blue,
-    -20px 0 0 20px red,
-    -7px 15px 10px #666666;
+p {
+  font-family: $font-paragraphs;
 }
 
+body {
+  background-image:url("/images/debut_light.png");
+}
+
+blockquote {
+  border-left: 2px solid #358594;
+  background-color: #CCEBF1;
+  &:before {
+    content: " “ ";
+    font-family: "Lily Script One", serif;
+    font-size: 8em;
+    color: #358594;
+    float: left;
+    margin-left: -55px;
+    margin-top: -60px;
+  }
+  p {
+    color: #215E6A;
+  }
+}
+
+figcaption {
+  font-family: $font-paragraphs;
+  line-height: 1em;
+  margin-bottom: 2.5em;
+  margin-top: 0.5em;
+  color: #555;
+}
+
+/* Header */
+
+
+#site-header {
+  background-image:url("/images/jason-perez-site-header.png");
+  background-repeat: no-repeat;
+  background-position: 135% 30%;
+  border-bottom: 1px solid #444;
+  box-shadow:
+    0 4px 2px -2px #666;
+  ul {
+    margin-top: 1.6em;
+
+    li {
+      border-left: 2px solid #666;
+      &:first-child {
+        border-left: none;
+      }
+    }
+  }
+}
+
+.nav-main-button {
+  font-family: $font-site-name;
+  color: #222;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  padding-left: .2em;
+  padding-bottom: .05em;
+  padding-top: .1em;
+  padding-right: .2em;
+  margin-left: .5em;
+  margin-right: .5em;
+  letter-spacing: .05em;
+  &.smooth {
+    border-radius: 10px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    &:hover, &:focus {
+      background-color: #68D680;
+      border-radius: 10px;
+      color: #222;
+    }
+  }
+  }
+
 #site-name {
-  margin-bottom: 0;
+  font-family: $font-site-name;
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: .1em;
+  margin-left: 3.8em;
+  margin-bottom: -.6em;
+  span {
+    font-size: .8em;
+    color: #6f6f6f;
+  }
 }
 
 #site-tagline {
-  margin-top: -.775em;
+  font-family: $font-headings;
+  margin: 0;
+  padding: 0;
+  font-size: 1.4em;
+  margin-top: -1.05em;
+  color: #666;
 }
 
-/*..............*/
-/* Main Content */
-/*..............*/
+
+/*---- Main Content ----*/
+
 
 #site-main-content {
   margin-top: 40px;
 }
 
+/*---- Aside ----*/
+
+.panel {
+  border-width: 3px;
+  border-radius: 3px;
+  h3 {
+    font-family: $font-headings;
+    font-size: 2em;
+    margin-bottom: .2em;
+  }
+  a {
+    font-family: $font-paragraphs;
+  }
+}
+
 /***----------------***/
 /*** SECTION STYLES ***/
 /***----------------***/
+
+/*---- Articles ----*/
+
+article {
+  p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+
+  h2, h3, h4, h5 {
+    font-family: $font-headings;
+    color: #AC3F33;
+  }
+
+  li {
+    margin-left: 3em;
+    font-family: $font-paragraphs;
+  }
+
+  #lead-image {
+    border-bottom: .3em solid rgba(59, 65, 74, .2);
+  }
+
+  .article-title {
+    font-family: $font-headings;
+    color: #E5230F;
+    font-size: 1.6em;
+    line-height: .85em;
+    margin-bottom: .2em;
+    margin-top: .5em;
+    &.about {
+      margin-bottom: -65px;
+    }
+    a {
+      display: block;
+      width: 89%;
+      color: inherit;
+      padding-left: .2em;
+      border-radius: 10px;
+      transition-property: background-color;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-in-out;
+      &:hover, &:focus {
+        background-color: rgba(104, 214, 128, 0.5);
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .article-info {
+      font-family: $font-paragraphs;
+      font-size: .8em;
+      text-indent: 1em;
+    #article-author {
+      font-family: $font-headings;
+      padding-left: .4em;
+      font-size: 1.25em;
+      &:after {
+        padding-left: .4em;
+        padding-right: .4em;
+        color: gray;
+        content: " | ";
+      }
+    }
+  }
+
+  #resource-lead {
+    height: 250px;
+    background-color: #484848;
+    background-image:url("/images/gollum.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    border: 4px solid #222;
+    padding-top: 11.5em;
+    p {
+      color: #e4e2c9;
+      font-family: $font-headings;
+      font-size: 2em;
+    }
+  }
+}
+
+.index-card {
+  background-color: rgba(253, 253, 241, 0.5);
+  border: 2px solid #AAA;
+  border-radius: 8px;
+  padding-left: 2em;
+  padding-right: 2em;
+  li {
+    font-family: $font-paragraphs;
+    margin-left: 2em;
+  }
+  img {
+    border: 3px solid #AAA;
+    background-color: rgba(255, 255, 255, .5);
+    margin-top: 1em;
+    border-radius: 5px;
+  }
+  span {
+    color: #FB573B;
+  }
+  p {
+    border-bottom: 3px solid #61B8ED;
+    &:first-child {
+      border-bottom: 5px solid #ED4F6F;
+      font-size: 1.2em;
+      line-height: 3em;
+      span:first-child {
+        padding-right: 1em;
+      }
+    }
+  }
+}
+
+/*---- About ----*/
+
+
+
+/*---- Media Queries ----*/
+
+$tiny-screen: em-calc(320);
+$small-screen: em-calc(768);
+$small-medium-screen: em-calc(1080);
+$medium-screen: em-calc(1280);
+$large-screen: em-calc(1440);
+$large-screen: em-calc(1440);
+
+$screen: "only screen";
+$tiny: "only screen and (min-width:"#{$tiny-screen}")";
+$small: "only screen and (min-width:"#{$small-screen}")";
+$small-medium: "only screen and (min-width:"#{$small-medium-screen}")";
+$medium: "only screen and (min-width:"#{$medium-screen}")";
+$large: "only screen and (min-width:"#{$large-screen}")";
+$landscape: "only screen and (orientation: landscape)";
+$portrait: "only screen and (orientation: portrait)";
+
+/* We use this media query to add styles to any device that supports media queries */
+@media #{$screen} { }
+
+/* Used to alter styles for screens at least 321px wide. */
+@media #{$tiny} {
+  #site-identity {
+    background-image: none;
+  }
+
+  #site-name {
+    font-size: 3em;
+    padding-top: .6em;
+    margin-left: 3.2em;
+  }
+
+  #nav-position {
+    padding-left: 9em;
+  }
+  #site-header {
+    background-image:url("/images/jason-perez-site-header.png");
+    background-repeat: no-repeat;
+    background-position: 4% 100%;
+  }
+}
+
+/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+@media #{$small} {
+
+  #site-name {
+    font-size: 4em;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    span {
+      font-size: .9em;
+    }
+  }
+
+  #site-tagline {
+    margin-top: -1.3em;
+  }
+
+  .nav-main-button {
+    font-size: 2.5em;
+    padding-left: .5em;
+    padding-bottom: .05em;
+    padding-top: .3em;
+    padding-right: .5em;
+    margin-left: .5em;
+    margin-right: .5em;
+  }
+
+  #nav-position {
+    padding-left: 0;
+  }
+
+  article{
+    .article-title {
+      font-size: 3em;
+    }
+
+    #resource-lead {
+      p {
+        font-size: 3em;
+        line-height: 1.5em;
+      }
+    }
+    .article-info {
+      font-size: 1em;
+    }
+
+    #article-author {
+      font-size: 1.3em;
+    }
+
+    .lead-in {
+      font-size: 1.6em;
+      line-height: 1.6em;
+    }
+  }
+
+ }
+
+@media #{$small-medium} {
+
+}
+
+/* Used to alter styles for screens at least 1280px wide. */
+@media #{$medium} { }
+
+/* Used to alter styles for screens at least 1440px wide. */
+@media #{$large} { }
+
+/* Apply styles to screens in landscape orientation */
+@media #{$landscape} { }
+
+/* Apply styles to screens in portrait orientation */
+@media #{$portrait} { }
+
+
+
+
+
+
+
+
+
+
+
+

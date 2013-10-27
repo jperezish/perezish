@@ -1,0 +1,61 @@
+---
+layout: resource
+title: "Creating Web Applications"
+description: "A list of resources for creating a web application. The list includes recommended books, tutorials, and screencasts."
+categories: resources
+author: Jason Perez
+type: resource
+---
+
+<p class="lead-in">
+  There's a lot of stuff under the umbrella of creating a web application. I'll start with some basic topic areas.
+</p>
+
+It'd be a good idea to eventually have some sort of conceptual understanding of all the things listed on this page. Go as deep as you feel comfortable with in each of these topic areas. If it's fun for you, learn more! You want to learn a little bit about each area since they all influence and inform each other. The great thing about web application design is that it's not bound by physical material. Plan for change. Create iteratively as new things are discovered.
+
+h2. Learn a programming language
+
+I know it may be tempting to just jump right into creating web apps but I'd recommend not doing that. Start with learning a programming language. I'm by no means an expert and I can't nicely convey the difference between the various languages. I chose "Ruby":https://www.ruby-lang.org because I was sucked in by the vast amount of resources provided by the community. I hear nice things about "Python":http://www.python.org/ but I really haven't explored it much.
+
+h3. Choose a programming language
+
+<div class="row">
+  <div class="small-12 large-7 columns">
+
+Choose Ruby! Well I suppose you don't have to. If you don't then you may want to look elsewhere for programming language resources because that's mainly what you're gonna find below. But seriously, it's free and awesome.
+
+  </div>
+  <div class="small-12 large-5 columns">
+    <img src="/images/ruby-gem.png" alt="A picture of a Ruby.">
+  </div>
+</div>
+
+h4. Taking a test drive
+
+If you're just mulling around the idea of programming then maybe you need to give it a test drive first. Before you commit time to setting up your computer with Ruby, check out the following resources first. No downloads or installs needed:
+
+* "Try Ruby":http://tryruby.org/ online. This is a great self contained interactive intro tutorial.
+* "Ruby Bits":http://www.codeschool.com/courses/ruby-bits is brought to you by the same people that put together the Try Ruby tutorial.
+* "Ruby Bits Part 2"::http://www.codeschool.com/courses/ruby-bits-part-2
+* "Ruby Monk's":http://rubymonk.com/ Ruby Primer course is pretty good. The other courses are good as well, just check yourself for learning brain freeze.
+* "Codecademy":http://www.codecademy.com/ for Ruby. They offer other free training for HTML, CSS, javascript, etc. I'd recommend the web fundamentals if you don't really know much about HTML and CSS. HTML, CSS, javascript and their ilk will become more important the closer you get to creating web apps.
+
+h4. I'm all in!
+
+If you want to get right into Ruby then awesome sauce. The first thing you should do is install Ruby on your system. Go to "the Rails Installer site":http://railsinstaller.org/ and use their installer. It has Ruby, Rails, and few other things that'll come in handy down the road.
+
+You'll also need a good text editor to work in. I use "Sublime Text":http://www.sublimetext.com/ and love it. You can use a trial version that will periodically pop up with a dialog box. I ended up buying the app and I'm glad I did. There's a ton you can do in it. You may want to read through the "documentation":http://sublime-text-unofficial-documentation.readthedocs.org/en/sublime-text-2/ and watch the "tutorials":https://tutsplus.com/course/improve-workflow-in-sublime-text-2/.
+
+h4. Ruby installed, text editor set, next!
+
+Another good free resource is the "Ruby in 100 Minutes":http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html tutorial by "Jumpstart Lab":jumpstartlab.com. It'll run through the language at a high level, much like the stuff above did, but this time you can run it through Ruby on your system.
+
+If you've made it this far then I'd recommend spending some cash at this point. The best thing I've done so far to advance my understanding was to invest in the "The Pragmatic Studio's":http://pragmaticstudio.com/ "Ruby Programming":http://pragmaticstudio.com/ruby course. I can't recommend it enough.
+
+I'd also recommend getting a couple books to reference as you do the tutorials. Just buy the ebook format. You'll get updates when new versions come out.
+* "Programming Ruby (2nd edition): The Pragmatic Programmers' Guide":http://pragprog.com/book/ruby/programming-ruby)
+* "The Well-Grounded Rubyist":http://www.manning.com/black2/
+
+You're also going to wnat to bokkmark and frequently browse through the "Ruby docs":http://ruby-doc.org/. That's it for now. More updates later.
+
+

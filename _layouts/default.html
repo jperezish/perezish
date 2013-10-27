@@ -1,37 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
+        <title>{{ page.title }} - by Jason Perez</title>
+        <meta name="Description" content="{{ page.description }}">
+        <meta name="robots" content="NOODP">
+        <meta name="googlebot" content="NOODP">
         <meta name="viewport" content="width=device-width">
 
         <!-- zurb foundation css links -->
         <link rel="stylesheet" href="/css/normalize.css" media="screen">
         <link rel="stylesheet" href="/css/foundation.css" media="screen">
+        <link rel="stylesheet" href="/css/grid-5.css" media="screen">
+        <link rel="stylesheet" href="/css/webfonts.css" media="screen">
         <link rel="stylesheet" href="/css/style.css" media="screen">
+
+        <!-- favicon and atom feed -->
+        <link rel="shortcut icon" href="/images/favicon.ico">
+        <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed for all site content">
 
     </head>
     <body>
       <!-- Site Header -->
       <header id="site-header" class="row">
-        <div class="large-6 columns right">
-          <nav class="nav-bar">
-           <ul class="button-group">
-             <li><a href="#" class="button">Home</a></li>
-             <li><a href="#" class="button">Articles</a></li>
-             <li><a href="#" class="button">About</a></li>
-             <li><a href="#" class="button">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-        <hgroup class="large-3 columns right">
-          <h1 id="site-name">{{ site.name }}</h1>
-          <h2 id="site-tagline"><small>Catch the bacon.</small></h2>
+        <hgroup class="large-8 push-2 medium-6 small-12 columns pull-right" id="site-identity">
+          <h1 id="site-name">Perez<span>ish</span></h1>
+          <h2 class="hide-for-small" id="site-tagline"><small>on </small>web apps<small> and </small>people</h2>
         </hgroup>
-        <div class="large-3 columns">
-          <img src="http://placehold.it/250x110&text=[img]" />
-        </div>
+        <nav class="nav-bar large-4 medium-5 small-12 columns right" id="nav-position">
+         <ul class="button-group">
+           <li><a href="/" class="nav-main-button smooth">Home</a></li>
+           <li><a href="/about" class="nav-main-button smooth">About</a></li>
+          </ul>
+        </nav>
       </header>
 
       <!-- End Site Header -->
@@ -50,22 +52,9 @@
 
         <!-- Sidebar -->
 
-        <aside class="large-3 columns">
+        <aside class="large-3 small-12 columns">
 
-          <h5>Categories</h5>
-          <ul class="side-nav">
-            <li><a href="#">New</a></li>
-            <li><a href="#">Code</a></li>
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Fun</a></li>
-            <li><a href="#">Weasels</a></li>
-          </ul>
-
-          <div class="panel">
-            <h5>Featured</h5>
-            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow.</p>
-            <a href="#">Read More &rarr;</a>
-          </div>
+          {% include featured.textile %}
 
         </aside>
 
@@ -81,19 +70,27 @@
         <div class="large-12 columns">
           <hr />
           <div class="row">
-            <div class="large-6 columns">
-              <p>&copy; 2014 - Jason Perez</p>
+            <div class="small-6 columns">
+              <p>&copy; 2013 - Jason Perez</p>
             </div>
-            <nav class="large-6 columns">
+            <nav class="small-6 columns">
               <ul class="inline-list right">
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-                <li><a href="#">Link 4</a></li>
+                <li><a href="http://www.linkedin.com/in/perezjason">LinkedIn</a></li>
+                <li><a href="http://github.com/jperezish">GitHub</a></li>
               </ul>
             </nav>
           </div>
         </div>
       </footer>
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-44764937-1', 'perezish.com');
+        ga('send', 'pageview');
+      </script>
     </body>
 </html>

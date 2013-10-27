@@ -1,33 +1,758 @@
+@charset "UTF-8";
+/* line 264, ../_compass/foundation/components/_global.scss */
+meta.foundation-mq-small {
+  font-family: "only screen and (min-width: 768px)";
+  width: 768px;
+}
+
+/* line 269, ../_compass/foundation/components/_global.scss */
+meta.foundation-mq-medium {
+  font-family: "only screen and (min-width:1280px)";
+  width: 1280px;
+}
+
+/* line 274, ../_compass/foundation/components/_global.scss */
+meta.foundation-mq-large {
+  font-family: "only screen and (min-width:1440px)";
+  width: 1440px;
+}
+
+/* line 292, ../_compass/foundation/components/_global.scss */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 297, ../_compass/foundation/components/_global.scss */
+html,
+body {
+  font-size: 100%;
+}
+
+/* line 300, ../_compass/foundation/components/_global.scss */
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+}
+
+/* line 313, ../_compass/foundation/components/_global.scss */
+a:hover {
+  cursor: pointer;
+}
+
+/* line 318, ../_compass/foundation/components/_global.scss */
+img,
+object,
+embed {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 321, ../_compass/foundation/components/_global.scss */
+object,
+embed {
+  height: 100%;
+}
+
+/* line 322, ../_compass/foundation/components/_global.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 328, ../_compass/foundation/components/_global.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+  max-width: none !important;
+}
+
+/* line 333, ../_compass/foundation/components/_global.scss */
+.left {
+  float: left !important;
+}
+
+/* line 334, ../_compass/foundation/components/_global.scss */
+.right {
+  float: right !important;
+}
+
+/* line 335, ../_compass/foundation/components/_global.scss */
+.text-left {
+  text-align: left !important;
+}
+
+/* line 336, ../_compass/foundation/components/_global.scss */
+.text-right {
+  text-align: right !important;
+}
+
+/* line 337, ../_compass/foundation/components/_global.scss */
+.text-center {
+  text-align: center !important;
+}
+
+/* line 338, ../_compass/foundation/components/_global.scss */
+.text-justify {
+  text-align: justify !important;
+}
+
+/* line 339, ../_compass/foundation/components/_global.scss */
+.hide {
+  display: none;
+}
+
+/* line 345, ../_compass/foundation/components/_global.scss */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 348, ../_compass/foundation/components/_global.scss */
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 358, ../_compass/foundation/components/_global.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+/* line 361, ../_compass/foundation/components/_global.scss */
+select {
+  width: 100%;
+}
+
+/* line 171, ../_compass/foundation/components/_buttons.scss */
+button, .button {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: normal;
+  margin: 0 0 1.25em;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.75em;
+  padding-right: 1.5em;
+  padding-bottom: 0.8125em;
+  padding-left: 1.5em;
+  font-size: 1em;
+  background-color: #2ba6cb;
+  border-color: #2284a1;
+  color: white;
+}
+/* line 122, ../_compass/foundation/components/_buttons.scss */
+button:hover, button:focus, .button:hover, .button:focus {
+  background-color: #2284a1;
+}
+/* line 133, ../_compass/foundation/components/_buttons.scss */
+button:hover, button:focus, .button:hover, .button:focus {
+  color: white;
+}
+/* line 176, ../_compass/foundation/components/_buttons.scss */
+button.secondary, .button.secondary {
+  background-color: #e9e9e9;
+  border-color: #d0d0d0;
+  color: #333333;
+}
+/* line 122, ../_compass/foundation/components/_buttons.scss */
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+  background-color: #d0d0d0;
+}
+/* line 128, ../_compass/foundation/components/_buttons.scss */
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+  color: #333333;
+}
+/* line 177, ../_compass/foundation/components/_buttons.scss */
+button.success, .button.success {
+  background-color: #5da423;
+  border-color: #457a1a;
+  color: white;
+}
+/* line 122, ../_compass/foundation/components/_buttons.scss */
+button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+  background-color: #457a1a;
+}
+/* line 133, ../_compass/foundation/components/_buttons.scss */
+button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+  color: white;
+}
+/* line 178, ../_compass/foundation/components/_buttons.scss */
+button.alert, .button.alert {
+  background-color: #c60f13;
+  border-color: #970b0e;
+  color: white;
+}
+/* line 122, ../_compass/foundation/components/_buttons.scss */
+button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+  background-color: #970b0e;
+}
+/* line 133, ../_compass/foundation/components/_buttons.scss */
+button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+  color: white;
+}
+/* line 180, ../_compass/foundation/components/_buttons.scss */
+button.large, .button.large {
+  padding-top: 1em;
+  padding-right: 2em;
+  padding-bottom: 1.0625em;
+  padding-left: 2em;
+  font-size: 1.25em;
+}
+/* line 181, ../_compass/foundation/components/_buttons.scss */
+button.small, .button.small {
+  padding-top: 0.5625em;
+  padding-right: 1.125em;
+  padding-bottom: 0.625em;
+  padding-left: 1.125em;
+  font-size: 0.8125em;
+}
+/* line 182, ../_compass/foundation/components/_buttons.scss */
+button.tiny, .button.tiny {
+  padding-top: 0.4375em;
+  padding-right: 0.875em;
+  padding-bottom: 0.5em;
+  padding-left: 0.875em;
+  font-size: 0.6875em;
+}
+/* line 183, ../_compass/foundation/components/_buttons.scss */
+button.expand, .button.expand {
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+}
+/* line 185, ../_compass/foundation/components/_buttons.scss */
+button.left-align, .button.left-align {
+  text-align: left;
+  text-indent: 0.75em;
+}
+/* line 186, ../_compass/foundation/components/_buttons.scss */
+button.right-align, .button.right-align {
+  text-align: right;
+  padding-right: 0.75em;
+}
+/* line 188, ../_compass/foundation/components/_buttons.scss */
+button.disabled, button[disabled], .button.disabled, .button[disabled] {
+  background-color: #2ba6cb;
+  border-color: #2284a1;
+  color: white;
+  cursor: default;
+  opacity: 0.6;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 122, ../_compass/foundation/components/_buttons.scss */
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+  background-color: #2284a1;
+}
+/* line 133, ../_compass/foundation/components/_buttons.scss */
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+  color: white;
+}
+/* line 146, ../_compass/foundation/components/_buttons.scss */
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+  background-color: #2ba6cb;
+}
+/* line 189, ../_compass/foundation/components/_buttons.scss */
+button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
+  background-color: #e9e9e9;
+  border-color: #d0d0d0;
+  color: #333333;
+  cursor: default;
+  opacity: 0.6;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 122, ../_compass/foundation/components/_buttons.scss */
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+  background-color: #d0d0d0;
+}
+/* line 128, ../_compass/foundation/components/_buttons.scss */
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+  color: #333333;
+}
+/* line 146, ../_compass/foundation/components/_buttons.scss */
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+  background-color: #e9e9e9;
+}
+/* line 190, ../_compass/foundation/components/_buttons.scss */
+button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
+  background-color: #5da423;
+  border-color: #457a1a;
+  color: white;
+  cursor: default;
+  opacity: 0.6;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 122, ../_compass/foundation/components/_buttons.scss */
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+  background-color: #457a1a;
+}
+/* line 133, ../_compass/foundation/components/_buttons.scss */
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+  color: white;
+}
+/* line 146, ../_compass/foundation/components/_buttons.scss */
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+  background-color: #5da423;
+}
+/* line 191, ../_compass/foundation/components/_buttons.scss */
+button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
+  background-color: #c60f13;
+  border-color: #970b0e;
+  color: white;
+  cursor: default;
+  opacity: 0.6;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 122, ../_compass/foundation/components/_buttons.scss */
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+  background-color: #970b0e;
+}
+/* line 133, ../_compass/foundation/components/_buttons.scss */
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+  color: white;
+}
+/* line 146, ../_compass/foundation/components/_buttons.scss */
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+  background-color: #c60f13;
+}
+
+/* line 196, ../_compass/foundation/components/_buttons.scss */
+button, .button {
+  padding-top: 0.8125em;
+  padding-bottom: 0.75em;
+  -webkit-appearance: none;
+}
+/* line 198, ../_compass/foundation/components/_buttons.scss */
+button.tiny, .button.tiny {
+  padding-top: 0.5em;
+  padding-bottom: 0.4375em;
+  -webkit-appearance: none;
+}
+/* line 199, ../_compass/foundation/components/_buttons.scss */
+button.small, .button.small {
+  padding-top: 0.625em;
+  padding-bottom: 0.5625em;
+  -webkit-appearance: none;
+}
+/* line 200, ../_compass/foundation/components/_buttons.scss */
+button.large, .button.large {
+  padding-top: 1.03125em;
+  padding-bottom: 1.03125em;
+  -webkit-appearance: none;
+}
+
+@media only screen {
+  /* line 206, ../_compass/foundation/components/_buttons.scss */
+  button, .button {
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+  }
+  /* line 68, ../_compass/foundation/components/_global.scss */
+  button:active, .button:active {
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
+  }
+  /* line 214, ../_compass/foundation/components/_buttons.scss */
+  button.radius, .button.radius {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  /* line 215, ../_compass/foundation/components/_buttons.scss */
+  button.round, .button.round {
+    -webkit-border-radius: 1000px;
+    border-radius: 1000px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 223, ../_compass/foundation/components/_buttons.scss */
+  button, .button {
+    display: inline-block;
+  }
+}
+/***-------------***/
+/***  VARIABLES  ***/
+/***-------------***/
 /***-------------***/
 /*** SITE STYLES ***/
 /***-------------***/
-/*........*/
-/* Header */
-/*........*/
-/* line 9, ../_compass/style.scss */
-#site-header {
-  border-bottom-left-radius: 30px;
-  box-shadow: -10px 0 0 10px blue, -20px 0 0 20px red, -7px 15px 10px #666666;
+/* line 27, ../_compass/style.scss */
+p {
+  font-family: "Georgia", Cambria, Times New Roman, Times, serif;
 }
 
-/* line 19, ../_compass/style.scss */
-#site-name {
-  margin-bottom: 0;
-}
-
-/* line 23, ../_compass/style.scss */
-#site-tagline {
-  margin-top: -.775em;
-}
-
-/*..............*/
-/* Main Content */
-/*..............*/
 /* line 31, ../_compass/style.scss */
+body {
+  background-image: url("/images/debut_light.png");
+}
+
+/* line 35, ../_compass/style.scss */
+blockquote {
+  border-left: 2px solid #358594;
+  background-color: #CCEBF1;
+}
+/* line 38, ../_compass/style.scss */
+blockquote:before {
+  content: " “ ";
+  font-family: "Lily Script One", serif;
+  font-size: 8em;
+  color: #358594;
+  float: left;
+  margin-left: -55px;
+  margin-top: -60px;
+}
+/* line 47, ../_compass/style.scss */
+blockquote p {
+  color: #215E6A;
+}
+
+/* line 52, ../_compass/style.scss */
+figcaption {
+  font-family: "Georgia", Cambria, Times New Roman, Times, serif;
+  line-height: 1em;
+  margin-bottom: 2.5em;
+  margin-top: 0.5em;
+  color: #555;
+}
+
+/* Header */
+/* line 63, ../_compass/style.scss */
+#site-header {
+  background-image: url("/images/jason-perez-site-header.png");
+  background-repeat: no-repeat;
+  background-position: 135% 30%;
+  border-bottom: 1px solid #444;
+  box-shadow: 0 4px 2px -2px #666;
+}
+/* line 70, ../_compass/style.scss */
+#site-header ul {
+  margin-top: 1.6em;
+}
+/* line 73, ../_compass/style.scss */
+#site-header ul li {
+  border-left: 2px solid #666;
+}
+/* line 75, ../_compass/style.scss */
+#site-header ul li:first-child {
+  border-left: none;
+}
+
+/* line 82, ../_compass/style.scss */
+.nav-main-button {
+  font-family: "franchiseregular", sans-serif;
+  color: #222;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  padding-left: .2em;
+  padding-bottom: .05em;
+  padding-top: .1em;
+  padding-right: .2em;
+  margin-left: .5em;
+  margin-right: .5em;
+  letter-spacing: .05em;
+}
+/* line 94, ../_compass/style.scss */
+.nav-main-button.smooth {
+  border-radius: 10px;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+/* line 99, ../_compass/style.scss */
+.nav-main-button.smooth:hover, .nav-main-button.smooth:focus {
+  background-color: #68D680;
+  border-radius: 10px;
+  color: #222;
+}
+
+/* line 107, ../_compass/style.scss */
+#site-name {
+  font-family: "franchiseregular", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: .1em;
+  margin-left: 3.8em;
+  margin-bottom: -.6em;
+}
+/* line 115, ../_compass/style.scss */
+#site-name span {
+  font-size: .8em;
+  color: #6f6f6f;
+}
+
+/* line 121, ../_compass/style.scss */
+#site-tagline {
+  font-family: "andadabold", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.4em;
+  margin-top: -1.05em;
+  color: #666;
+}
+
+/*---- Main Content ----*/
+/* line 134, ../_compass/style.scss */
 #site-main-content {
   margin-top: 40px;
+}
+
+/*---- Aside ----*/
+/* line 140, ../_compass/style.scss */
+.panel {
+  border-width: 3px;
+  border-radius: 3px;
+}
+/* line 143, ../_compass/style.scss */
+.panel h3 {
+  font-family: "andadabold", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  margin-bottom: .2em;
+}
+/* line 148, ../_compass/style.scss */
+.panel a {
+  font-family: "Georgia", Cambria, Times New Roman, Times, serif;
 }
 
 /***----------------***/
 /*** SECTION STYLES ***/
 /***----------------***/
+/*---- Articles ----*/
+/* line 160, ../_compass/style.scss */
+article p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+/* line 165, ../_compass/style.scss */
+article h2, article h3, article h4, article h5 {
+  font-family: "andadabold", Helvetica, Arial, sans-serif;
+  color: #AC3F33;
+}
+/* line 170, ../_compass/style.scss */
+article li {
+  margin-left: 3em;
+  font-family: "Georgia", Cambria, Times New Roman, Times, serif;
+}
+/* line 175, ../_compass/style.scss */
+article #lead-image {
+  border-bottom: 0.3em solid rgba(59, 65, 74, 0.2);
+}
+/* line 179, ../_compass/style.scss */
+article .article-title {
+  font-family: "andadabold", Helvetica, Arial, sans-serif;
+  color: #E5230F;
+  font-size: 1.6em;
+  line-height: .85em;
+  margin-bottom: .2em;
+  margin-top: .5em;
+}
+/* line 186, ../_compass/style.scss */
+article .article-title.about {
+  margin-bottom: -65px;
+}
+/* line 189, ../_compass/style.scss */
+article .article-title a {
+  display: block;
+  width: 89%;
+  color: inherit;
+  padding-left: .2em;
+  border-radius: 10px;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+/* line 198, ../_compass/style.scss */
+article .article-title a:hover, article .article-title a:focus {
+  background-color: rgba(104, 214, 128, 0.5);
+  border-radius: 10px;
+}
+/* line 205, ../_compass/style.scss */
+article .article-info {
+  font-family: "Georgia", Cambria, Times New Roman, Times, serif;
+  font-size: .8em;
+  text-indent: 1em;
+}
+/* line 209, ../_compass/style.scss */
+article .article-info #article-author {
+  font-family: "andadabold", Helvetica, Arial, sans-serif;
+  padding-left: .4em;
+  font-size: 1.25em;
+}
+/* line 213, ../_compass/style.scss */
+article .article-info #article-author:after {
+  padding-left: .4em;
+  padding-right: .4em;
+  color: gray;
+  content: " | ";
+}
+/* line 222, ../_compass/style.scss */
+article #resource-lead {
+  height: 250px;
+  background-color: #484848;
+  background-image: url("/images/gollum.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  border: 4px solid #222;
+  padding-top: 11.5em;
+}
+/* line 230, ../_compass/style.scss */
+article #resource-lead p {
+  color: #e4e2c9;
+  font-family: "andadabold", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+}
+
+/* line 238, ../_compass/style.scss */
+.index-card {
+  background-color: rgba(253, 253, 241, 0.5);
+  border: 2px solid #AAA;
+  border-radius: 8px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+/* line 244, ../_compass/style.scss */
+.index-card li {
+  font-family: "Georgia", Cambria, Times New Roman, Times, serif;
+  margin-left: 2em;
+}
+/* line 248, ../_compass/style.scss */
+.index-card img {
+  border: 3px solid #AAA;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 1em;
+  border-radius: 5px;
+}
+/* line 254, ../_compass/style.scss */
+.index-card span {
+  color: #FB573B;
+}
+/* line 257, ../_compass/style.scss */
+.index-card p {
+  border-bottom: 3px solid #61B8ED;
+}
+/* line 259, ../_compass/style.scss */
+.index-card p:first-child {
+  border-bottom: 5px solid #ED4F6F;
+  font-size: 1.2em;
+  line-height: 3em;
+}
+/* line 263, ../_compass/style.scss */
+.index-card p:first-child span:first-child {
+  padding-right: 1em;
+}
+
+/*---- About ----*/
+/*---- Media Queries ----*/
+/* We use this media query to add styles to any device that supports media queries */
+/* Used to alter styles for screens at least 321px wide. */
+@media only screen and (min-width: 20em) {
+  /* line 297, ../_compass/style.scss */
+  #site-identity {
+    background-image: none;
+  }
+
+  /* line 301, ../_compass/style.scss */
+  #site-name {
+    font-size: 3em;
+    padding-top: .6em;
+    margin-left: 3.2em;
+  }
+
+  /* line 307, ../_compass/style.scss */
+  #nav-position {
+    padding-left: 9em;
+  }
+
+  /* line 310, ../_compass/style.scss */
+  #site-header {
+    background-image: url("/images/jason-perez-site-header.png");
+    background-repeat: no-repeat;
+    background-position: 4% 100%;
+  }
+}
+/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+@media only screen and (min-width: 48em) {
+  /* line 320, ../_compass/style.scss */
+  #site-name {
+    font-size: 4em;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  /* line 325, ../_compass/style.scss */
+  #site-name span {
+    font-size: .9em;
+  }
+
+  /* line 330, ../_compass/style.scss */
+  #site-tagline {
+    margin-top: -1.3em;
+  }
+
+  /* line 334, ../_compass/style.scss */
+  .nav-main-button {
+    font-size: 2.5em;
+    padding-left: .5em;
+    padding-bottom: .05em;
+    padding-top: .3em;
+    padding-right: .5em;
+    margin-left: .5em;
+    margin-right: .5em;
+  }
+
+  /* line 344, ../_compass/style.scss */
+  #nav-position {
+    padding-left: 0;
+  }
+
+  /* line 349, ../_compass/style.scss */
+  article .article-title {
+    font-size: 3em;
+  }
+  /* line 354, ../_compass/style.scss */
+  article #resource-lead p {
+    font-size: 3em;
+    line-height: 1.5em;
+  }
+  /* line 359, ../_compass/style.scss */
+  article .article-info {
+    font-size: 1em;
+  }
+  /* line 363, ../_compass/style.scss */
+  article #article-author {
+    font-size: 1.3em;
+  }
+  /* line 367, ../_compass/style.scss */
+  article .lead-in {
+    font-size: 1.6em;
+    line-height: 1.6em;
+  }
+}
+/* Used to alter styles for screens at least 1280px wide. */
+/* Used to alter styles for screens at least 1440px wide. */
+/* Apply styles to screens in landscape orientation */
+/* Apply styles to screens in portrait orientation */

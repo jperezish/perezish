@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'andadaregular';
+    src: url('andada-regular-webfont.eot');
+    src: url('andada-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('andada-regular-webfont.svg#andadaregular') format('svg'),
+         url('andada-regular-webfont.woff') format('woff'),
+         url('andada-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'franchiseregular';
+    src: url('franchise-bold-webfont.eot');
+    src: url('franchise-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('franchise-bold-webfont.svg#franchiseregular') format('svg'),
+         url('franchise-bold-webfont.woff') format('woff'),
+         url('franchise-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'andadabold';
+    src: url('andada-bold-webfont.eot');
+    src: url('andada-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('andada-bold-webfont.svg#andadabold') format('svg'),
+         url('andada-bold-webfont.woff') format('woff'),
+         url('andada-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

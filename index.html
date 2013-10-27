@@ -1,13 +1,23 @@
 ---
 layout: default
-title: Welcome to Perezish.com
+title: Web apps and the people who use them
+description: "A site about web applications and the people who use them."
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+{% for post in site.posts %}
+  {% if post.type == "article" %}
+    <article class="large-9 small-12 columns">
+      <header>
+        <img id="lead-image" src="{{ post.lead-image }}" alt="{{ post.lead-image-alt }}" title="{{ post.lead-image-title }}" />
+        <h1 class="article-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <p class="article-info">
+          by <span id="article-author"><a href="/about">{{ post.author }}</a></span>
+          <time>{{ post.date | date: "%B %d, %Y" }}</time>
+        </p>
+      </header>
+
+    {{ post.content }}
+
+    </article>
+  {% endif %}
+{% endfor %}

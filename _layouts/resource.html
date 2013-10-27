@@ -4,11 +4,13 @@ layout: default
 
 <article class="large-9 small-12 columns">
   <header>
-    <img id="lead-image" src="{{ page.lead-image }}" alt="{{ page.lead-image-alt }}" title="{{ page.lead-image-title }}" />
+    <div id="resource-lead">
+      <p>Resources for</p>
+    </div>
     <h1 class="article-title">{{ page.title }}</h1>
     <p class="article-info">
       by <span id="article-author"><a href="/about">{{ page.author }}</a></span>
-      <time> {{ page.date | date: "%B %d, %Y" }}</time>
+      <time>{{ page.date | date: "%B %d, %Y" }}</time>
     </p>
   </header>
 

@@ -1,0 +1,7 @@
+{% if page.type != "resource" %}
+  <div class="panel">
+    <h3><small>Featured</small></h3>
+    <p>Are you interested in learning to program? I've been learning Ruby for the last few months and have put together a list of resources that I've found useful.</p>
+    <a href="/resources/for-creating-web-applications/">Read More &rarr;</a>
+  </div>
+{% endif %}
