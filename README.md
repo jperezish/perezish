@@ -1,6 +1,6 @@
 # Repo for my blog
 
-![Perezish.com](http://perezish.com/images/jason-perez-site-header.png) "Perezish.com")
+![Perezish.com](http://perezish.com/images/jason-perez-site-header.png)
 
 This is the repo for http://perezish.com.
 
