@@ -1,2 +1,4 @@
 _site
 s3_website.yml
+.DS_Store
+.sass-cache

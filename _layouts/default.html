@@ -13,7 +13,6 @@
         <link rel="stylesheet" href="/css/normalize.css" media="screen">
         <link rel="stylesheet" href="/css/foundation.css" media="screen">
         <link rel="stylesheet" href="/css/grid-5.css" media="screen">
-        <link rel="stylesheet" href="/css/webfonts.css" media="screen">
         <link rel="stylesheet" href="/css/style.css" media="screen">
 
         <!-- favicon and atom feed -->
@@ -24,17 +23,17 @@
     <body>
       <!-- Site Header -->
       <header id="site-header" class="row">
-        <hgroup class="large-8 push-2 medium-6 small-12 columns pull-right" id="site-identity">
-          <h1 id="site-name">Perez<span>ish</span></h1>
-          <h2 class="hide-for-small" id="site-tagline"><small>on </small>web apps<small> and </small>people</h2>
+        <hgroup class="small-3 small-centered columns" id="site-identity">
+          <h1 id="site-name">Perezish</h1>
+          <h2 class="hide-for-small" id="site-tagline"><small>on people and apps</small></h2>
         </hgroup>
-        <nav class="nav-bar large-4 medium-5 small-12 columns right" id="nav-position">
-         <ul class="button-group">
-           <li><a href="/" class="nav-main-button smooth">Home</a></li>
-           <li><a href="/about" class="nav-main-button smooth">About</a></li>
-          </ul>
-        </nav>
       </header>
+      <nav class="nav-bar row" id="nav-position">
+       <ul class="button-group large-12 medium-5 small-12 columns right">
+         <li><a href="/" class="nav-main-button smooth">Home</a></li>
+         <li><a href="/about" class="nav-main-button smooth">About</a></li>
+        </ul>
+      </nav>
 
       <!-- End Site Header -->
 
@@ -92,5 +91,19 @@
         ga('create', 'UA-44764937-1', 'perezish.com');
         ga('send', 'pageview');
       </script>
+
+      <script type="text/javascript">
+        WebFontConfig = { fontdeck: { id: '40450' } };
+
+        (function() {
+          var wf = document.createElement('script');
+          wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+          wf.type = 'text/javascript';
+          wf.async = 'true';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
     </body>
 </html>

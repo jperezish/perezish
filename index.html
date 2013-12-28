@@ -16,7 +16,9 @@ description: "A site about web applications and the people who use them."
         </p>
       </header>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+
+    <p><a class="read-more awesome-link" href="{{ post.url }}">Read more...</a></p>
 
     </article>
   {% endif %}
