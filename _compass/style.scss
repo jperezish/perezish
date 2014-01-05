@@ -1,68 +1,72 @@
-/***-------------***/
-/***  VARIABLES  ***/
-/***-------------***/
+//
+// Get the foundation variables
+//
+@import "foundation/settings";
 
-// $primaryblue:   #155280;
-// $primaryred:    #8C2318;
-// $lightgray:     #D8DADE;
-// $lightblue:     #9AB4CB;
-// $pooh-yellow:   #F2C45A;
-// $grass-green:   #88A65E;
-// $pine-green:    #5E8C6A;
+//
+//Additional variables
+//
 
-// $font-headings:       "andadabold", Helvetica, Arial, sans-serif;
-// $font-paragraphs:     "Georgia", Cambria, Times New Roman, Times, serif;
-// $font-site-name:      'franchiseregular', sans-serif;
+$site-heading-font-family: "ff-prater-block-web", monospace;
 
-// $bg: $pine-green;
+//
+// Site Styles
+//
 
-/***-------------***/
-/*** SITE STYLES ***/
-/***-------------***/
+#nav-position {
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
 
-// p {
-//   font-family: $font-paragraphs;
-// }
+blockquote {
+  border-left: 2px solid #95BFAC;
+  background-color: #CDD4B9;
+  margin-right: 4em;
+  margin-left: 2em;
+  padding-bottom: .5em;
+  padding-top: 1.5em;
+  &:before {
+    content: " “ ";
+    font-size: 8em;
+    color: #95BFAC;
+    float: left;
+    margin-left: -55px;
+    margin-top: -60px;
+  }
+  p {
+    color: #4A4A44;
+  }
+}
 
-// body {
-//   background-image:url("/images/debut_light.png");
-// }
-
-// blockquote {
-//   border-left: 2px solid #358594;
-//   background-color: #CCEBF1;
-//   &:before {
-//     content: " “ ";
-//     font-family: "Lily Script One", serif;
-//     font-size: 8em;
-//     color: #358594;
-//     float: left;
-//     margin-left: -55px;
-//     margin-top: -60px;
-//   }
-//   p {
-//     color: #215E6A;
-//   }
-// }
-
-// figcaption {
-//   font-family: $font-paragraphs;
-//   line-height: 1em;
-//   margin-bottom: 2.5em;
-//   margin-top: 0.5em;
-//   color: #555;
-// }
+figcaption {
+  font-style: italic;
+  line-height: 1em;
+  margin-bottom: 2.5em;
+  margin-top: 0.5em;
+  color: #555;
+}
 
 
 //
 // Site Header
 //
 
-.nav-main-button, #site-name, #site-tagline, .article-title, h2, h3, h4, h5 {
-     font-family:"Malamondo Regular", sans-serif;
-     font-size-adjust:0.5;
-     font-weight:normal;
-     font-style:normal;
+.article-title, h2, h3, h4, h5 {
+ font-family: $header-font-family;
+ font-size-adjust:0.5;
+ font-weight:normal;
+ font-style:normal;
+}
+
+#site-name, #site-tagline {
+  font-family: $site-heading-font-family;
+  text-transform: uppercase;
+}
+
+#site-identity {
+  background-image:url("/images/header-mask.png");
+  background-repeat: no-repeat;
+  background-position-y: 70%;
 }
 
 #site-header {
@@ -75,20 +79,60 @@
 }
 
 .nav-main-button {
-    font-size: 2.4em;
-    margin-left: .5em;
-    margin-right: .2em;
+  font-family: $header-font-family;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2.4em;
+  margin-left: .7em;
+  margin-right: .2em;
 }
 
-.awesome-link {
-    font-family:"Malamondo Regular", sans-serif;
+#site-name {
+    color: #4A4A44;
+    margin-bottom: 0;
+    margin-left: .8em;
+    font-size: 3.2em;
 }
 
-.read-more {
+#site-tagline {
+  margin-top: -.65em;
+  margin-bottom: 0px;
+  margin-left: 1.8em;
+  color: #4A4A44;
+  font-size: 1.45em;
+}
+
+//
+// Home Page
+//
+
+.read-more-link {
+    font-family: $header-font-family;
     background: #CDD4B9;
     padding: .5em;
     border-radius: .5em;
+    font-size: 1.4em;
+    margin-left: .7em;
 }
+
+.article-preview {
+  margin-bottom: 1em;
+}
+
+.read-more {
+  padding-bottom: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.read-more-border {
+  margin-bottom: 3em;
+  border-bottom: .3em solid #95BFAC;
+}
+
+//
+// Article
+//
 
 .article-info {
     color: #788F85;
@@ -107,16 +151,48 @@
   content: " | ";
 }
 
-#site-name {
-    color: #4A4A44;
-    margin-bottom: 0;
-    font-size: 3.2em;
+.article-title {
+    margin-bottom: -.25em;
+    text-transform: uppercase;
+    font-weight: 900;
 }
 
-#site-tagline {
-    margin-top: -.8em;
-    margin-bottom: 0px;
+.lead-in {
+    font-size: 1.4em;
+    line-height: 1.6em;
 }
+
+#lead-image {
+    border: .4em solid #4A4A44;
+    border-radius: 1em;
+    background: #f2f2f2;
+}
+
+p {
+    font-family: $paragraph-font-family;
+    font-size-adjust:0.5;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 1.2em;
+}
+
+h1, h2, h3, h4, h5 {
+  text-transform: capitalize;
+}
+
+a, .article-title, h1, h2, h3, h4, h5 {
+    color: #ED4652;
+}
+
+article {
+  li {
+    margin-left: 3em;
+  }
+}
+
+//
+// Aside
+//
 
 #featured-header {
     background: #4A4A44;
@@ -145,374 +221,61 @@
     border-radius: .5em;
 }
 
-p {
-    font-family:"Abril Text Regular", Georgia, 'Times New Roman', Times, serif;
-    font-size-adjust:0.5;
-    font-weight:normal;
-    font-style:normal;
-    font-size: 1.2em;
+
+//
+// Custom Article Content
+//
+
+#resource-lead {
+  height: 250px;
+  background-color: #95BFAC;
+  background-image:url("/images/gollum.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  border: .3em solid #4A4A44;
+  padding-top: 11.5em;
+  p {
+    color: #4A4A44;
+    font-size: 5em;
+    margin-top: -.5em;
+    margin-left: .1em;
+    font-family: $header-font-family;
+  }
 }
 
-.article-title {
-    margin-bottom: -.25em;
-
-}
-
-a, .article-title, h1, h2, h3, h4, h5 {
+.index-card {
+  background-color: #E3DFC5;
+  border: .2em solid #4A4A44;
+  border-radius: 8px;
+  padding-left: 2em;
+  padding-right: 2em;
+  box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.5);
+  li {
+    font-family: $paragraph-font-family;
+    margin-left: 2em;
+  }
+  img {
+    border: .15em solid #4A4A44;
+    background-color: rgba(255, 255, 255, .5);
+    margin-top: 1em;
+    border-radius: 5px;
+  }
+  span {
     color: #ED4652;
+    font-weight: bold;
+  }
+  p {
+    border-bottom: 3px solid #61B8ED;
+    &:first-child {
+      border-bottom: 5px solid #ED4F6F;
+      font-size: 1.2em;
+      line-height: 3em;
+      span:first-child {
+        padding-right: 1em;
+      }
+    }
+  }
 }
-
-.lead-in {
-    font-size: 1.4em;
-    line-height: 1.6em;
-}
-
-body {
-    background: #F1EFDF;
-}
-
-#lead-image {
-    border: .4em solid #4A4A44;
-    border-radius: 1em;
-    background: #f2f2f2;
-}
-
-// #site-header {
-//   background-image:url("/images/jason-perez-site-header.png");
-//   background-repeat: no-repeat;
-//   background-position: 135% 30%;
-//   border-bottom: 1px solid #444;
-//   box-shadow:
-//     0 4px 2px -2px #666;
-//   ul {
-//     margin-top: 1.6em;
-
-//     li {
-//       border-left: 2px solid #666;
-//       &:first-child {
-//         border-left: none;
-//       }
-//     }
-//   }
-// }
-
-// .nav-main-button {
-//   font-family: $font-site-name;
-//   color: #222;
-//   font-size: 2.2em;
-//   text-transform: uppercase;
-//   padding-left: .2em;
-//   padding-bottom: .05em;
-//   padding-top: .1em;
-//   padding-right: .2em;
-//   margin-left: .5em;
-//   margin-right: .5em;
-//   letter-spacing: .05em;
-//   &.smooth {
-//     border-radius: 10px;
-//     transition-property: background-color;
-//     transition-duration: 0.3s;
-//     transition-timing-function: ease-in-out;
-//     &:hover, &:focus {
-//       background-color: #68D680;
-//       border-radius: 10px;
-//       color: #222;
-//     }
-//   }
-//   }
-
-// #site-name {
-//   font-family: $font-site-name;
-//   padding: 0;
-//   margin: 0;
-//   font-size: 2em;
-//   letter-spacing: .1em;
-//   margin-left: 3.8em;
-//   margin-bottom: -.6em;
-//   span {
-//     font-size: .8em;
-//     color: #6f6f6f;
-//   }
-// }
-
-// #site-tagline {
-//   font-family: $font-headings;
-//   margin: 0;
-//   padding: 0;
-//   font-size: 1.4em;
-//   margin-top: -1.05em;
-//   color: #666;
-// }
-
-
-/*---- Main Content ----*/
-
-
-// #site-main-content {
-//   margin-top: 40px;
-// }
-
-/*---- Aside ----*/
-
-// .panel {
-//   border-width: 3px;
-//   border-radius: 3px;
-//   h3 {
-//     font-family: $font-headings;
-//     font-size: 2em;
-//     margin-bottom: .2em;
-//   }
-//   a {
-//     font-family: $font-paragraphs;
-//   }
-// }
-
-/***----------------***/
-/*** SECTION STYLES ***/
-/***----------------***/
-
-//
-// Articles
-//
-
-
-
-// article {
-//   p {
-//     font-size: 1.2em;
-//     line-height: 1.5em;
-//   }
-
-//   h2, h3, h4, h5 {
-//     font-family: $font-headings;
-//     color: #AC3F33;
-//   }
-
-//   li {
-//     margin-left: 3em;
-//     font-family: $font-paragraphs;
-//   }
-
-//   #lead-image {
-//     border-bottom: .3em solid rgba(59, 65, 74, .2);
-//   }
-
-  // .article-title {
-  //   font-family: $font-headings;
-  //   color: #E5230F;
-  //   font-size: 1.6em;
-  //   line-height: .85em;
-  //   margin-bottom: .2em;
-  //   margin-top: .5em;
-  //   &.about {
-  //     margin-bottom: -65px;
-  //   }
-  //   a {
-  //     display: block;
-  //     width: 89%;
-  //     color: inherit;
-  //     padding-left: .2em;
-  //     border-radius: 10px;
-  //     transition-property: background-color;
-  //     transition-duration: 0.3s;
-  //     transition-timing-function: ease-in-out;
-  //     &:hover, &:focus {
-  //       background-color: rgba(104, 214, 128, 0.5);
-  //       border-radius: 10px;
-  //     }
-  //   }
-  // }
-
-  // .article-info {
-  //     font-family: $font-paragraphs;
-  //     font-size: .8em;
-  //     text-indent: 1em;
-  //   #article-author {
-  //     font-family: $font-headings;
-  //     padding-left: .4em;
-  //     font-size: 1.25em;
-  //     &:after {
-  //       padding-left: .4em;
-  //       padding-right: .4em;
-  //       color: gray;
-  //       content: " | ";
-  //     }
-  //   }
-  // }
-
-//   #resource-lead {
-//     height: 250px;
-//     background-color: #484848;
-//     background-image:url("/images/gollum.png");
-//     background-repeat: no-repeat;
-//     background-position: 100% 100%;
-//     border: 4px solid #222;
-//     padding-top: 11.5em;
-//     p {
-//       color: #e4e2c9;
-//       font-family: $font-headings;
-//       font-size: 2em;
-//     }
-//   }
-// }
-
-// .index-card {
-//   background-color: rgba(253, 253, 241, 0.5);
-//   border: 2px solid #AAA;
-//   border-radius: 8px;
-//   padding-left: 2em;
-//   padding-right: 2em;
-//   li {
-//     font-family: $font-paragraphs;
-//     margin-left: 2em;
-//   }
-//   img {
-//     border: 3px solid #AAA;
-//     background-color: rgba(255, 255, 255, .5);
-//     margin-top: 1em;
-//     border-radius: 5px;
-//   }
-//   span {
-//     color: #FB573B;
-//   }
-//   p {
-//     border-bottom: 3px solid #61B8ED;
-//     &:first-child {
-//       border-bottom: 5px solid #ED4F6F;
-//       font-size: 1.2em;
-//       line-height: 3em;
-//       span:first-child {
-//         padding-right: 1em;
-//       }
-//     }
-//   }
-// }
-
-/*---- About ----*/
-
-
-
-/*---- Media Queries ----*/
-
-// $tiny-screen: em-calc(320);
-// $small-screen: em-calc(768);
-// $small-medium-screen: em-calc(1080);
-// $medium-screen: em-calc(1280);
-// $large-screen: em-calc(1440);
-// $large-screen: em-calc(1440);
-
-// $screen: "only screen";
-// $tiny: "only screen and (min-width:"#{$tiny-screen}")";
-// $small: "only screen and (min-width:"#{$small-screen}")";
-// $small-medium: "only screen and (min-width:"#{$small-medium-screen}")";
-// $medium: "only screen and (min-width:"#{$medium-screen}")";
-// $large: "only screen and (min-width:"#{$large-screen}")";
-// $landscape: "only screen and (orientation: landscape)";
-// $portrait: "only screen and (orientation: portrait)";
-
-/* We use this media query to add styles to any device that supports media queries */
-// @media #{$screen} { }
-
-// /* Used to alter styles for screens at least 321px wide. */
-// @media #{$tiny} {
-//   #site-identity {
-//     background-image: none;
-//   }
-
-//   #site-name {
-//     font-size: 3em;
-//     padding-top: .6em;
-//     margin-left: 3.2em;
-//   }
-
-//   #nav-position {
-//     padding-left: 9em;
-//   }
-//   #site-header {
-//     background-image:url("/images/jason-perez-site-header.png");
-//     background-repeat: no-repeat;
-//     background-position: 4% 100%;
-//   }
-// }
-
-// /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
-// @media #{$small} {
-
-//   #site-name {
-//     font-size: 4em;
-//     margin-left: 0;
-//     margin-bottom: 0;
-//     padding-top: 0;
-//     span {
-//       font-size: .9em;
-//     }
-//   }
-
-//   #site-tagline {
-//     margin-top: -1.3em;
-//   }
-
-//   .nav-main-button {
-//     font-size: 2.5em;
-//     padding-left: .5em;
-//     padding-bottom: .05em;
-//     padding-top: .3em;
-//     padding-right: .5em;
-//     margin-left: .5em;
-//     margin-right: .5em;
-//   }
-
-//   #nav-position {
-//     padding-left: 0;
-//   }
-
-//   article{
-//     .article-title {
-//       font-size: 3em;
-//     }
-
-//     #resource-lead {
-//       p {
-//         font-size: 3em;
-//         line-height: 1.5em;
-//       }
-//     }
-//     .article-info {
-//       font-size: 1em;
-//     }
-
-//     #article-author {
-//       font-size: 1.3em;
-//     }
-
-//     .lead-in {
-//       font-size: 1.6em;
-//       line-height: 1.6em;
-//     }
-//   }
-
-//  }
-
-// @media #{$small-medium} {
-
-// }
-
-// /* Used to alter styles for screens at least 1280px wide. */
-// @media #{$medium} { }
-
-// /* Used to alter styles for screens at least 1440px wide. */
-// @media #{$large} { }
-
-// /* Apply styles to screens in landscape orientation */
-// @media #{$landscape} { }
-
-// /* Apply styles to screens in portrait orientation */
-// @media #{$portrait} { }
-
-
-
-
-
 
 
 

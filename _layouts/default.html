@@ -15,6 +15,10 @@
         <link rel="stylesheet" href="/css/grid-5.css" media="screen">
         <link rel="stylesheet" href="/css/style.css" media="screen">
 
+        <!-- Typekit fonts -->
+        <script type="text/javascript" src="//use.typekit.net/jxe8rps.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
         <!-- favicon and atom feed -->
         <link rel="shortcut icon" href="/images/favicon.ico">
         <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed for all site content">
@@ -23,9 +27,9 @@
     <body>
       <!-- Site Header -->
       <header id="site-header" class="row">
-        <hgroup class="small-3 small-centered columns" id="site-identity">
+        <hgroup class="small-10 medium-5 large-4 small-centered columns" id="site-identity">
           <h1 id="site-name">Perezish</h1>
-          <h2 class="hide-for-small" id="site-tagline"><small>on people and apps</small></h2>
+          <h2 class="hide-for-small" id="site-tagline">on people and apps</h2>
         </hgroup>
       </header>
       <nav class="nav-bar row" id="nav-position">
@@ -41,17 +45,14 @@
       <!-- Main Page Content and Sidebar -->
 
       <div id="site-main-content" class="row">
-
-        <!-- Main Blog Content -->
-
-          {{ content }}
-
-        <!-- End Main Content -->
+      <!-- Main Blog Content -->
+        {{ content }}
+      <!-- End Main Content -->
 
 
         <!-- Sidebar -->
 
-        <aside class="large-3 small-12 columns">
+        <aside class="small-12 large-3 columns">
 
           {% include featured.textile %}
 
@@ -91,19 +92,5 @@
         ga('create', 'UA-44764937-1', 'perezish.com');
         ga('send', 'pageview');
       </script>
-
-      <script type="text/javascript">
-        WebFontConfig = { fontdeck: { id: '40450' } };
-
-        (function() {
-          var wf = document.createElement('script');
-          wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-          wf.type = 'text/javascript';
-          wf.async = 'true';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(wf, s);
-        })();
-    </script>
     </body>
 </html>

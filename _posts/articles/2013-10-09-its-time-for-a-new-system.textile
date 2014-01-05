@@ -19,15 +19,15 @@ h2. Recognizing there's a problem
 
 For many organizations the beginning of a business application is full of hope and promise. Something doesn't work as it should. Maybe the process is too manual and there just has to be a better way to do it.
 
-The beginning is a crucial time. The decisions made on how to proceed set the tone for the entire endeavor. "Let's review the entire process! Let's just start building something! You only need to talk to me, I have all the answers. There were so many unknown problems that we decided to just put a potato right in the middle of our process and now we'll assume everything is fine."
+The beginning is a crucial time. The decisions made on how to proceed set the tone for the entire endeavor. "Let's review the entire process! Let's just start building something! You only _need_ to talk to _me_, I have _all_ the answers. There were so many unknown problems that we decided to just put a potato right in the middle of our process and now we'll assume everything is fine."
 
 h3. Don't start with the system
 
-If you focus too much on the allure of a shiny new system, ignoring the underlying process the system is supposed to support, then before you know it, the new, shiny system is in need of help. It can easily become the focus of all the issues. The cycle of frustration will continue and the real problems that lie within the business process remain unaddressed (and perhaps still unknown). So... what's up with that? I don't know. It's probably a people thing. But I'm getting ahead of myself. Let's start exploring this topic by taking a look at a modest request.
+If you focus too much on the allure of a shiny new system, ignoring the underlying process the system is supposed to support, then before you know it, the new, shiny system is in need of help. It can easily become the focus of *all the issues*. The cycle of frustration will continue and the real problems that lie within the business process remain unaddressed (_and perhaps still unknown_). So... what's up with that? I don't know. It's probably a people thing. But I'm getting ahead of myself. Let's start exploring this topic by taking a look at a modest request.
 
 h2. Requesting assistance
 
-Kim sends an email to Phil. She needs some help keeping track of requests made to the facilities department. She said she needs a system to keep track of these requests because currently she feels a little bonkers trying to keep track of <em>all</em> the requests, who's handling what request, and when they're done and ready for the next thing. She mentions to Phil that these requests are made to her via email. She uses a spreadsheet she made to keep track of all the active requests she has along with a bunch of information she finds important to know about each request.
+Kim sends an email to Phil. She needs some help keeping track of requests made to the facilities department. She said she needs a system to keep track of these requests because currently she feels a little bonkers trying to keep track of _all_ the requests, who's handling what request, and when they're done and ready for the next thing. She mentions to Phil that these requests are made to her via email. She uses a spreadsheet she made to keep track of all the active requests she has along with a bunch of information she finds important to know about each request.
 
 h2. The person providing assistance
 
@@ -35,30 +35,30 @@ Phil's job consists of helping other folks in his company with needs similar to 
 
 h2. Interviewing the stakeholders
 
-If Phil wanted to, it'd be really easy for him to simply meet with Kim a few times, get a list of things Kim wants in this new system, maybe even mock up a user interface to get Kim's confidence. You get the picture. Phil could get a reasonable understanding of Kim's view of the problem and then propose a solution to this problem.
+If Phil wanted to, it'd be really easy for him to simply meet with Kim a few times, get a list of things Kim wants in this new system, maybe even mock up a user interface to get Kim's confidence. You get the picture. Phil could get a _reasonable understanding_ of Kim's view of the problem and then propose a solution to this problem.
 
-The tricky part here is that Kim can probably give Phil what appears to be a complete picture. He could simply go off and write up some requirements and show them to Kim and Kim could look at that and think it's awesome. She'd be happy if Phil just left with that list of stuff and then came back at some point with her shiny new application. She'd be happy because that list of requirements is simply a reflection of her perspective.
+The tricky part here is that Kim can probably give Phil what appears to be a complete picture. He could simply go off and write up some requirements and show them to Kim and Kim could look at that and think it's awesome. She'd be happy if Phil just left with that list of stuff and then came back at some point with her shiny new application. She'd be happy because that list of requirements is simply *a reflection of her perspective*.
 
-Now I'm not assuming Phil just transcribed verbatim what Kim said. Let's say he did his due diligence and asked some probing questions, but are there more perspectives to consider? Kim did mention 2 other types of people:
+Now I'm not assuming Phil just transcribed _verbatim_ what Kim said. Let's say he did his due diligence and asked some probing questions, but are there more perspectives to consider? Kim did mention *2 other types of people*:
 
 # The Facilities employees who work on the requests
 # The people in the company requesting the work
 
 h2. Creating personas
 
-Phil now knows these roles exist, but he needs to talk with some of them to get their perspective. He'd like to know all of the roles involved in this process because each one will most likely interact in different ways and each one will most likely have their own list of what's important. Kim can give her understanding of what's important to these other people, but Phil knows it's always best to go get it from the source. So he does.
+Phil now knows these roles exist, but he needs to talk with some of them to get their perspective. He'd like to know all of the roles involved in this process because each one will most likely interact in different ways and each one will most likely have their own list of what's important. Kim can give her understanding of what's important to these other people, but Phil knows it's *always best to go get it from the source*. So he does.
 
 <figure class="row">
   <div class="small-10 small-centered columns index-card">
     <div class="row">
-      <div class="small-6 medium-8 large-8 columns">
+      <div class="small-12 medium-8 columns">
 
 Name: <span>Carl</span> Role: <span>Facilities Worker</span>
 
 What are your primary responsibilities in the "facilities request process"?
 
       </div>
-      <div class="small-6 medium-4 large-4 columns">
+      <div class="hide-for-small medium-4 columns">
         <img src="/images/little-faces-carl.png" alt="A picture of Carl." />
       </div>
     </div>
@@ -74,21 +74,21 @@ What's important to a facilities worker?
 
   </div>
   <figcaption class="small-10 small-centered columns">
-    Phil met with Carl and got some good information on the facility worker's perspective.
+    (Persona: Phil met with Carl and received some good information on the facility worker's perspective.)
   </figcaption>
 </figure>
 
 <figure class="row">
   <div class="small-10 small-centered columns index-card">
     <div class="row">
-      <div class="small-6 medium-8 large-8 columns">
+      <div class="small-12 medium-8 columns">
 
 Name: <span>Arthur</span> Role: <span>Requester</span>
 
 What are your primary responsibilities in the "facilities request process"?
 
       </div>
-      <div class="small-6 medium-4 large-4 columns">
+      <div class="hide-for-small medium-4 columns">
         <img src="/images/little-faces-arthur.png" alt="A picture of Arthur." />
       </div>
     </div>
@@ -104,21 +104,21 @@ What's important to a Requester?
 
   </div>
   <figcaption class="small-10 small-centered columns">
-    Arthur represents the group of people requesting things from facilities.
+    (Persona: Arthur represents the group of people requesting things from facilities.)
   </figcaption>
 </figure>
 
 <figure class="row">
   <div class="small-10 small-centered columns index-card">
     <div class="row">
-      <div class="small-6 medium-8 large-8 columns">
+      <div class="small-12 medium-8 columns">
 
 Name: <span>Kim</span> Role: <span>Scheduler</span>
 
 What are your primary responsibilities in the "facilities request process"?
 
       </div>
-      <div class="small-6 medium-4 large-4 columns">
+      <div class="hide-for-small medium-4 columns">
         <img src="/images/little-faces-kim.png" alt="A picture of Kim." />
       </div>
     </div>
@@ -135,7 +135,7 @@ What's important to a Scheduler?
 
   </div>
   <figcaption class="small-10 small-centered columns">
-    Phil gathered this information from his meeting with Kim.
+    (Persona: Phil gathered this information from his meeting with Kim.)
   </figcaption>
 </figure>
 
@@ -144,11 +144,14 @@ h2. Digging around to get the details
 Phil, being of sound mind and inquisitive by nature, knows this isn't the whole story. He understands that this is just a list of facts and opinions. He has a profile of the primary roles involved in this process, but not much understanding as to what it all looks like nor why it's all being done. He thinks himself to be a bit like "Columbo":http://www.wikipedia.com/wiki/Columbo. No he's not "solving murders in Los Angeles":http://youtu.be/pZiv8vkxMac, but he's trying to solve a problem that, at this point, is still a bit of a mystery.
 
 <div class="row">
-  <div class="small-12 large-6 columns">
+  <div class="small-12 columns">
 
 h3. Play the part and be inquisitive
 
-He doesn't have the whole truth (he never really does in the beginning). But he uses Columbo's MO, playing naive as a means of extracting more information about the problem from the various people he meets with. He knows it's not important for him to relay to each person what he knows about the problem, it's more important to listen to each person and figure out what their view is. As Phil goes about his fact finding mission he finds out that there 12 facility worker employees in 4 different geographical locations.
+  </div>
+  <div class="small-12 large-6 columns">
+
+He doesn't have the whole truth (he never really does in the beginning). But he uses Columbo's MO, playing naive as a means of _extracting_ more information about the problem from the various people he meets with. He knows it's _not_ important for him to relay to each person what he knows about the problem, it's _more important_ to *listen to each person and figure out what their view is*. As Phil goes about his fact finding mission he finds out that there 12 facility worker employees in 4 different geographical locations.
 
   </div>
   <div class="small-12 large-6 columns">
@@ -158,13 +161,13 @@ He doesn't have the whole truth (he never really does in the beginning). But he 
 
 h3. Collecting details about the current process
 
-The requests vary in size and scope. They can be for something routine (e.g. restocking the supplies in the break room, setting up a conference room for a meeting) or it can be more complex (e.g. replacing cracked tiles in the front lobby). Skills vary between the workers and since they all spread out in different locations it can be tricky sorting out who works on what. They have access to email on their phones and have 2-way radio transceivers (aka walkie talkies) to communicate within each building.
+The requests vary in size and scope. They can be for something *routine* (e.g. restocking the supplies in the break room, setting up a conference room for a meeting) or it can be more *complex* (e.g. replacing cracked tiles in the front lobby). *Skills* vary between the workers and since they all spread out in *different locations* it can be tricky sorting out who works on what. They have access to *email* on their *phones* and have *2-way radio transceivers* (aka walkie talkies) to communicate within each *building*.
 
 Phil gets a good general idea and now has an excellent starting point to look at what the current process is. He decides to get a representative from each of the roles to sort out the current facilities request process. Phil is off to a great start with all of his initial activities.
 
 h2. So what's all this upfront work called?
 
-It's a "define the problem" thing. I don't want to get hung up on any other terms. I suppose we can focus on what needs to be done. The initial goal Phil has is to sort out the following things:
+It's a "*define the problem*" thing. I don't want to get hung up on any other terms. I suppose we can focus on what needs to be done. The initial goal Phil has is to sort out the following things:
 
 # What is the goal for the project?
 # Who is involved?
@@ -175,7 +178,7 @@ It's a "define the problem" thing. I don't want to get hung up on any other term
 # What are the main problems with the current process?
 # What do all the people involved think the process should be?
 
-I may've missed a few things, but the point isn't to convey the giant list of things that Phil needs to know. The point is to see a snippet of some of the more important items that will help guide Phil and the other folks down a path to solving the right problem or problems.
+I may've missed a few things, but the point isn't to convey the *giant list of things* that Phil needs to know. The point is to see a _snippet_ of some of the more important items that will help guide Phil and the other folks down a path to *solving the right problem* or problems.
 
 h2. A recap of the activities
 
@@ -197,7 +200,7 @@ This is a great start. He has the key ingredients to create a few modest "person
 
 h2. What's next?
 
-Now that Phil understands who the main users are, his next task will be figuring out what their story is. Phil knows getting a list of steps in a standard operating procedure isn't the whole picture, even _if_ the procedure is accurate. The story aims to give context and rationale for those steps. It may in fact include actions and activities that aren't a part of any procedure. Phil will take what he knows about the different roles involved in the facilities process and get deeper into the perspectives of each one by working to develop each role's "mental":http://rosenfeldmedia.com/books/mental-models/ "model":http://uxdesign.smashingmagazine.com/2012/04/23/mental-model-diagrams-cartoon/. The approach Phil is taking on this project isn't the only way he'd go about a new project, but for this project it makes sense. Figuring out each personas' story starts with sorting out all the activities each persona engages in. This is where we'll go next.
+Now that Phil understands who the main users are, his next task will be figuring out what their story is. Phil knows getting a list of steps in a standard operating procedure isn't the whole picture, even _if_ the procedure is accurate. The story aims to give context and rationale for those steps. It may in fact include actions and activities that aren't a part of any procedure. Phil will take what he knows about the different roles involved in the facilities process and get deeper into the perspectives of each one by working to develop each role's "mental":http://rosenfeldmedia.com/books/mental-models/ "model":http://uxdesign.smashingmagazine.com/2012/04/23/mental-model-diagrams-cartoon/. The approach Phil is taking on this project isn't the only way he'd go about a new project, but for this project it makes sense. Figuring out each personas' story starts with sorting out all the activities each persona engages in. This is where we'll go "next":/2014/01/why-use-personas/.
 
 
 

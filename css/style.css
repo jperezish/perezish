@@ -1,18 +1,64 @@
-/***-------------***/
-/***  VARIABLES  ***/
-/***-------------***/
-/***-------------***/
-/*** SITE STYLES ***/
-/***-------------***/
-/* line 61, ../_compass/style.scss */
-.nav-main-button, #site-name, #site-tagline, .article-title, h2, h3, h4, h5 {
-  font-family: "Malamondo Regular", sans-serif;
+@charset "UTF-8";
+/* line 16, ../_compass/style.scss */
+#nav-position {
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
+
+/* line 21, ../_compass/style.scss */
+blockquote {
+  border-left: 2px solid #95BFAC;
+  background-color: #CDD4B9;
+  margin-right: 4em;
+  margin-left: 2em;
+  padding-bottom: .5em;
+  padding-top: 1.5em;
+}
+/* line 28, ../_compass/style.scss */
+blockquote:before {
+  content: " “ ";
+  font-size: 8em;
+  color: #95BFAC;
+  float: left;
+  margin-left: -55px;
+  margin-top: -60px;
+}
+/* line 36, ../_compass/style.scss */
+blockquote p {
+  color: #4A4A44;
+}
+
+/* line 41, ../_compass/style.scss */
+figcaption {
+  font-style: italic;
+  line-height: 1em;
+  margin-bottom: 2.5em;
+  margin-top: 0.5em;
+  color: #555;
+}
+
+/* line 54, ../_compass/style.scss */
+.article-title, h2, h3, h4, h5 {
+  font-family: "pragmatica-web-condensed", sans-serif;
   font-size-adjust: 0.5;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 68, ../_compass/style.scss */
+/* line 61, ../_compass/style.scss */
+#site-name, #site-tagline {
+  font-family: "ff-prater-block-web", monospace;
+  text-transform: uppercase;
+}
+
+/* line 66, ../_compass/style.scss */
+#site-identity {
+  background-image: url("/images/header-mask.png");
+  background-repeat: no-repeat;
+  background-position-y: 70%;
+}
+
+/* line 72, ../_compass/style.scss */
 #site-header {
   background: #CDD4B9;
   border-bottom: .5em solid #4A4A44;
@@ -22,38 +68,74 @@
   border-bottom-left-radius: 1em;
 }
 
-/* line 77, ../_compass/style.scss */
+/* line 81, ../_compass/style.scss */
 .nav-main-button {
+  font-family: "pragmatica-web-condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
   font-size: 2.4em;
-  margin-left: .5em;
+  margin-left: .7em;
   margin-right: .2em;
 }
 
-/* line 83, ../_compass/style.scss */
-.awesome-link {
-  font-family: "Malamondo Regular", sans-serif;
+/* line 90, ../_compass/style.scss */
+#site-name {
+  color: #4A4A44;
+  margin-bottom: 0;
+  margin-left: .8em;
+  font-size: 3.2em;
 }
 
-/* line 87, ../_compass/style.scss */
-.read-more {
+/* line 97, ../_compass/style.scss */
+#site-tagline {
+  margin-top: -.65em;
+  margin-bottom: 0px;
+  margin-left: 1.8em;
+  color: #4A4A44;
+  font-size: 1.45em;
+}
+
+/* line 109, ../_compass/style.scss */
+.read-more-link {
+  font-family: "pragmatica-web-condensed", sans-serif;
   background: #CDD4B9;
   padding: .5em;
   border-radius: .5em;
+  font-size: 1.4em;
+  margin-left: .7em;
 }
 
-/* line 93, ../_compass/style.scss */
+/* line 118, ../_compass/style.scss */
+.article-preview {
+  margin-bottom: 1em;
+}
+
+/* line 122, ../_compass/style.scss */
+.read-more {
+  padding-bottom: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* line 128, ../_compass/style.scss */
+.read-more-border {
+  margin-bottom: 3em;
+  border-bottom: .3em solid #95BFAC;
+}
+
+/* line 137, ../_compass/style.scss */
 .article-info {
   color: #788F85;
   font-size: 1em;
 }
 
-/* line 98, ../_compass/style.scss */
+/* line 142, ../_compass/style.scss */
 #article-author {
   font-size: 1.2em;
   padding-left: .4em;
 }
 
-/* line 103, ../_compass/style.scss */
+/* line 147, ../_compass/style.scss */
 #article-author:after {
   padding-left: .2em;
   padding-right: .2em;
@@ -61,20 +143,51 @@
   content: " | ";
 }
 
-/* line 110, ../_compass/style.scss */
-#site-name {
-  color: #4A4A44;
-  margin-bottom: 0;
-  font-size: 3.2em;
+/* line 154, ../_compass/style.scss */
+.article-title {
+  margin-bottom: -.25em;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
-/* line 116, ../_compass/style.scss */
-#site-tagline {
-  margin-top: -.8em;
-  margin-bottom: 0px;
+/* line 160, ../_compass/style.scss */
+.lead-in {
+  font-size: 1.4em;
+  line-height: 1.6em;
 }
 
-/* line 121, ../_compass/style.scss */
+/* line 165, ../_compass/style.scss */
+#lead-image {
+  border: .4em solid #4A4A44;
+  border-radius: 1em;
+  background: #f2f2f2;
+}
+
+/* line 171, ../_compass/style.scss */
+p {
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
+  font-size-adjust: 0.5;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.2em;
+}
+
+/* line 179, ../_compass/style.scss */
+h1, h2, h3, h4, h5 {
+  text-transform: capitalize;
+}
+
+/* line 183, ../_compass/style.scss */
+a, .article-title, h1, h2, h3, h4, h5 {
+  color: #ED4652;
+}
+
+/* line 188, ../_compass/style.scss */
+article li {
+  margin-left: 3em;
+}
+
+/* line 197, ../_compass/style.scss */
 #featured-header {
   background: #4A4A44;
   font-size: 2em;
@@ -83,19 +196,19 @@
   margin-bottom: 0px;
 }
 
-/* line 130, ../_compass/style.scss */
+/* line 206, ../_compass/style.scss */
 #featured-header small {
   color: #E3DFC5;
 }
 
-/* line 134, ../_compass/style.scss */
+/* line 210, ../_compass/style.scss */
 #featured-body {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 140, ../_compass/style.scss */
+/* line 216, ../_compass/style.scss */
 #featured-panel {
   padding-top: 0;
   padding-left: 0;
@@ -104,48 +217,62 @@
   border-radius: .5em;
 }
 
-/* line 148, ../_compass/style.scss */
-p {
-  font-family: "Abril Text Regular", Georgia, 'Times New Roman', Times, serif;
-  font-size-adjust: 0.5;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1.2em;
+/* line 229, ../_compass/style.scss */
+#resource-lead {
+  height: 250px;
+  background-color: #95BFAC;
+  background-image: url("/images/gollum.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  border: .3em solid #4A4A44;
+  padding-top: 11.5em;
+}
+/* line 237, ../_compass/style.scss */
+#resource-lead p {
+  color: #4A4A44;
+  font-size: 5em;
+  margin-top: -.5em;
+  margin-left: .1em;
+  font-family: "pragmatica-web-condensed", sans-serif;
 }
 
-/* line 156, ../_compass/style.scss */
-.article-title {
-  margin-bottom: -.25em;
+/* line 246, ../_compass/style.scss */
+.index-card {
+  background-color: #E3DFC5;
+  border: .2em solid #4A4A44;
+  border-radius: 8px;
+  padding-left: 2em;
+  padding-right: 2em;
+  box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.5);
 }
-
-/* line 161, ../_compass/style.scss */
-a, .article-title, h1, h2, h3, h4, h5 {
+/* line 253, ../_compass/style.scss */
+.index-card li {
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
+  margin-left: 2em;
+}
+/* line 257, ../_compass/style.scss */
+.index-card img {
+  border: .15em solid #4A4A44;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 1em;
+  border-radius: 5px;
+}
+/* line 263, ../_compass/style.scss */
+.index-card span {
   color: #ED4652;
+  font-weight: bold;
 }
-
-/* line 165, ../_compass/style.scss */
-.lead-in {
-  font-size: 1.4em;
-  line-height: 1.6em;
+/* line 267, ../_compass/style.scss */
+.index-card p {
+  border-bottom: 3px solid #61B8ED;
 }
-
-/* line 170, ../_compass/style.scss */
-body {
-  background: #F1EFDF;
+/* line 269, ../_compass/style.scss */
+.index-card p:first-child {
+  border-bottom: 5px solid #ED4F6F;
+  font-size: 1.2em;
+  line-height: 3em;
 }
-
-/* line 174, ../_compass/style.scss */
-#lead-image {
-  border: .4em solid #4A4A44;
-  border-radius: 1em;
-  background: #f2f2f2;
+/* line 273, ../_compass/style.scss */
+.index-card p:first-child span:first-child {
+  padding-right: 1em;
 }
-
-/*---- Main Content ----*/
-/*---- Aside ----*/
-/***----------------***/
-/*** SECTION STYLES ***/
-/***----------------***/
-/*---- About ----*/
-/*---- Media Queries ----*/
-/* We use this media query to add styles to any device that supports media queries */

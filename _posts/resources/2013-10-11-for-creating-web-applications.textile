@@ -48,7 +48,7 @@ You'll also need a good text editor to work in. I use "Sublime Text":http://www.
 
 h4. Ruby installed, text editor set, next!
 
-Another good free resource is the "Ruby in 100 Minutes":http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html tutorial by "Jumpstart Lab":jumpstartlab.com. It'll run through the language at a high level, much like the stuff above did, but this time you can run it through Ruby on your system.
+Another good free resource is the "Ruby in 100 Minutes":http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html tutorial by "Jumpstart Lab":http://jumpstartlab.com. It'll run through the language at a high level, much like the stuff above did, but this time you can run it through Ruby on your system.
 
 If you've made it this far then I'd recommend spending some cash at this point. The best thing I've done so far to advance my understanding was to invest in the "The Pragmatic Studio's":http://pragmaticstudio.com/ "Ruby Programming":http://pragmaticstudio.com/ruby course. I can't recommend it enough.
 
