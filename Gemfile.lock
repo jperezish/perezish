@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     RedCloth (4.2.9)
+    RedCloth (4.2.9-x86-mingw32)
     aws-sdk (1.8.5)
       json (~> 1.4)
       nokogiri (>= 1.4.4)
@@ -23,6 +24,8 @@ GEM
     mini_portile (0.5.2)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
+    nokogiri (1.6.1-x86-mingw32)
+      mini_portile (~> 0.5.0)
     s3_website (1.6.1)
       aws-sdk (~> 1.8.5)
       configure-s3-website (= 1.5.1)
@@ -41,10 +44,11 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   RedCloth (~> 4.2.9)
   compass (~> 0.12.2)
   s3_website (= 1.6.1)
   sass (~> 3.2.10)
-  zurb-foundation
+  zurb-foundation (= 4.3.2)
