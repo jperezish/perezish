@@ -50,7 +50,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "tinos", Georgia, "Times New Roman", Times, serif;
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -2100,7 +2100,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "tinos", Georgia, "Times New Roman", Times, serif;
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
 }
 /* line 36, ../_compass/foundation/components/_accordion.scss */
@@ -2833,7 +2833,7 @@ select {
 /* line 197, ../_compass/foundation/components/_buttons.scss */
 button, .button {
   cursor: pointer;
-  font-family: "tinos", Georgia, "Times New Roman", Times, serif;
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4478,7 +4478,7 @@ kbd {
 /* line 87, ../_compass/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "tinos", Georgia, "Times New Roman", Times, serif;
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5042,7 +5042,7 @@ ul.pagination li {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "tinos", Georgia, "Times New Roman", Times, serif;
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
 }
 /* line 139, ../_compass/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -5052,7 +5052,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "tinos", Georgia, "Times New Roman", Times, serif;
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
 }
 /* line 140, ../_compass/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -5236,7 +5236,7 @@ ul.pagination li {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "tinos", Georgia, "Times New Roman", Times, serif;
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
 }
 /* line 54, ../_compass/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -5252,7 +5252,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child {
   color: #4d4d4d;
   font-weight: normal;
-  font-family: "tinos", Georgia, "Times New Roman", Times, serif;
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
 }
 /* line 69, ../_compass/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -5421,7 +5421,7 @@ ul.pagination li {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "tinos", Georgia, "Times New Roman", Times, serif;
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -5766,7 +5766,7 @@ table tfoot tr td {
   padding-right: 2rem;
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
-  font-family: "tinos", Georgia, "Times New Roman", Times, serif;
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
 }
 /* line 43, ../_compass/foundation/components/_tabs.scss */
@@ -6179,7 +6179,7 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "tinos", Georgia, "Times New Roman", Times, serif;
+  font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
   font-size: 0.8125rem;
   font-weight: normal;
   background: #333333;

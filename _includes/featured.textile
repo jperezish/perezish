@@ -1,6 +1,6 @@
 {% if page.type != "resource" %}
   <div class="panel" id="featured-panel">
-    <h3 id="featured-header"><small>Featured</small></h3>
+    <h3 id="featured-header"><i class="fi-star"></i><small>Featured</small></h3>
     <div id="featured-body">
       <p>Are you interested in learning to program? I've been learning Ruby for the last few months and have put together a list of resources that I've found useful.</p>
       <a class="awesome-link" href="/resources/for-creating-web-applications/">Read more &rarr;</a>

@@ -13,9 +13,8 @@ $site-heading-font-family: "ff-prater-block-web", monospace;
 // Site Styles
 //
 
-#nav-position {
-  margin-bottom: .5em;
-  margin-top: .5em;
+body {
+  background-image: url(/images/noisy-texture.png);
 }
 
 blockquote {
@@ -46,6 +45,26 @@ figcaption {
   color: #555;
 }
 
+footer {
+  background-image: url(/images/hazy_city.png);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  height: 140px;
+
+  p {
+    color: #4A4A44;
+    font-weight: bold;
+  }
+  a {
+    font-size: 1.4em;
+    font-family: "pragmatica-web-condensed", sans-serif;
+    font-weight: bold;
+    margin-left: .5em;
+    &:hover {
+      border-bottom: .15em dotted #E91F2D;
+    }
+  }
+}
 
 //
 // Site Header
@@ -63,43 +82,56 @@ figcaption {
   text-transform: uppercase;
 }
 
-#site-identity {
-  background-image:url("/images/header-mask.png");
-  background-repeat: no-repeat;
-  background-position-y: 70%;
+#nav-position {
+  margin-top: .1em;
+  i {
+    font-size: .8em;
+    padding-right: .2em;
+  }
 }
 
 #site-header {
-    background: #CDD4B9;
-    border-bottom: .5em solid #4A4A44;
-    border-left: .4em solid #4A4A44;
-    border-right: .4em solid #4A4A44;
-    border-bottom-right-radius: 1em;
-    border-bottom-left-radius: 1em;
+  background: #E3DFC5;
+  border-bottom: 1em solid #FFB550;
+  margin-bottom: 2em;
+  background-image: url(/images/hazy_city.png);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  height: 150px;
 }
 
 .nav-main-button {
   font-family: $header-font-family;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 2.4em;
+  font-size: 3em;
   margin-left: .7em;
   margin-right: .2em;
+  &:hover {
+    border-bottom: .15em solid #E91F2D;
+  }
 }
 
 #site-name {
     color: #4A4A44;
     margin-bottom: 0;
-    margin-left: .8em;
-    font-size: 3.2em;
+    margin-top: -.1em;
+    margin-left: .23em;
+    font-size: 5em;
 }
 
 #site-tagline {
-  margin-top: -.65em;
+  margin-top: -.27em;
   margin-bottom: 0px;
-  margin-left: 1.8em;
-  color: #4A4A44;
-  font-size: 1.45em;
+  margin-left: .6em;
+  color: #95BFAC;
+  font-size: 2.2em;
+  background: #4A4A44;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+  text-align: center;
+  width: 76.725%;
+  line-height: 1em;
 }
 
 //
@@ -144,15 +176,55 @@ figcaption {
     padding-left: .4em;
 }
 
-#article-author:after {
+/*#article-author:after {
   padding-left: .2em;
   padding-right: .2em;
   color: #788F85;
   content: " | ";
+}*/
+
+time.icon
+{
+  font-size: 1em;
+  display: block;
+  position: relative;
+  width: 6em;
+  height: 5.6em;
+  background-color: #f2f2f2;
+  border: 3px solid #4A4A44;
+  border-radius: 0.6em;
+  overflow: hidden;
+  * {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+  }
+  strong {
+    position: absolute;
+    top: 0;
+    padding: 0.3em 0;
+    color: #4A4A44;
+    background-color: #FFB550;
+    border-bottom: 1px solid #f37302;
+    box-shadow: 0 2px 0 #fd9f1b;
+  }
+  em {
+    position: absolute;
+    bottom: 0.3em;
+    color: #4A4A44;
+  }
+  span {
+    font-size: 2em;
+    letter-spacing: -0.05em;
+    padding-top: 1.1em;
+    color: #4A4A44;
+  }
 }
 
 .article-title {
-    margin-bottom: -.25em;
     text-transform: uppercase;
     font-weight: 900;
 }
@@ -173,7 +245,7 @@ p {
     font-size-adjust:0.5;
     font-weight:normal;
     font-style:normal;
-    font-size: 1.2em;
+    font-size: 1.25em;
 }
 
 h1, h2, h3, h4, h5 {
@@ -188,6 +260,9 @@ article {
   li {
     margin-left: 3em;
   }
+  p a:hover {
+    border-bottom: 1px dotted;
+  }
 }
 
 //
@@ -195,30 +270,44 @@ article {
 //
 
 #featured-header {
-    background: #4A4A44;
-    font-size: 2em;
-    padding-bottom: .4em;
-    padding-left: .6em;
-    margin-bottom: 0px;
-
-}
-
-#featured-header small {
-    color: #E3DFC5;
+  background: #4A4A44;
+  font-size: 3em;
+  font-weight: bold;
+  padding-bottom: .3em;
+  padding-left: .35em;
+  margin-bottom: 0px;
+  margin-top: .025em;
+  margin-left: .025em;
+  margin-right: .025em;
+  background-image: url(/images/hazy_city.png);
+  background-position: 50% 50%;
+  border-bottom: .1em solid #4A4A44;
+  small, i {
+    color: #4A4A44;
+  }
+  i {
+    font-size: .5em;
+    margin-right: .25em;
+    background: #FFB550;
+    border: .2em solid #4A4A44;
+    border-radius: 2em;
+    padding-left: .275em;
+    padding-right: .275em;
+      }
 }
 
 #featured-body {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #featured-panel {
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    border: .2em solid #4A4A44;
-    border-radius: .5em;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border: .2em solid #4A4A44;
+  border-radius: .5em;
 }
 
 

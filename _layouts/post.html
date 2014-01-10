@@ -6,9 +6,13 @@ layout: default
   <header>
     <img id="lead-image" src="{{ page.lead-image }}" alt="{{ page.lead-image-alt }}" title="{{ page.lead-image-title }}" />
     <h1 class="article-title">{{ page.title }}</h1>
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }}" class="icon">
+        <em>{{ page.date | date: "%A" }}</em>
+        <strong>{{ page.date | date: "%B" }}</strong>
+        <span>{{ page.date | date: "%d" }}</span>
+    </time>
     <p class="article-info">
       by <span id="article-author"><a href="/about">{{ page.author }}</a></span>
-      <time> {{ page.date | date: "%B %d, %Y" }}</time>
     </p>
   </header>
 
