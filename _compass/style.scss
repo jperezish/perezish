@@ -411,9 +411,6 @@ article {
     font-size: 3.2em;
   }
 
-  .main-nav-group:last-child {
-    margin-left: .5em;
-  }
   .nav-main-button {
     font-size: 1.5em;
     margin-left: 0;
@@ -421,6 +418,40 @@ article {
   }
   #nav-position {
     margin-top: -1.07em;
+    li:last-child {
+        margin-left: 1.2em;
+      }
+  }
+
+  footer {
+    p {
+      font-size: 1em;
+    }
+    a {
+      font-size: 1em;
+    }
+    nav {
+      margin-right: 4.69em;
+      margin-top: -25px;
+    }
+  }
+
+  #resource-lead {
+    p {
+      font-size: 1em;
+      margin-top: 2.4em;
+    }
+  }
+}
+
+@media #{$medium-only} {
+
+  .nav-main-button {
+    font-size: 1.8em;
+  }
+
+  #nav-position {
+    margin-top: 1em;
   }
 }
 

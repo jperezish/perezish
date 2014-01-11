@@ -1,4 +1,4 @@
-@charset "IBM437";
+@charset "UTF-8";
 /* line 16, ../_compass/style.scss */
 body {
   background-image: url(/images/noisy-texture.png);
@@ -427,19 +427,49 @@ article p a:hover {
   }
 
   /* line 414, ../_compass/style.scss */
-  .main-nav-group:last-child {
-    margin-left: .5em;
-  }
-
-  /* line 417, ../_compass/style.scss */
   .nav-main-button {
     font-size: 1.5em;
     margin-left: 0;
     margin-right: 0;
   }
 
-  /* line 422, ../_compass/style.scss */
+  /* line 419, ../_compass/style.scss */
   #nav-position {
     margin-top: -1.07em;
+  }
+  /* line 421, ../_compass/style.scss */
+  #nav-position li:last-child {
+    margin-left: 1.2em;
+  }
+
+  /* line 427, ../_compass/style.scss */
+  footer p {
+    font-size: 1em;
+  }
+  /* line 430, ../_compass/style.scss */
+  footer a {
+    font-size: 1em;
+  }
+  /* line 433, ../_compass/style.scss */
+  footer nav {
+    margin-right: 4.69em;
+    margin-top: -25px;
+  }
+
+  /* line 440, ../_compass/style.scss */
+  #resource-lead p {
+    font-size: 1em;
+    margin-top: 2.4em;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 449, ../_compass/style.scss */
+  .nav-main-button {
+    font-size: 1.8em;
+  }
+
+  /* line 453, ../_compass/style.scss */
+  #nav-position {
+    margin-top: 1em;
   }
 }
