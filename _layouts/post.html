@@ -6,14 +6,21 @@ layout: default
   <header>
     <img id="lead-image" src="{{ page.lead-image }}" alt="{{ page.lead-image-alt }}" title="{{ page.lead-image-title }}" />
     <h1 class="article-title">{{ page.title }}</h1>
-    <time datetime="{{ page.date | date: "%Y-%m-%d" }}" class="icon">
-        <em>{{ page.date | date: "%A" }}</em>
-        <strong>{{ page.date | date: "%B" }}</strong>
-        <span>{{ page.date | date: "%d" }}</span>
-    </time>
-    <p class="article-info">
-      by <span id="article-author"><a href="/about">{{ page.author }}</a></span>
-    </p>
+    <div id="article-details">
+      <time datetime="{{ page.date | date: "%Y-%m-%d" }}" class="icon">
+          <em>{{ page.date | date: "%A" }}</em>
+          <strong>{{ page.date | date: "%B" }}</strong>
+          <span>{{ page.date | date: "%d" }}</span>
+      </time>
+      <p class="article-info article-info-heading">
+        Written by:
+      </p>
+      <a class="article-info article-info-link" href="/about">{{ page.author }}</a>
+      <p class="article-info article-info-heading">
+        Illustrated by:
+      </p>
+      <a class="article-info article-info-link" href="/about">{{ page.author }}</a>
+    </div>
   </header>
 
   {{ content }}
