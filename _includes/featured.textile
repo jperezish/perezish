@@ -1,6 +1,6 @@
 {% if page.type != "resource" %}
   <div class="panel featured-panel">
-    <div class="featured-header">
+    <div class="featured-header" id="article-aside">
       <h3><small>Learn to Program</small></h3>
       <i class="fi-star"></i>
     </div>

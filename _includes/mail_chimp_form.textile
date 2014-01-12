@@ -1,7 +1,7 @@
 <div class="panel featured-panel">
 <!-- Begin MailChimp Signup Form -->
   <div id="mc_embed_signup">
-    <div class="featured-header">
+    <div class="featured-header" id="mail-aside">
       <h3><small>Subscribe to my mailing list</small></h3>
       <i class="fi-mail"></i>
     </div>
