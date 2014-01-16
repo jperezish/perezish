@@ -8,4 +8,4 @@ One of the things I probably should've started sooner was some sort of quick not
 
 I'm learning Ruby so most of the notes will cover the language but, on the road to becomming a good well rounded craftsman, there are plenty of adjacent topics to learn (like javascipt, HTML/CSS, git, rails, db's, etc.).
 
-Speaking of motivation. I'm hoping these learning notes will help me stay motivated to write. Sometimes it does feel rather easy to just focus on the code. So instead of listening to the Thoughtbot and Ruby Rogues podcasts on my ride in, I've added [Back To Work](5by5.tv/b2w "back to work podcast") _back_ into the mix.
+Speaking of motivation. I'm hoping these learning notes will help me stay motivated to write. Sometimes it does feel rather easy to just focus on the code. So instead of listening to mainly [Thoughtbot Giant Robot](http://podcasts.thoughtbot.com/giantrobots) and [Ruby Rogues](http://rubyrogues.com/) podcasts (yes [there](http://5by5.tv/changelog) [are](http://www.freelancersshow.com/) [others](http://www.wideteams.com/)) on my ride in, I've added [Back To Work](5by5.tv/b2w "back to work podcast") _back_ into the mix.
