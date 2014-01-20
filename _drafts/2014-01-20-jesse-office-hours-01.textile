@@ -2,4 +2,6 @@
 published: false
 ---
 
+h1. The Ruby send method
+
 We recently had the first Ruby Off Rails office hours session. There were a few giant chunks of topics that I'll need to go back and read into more thoroughly (primarily the use of singletons) but one of the quick bits was the use of the "#send":http://ruby-doc.org/core-2.1.0/Object.html#method-i-send method. This is the first time I've encountered its usage.
