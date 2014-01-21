@@ -4,7 +4,7 @@ published: false
 
 h1. Notes on Learning
 
-Apparently writing about what you learn while you're learning it is a great way to reinforce what you're learning. Well crap. I have yet to do that. I've been learning "Ruby programming language":www.ruby-lang.org" for the last few months and now's as good a time as any to start writing as I learn. Nothing fancy or long (hopefully). Just a nice, less currated, more barfed out thoughts sort of thing. All in the name of learning and sharing. So here it is. I'll also backfill some topics I picked up in the past.
+Apparently writing about what you learn while you're learning it is a great way to reinforce what you're learning. Well... I have yet to do that. I've been learning "Ruby programming language":www.ruby-lang.org" for the last few months and now's as good a time as any to start writing as I learn. Nothing fancy or long (hopefully). Just a nice, less currated, more barfed out thoughts sort of thing. All in the name of learning and sharing. So here it is. I'll also backfill some topics I picked up in the past.
 
 Most of the notes will cover the Ruby language but, on the road to becomming a well rounded Ruby craftsman, there are plenty of adjacent topics to learn (like testing, javascipt, HTML/CSS, git, rails, db's, continuous integration, etc.).
 
