@@ -271,6 +271,7 @@ time.icon
     border: .4em solid #4A4A44;
     border-radius: 1em;
     background: #f2f2f2;
+    margin-bottom: 1em;
 }
 
 p {
@@ -293,6 +294,7 @@ h1, h2, h3, h4, h5 {
 article {
   li {
     margin-left: 3em;
+    font-size: 1.2em;
   }
   p a:hover {
     border-bottom: 1px dotted;
@@ -405,6 +407,7 @@ aside {
   li {
     font-family: $paragraph-font-family;
     margin-left: 2em;
+    font-size: 1.2em;
   }
   img {
     border: .15em solid #4A4A44;
@@ -426,6 +429,22 @@ aside {
         padding-right: 1em;
       }
     }
+  }
+}
+
+figure {
+  figcaption {
+    font-size: 1.1em;
+  }
+}
+
+//
+// Footer
+//
+
+.social-media {
+  i {
+    font-size: 2em;
   }
 }
 
