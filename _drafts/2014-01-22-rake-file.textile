@@ -2,9 +2,9 @@
 published: false
 ---
 
-h1. Rake File
+h1. Rake File for running RSpec
 
-Using rake for routine tasks.
+"Using rake for RSpec":https://www.relishapp.com/rspec/rspec-core/docs/command-line/rake-task
 
 {% highlight ruby %}
   require 'rspec/core/rake_task'
