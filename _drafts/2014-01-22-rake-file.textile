@@ -1,0 +1,20 @@
+---
+published: false
+---
+
+h1. Rake File for running RSpec
+
+"Using rake for RSpec":https://www.relishapp.com/rspec/rspec-core/docs/command-line/rake-task
+
+{% highlight ruby %}
+  require 'rspec/core/rake_task'
+  
+  desc 'Default: run specs.'
+  task :default => :spec
+  
+  desc "Run specs"
+  RSpec::Core::RakeTask.new do |t|
+    t.pattern = #"name_of_your_spec.rb"
+    t.rspec_opts = "--color -f progress"
+  end
+{% endhighlight %}
