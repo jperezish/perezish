@@ -41,7 +41,7 @@ Background:
 
       </div>
       <div class="hide-for-small medium-4 columns">
-        <img src="/images/little-faces-arthur.png" alt="A picture of Arthur." />
+        <img src="/images/westley-persona.png" alt="A picture of Westley." />
       </div>
     </div>
 
@@ -69,31 +69,31 @@ The *Pool Player* is any person participating in the pool. They have some braggi
     <div class="row">
       <div class="small-12 medium-8 columns">
 
-Name: <span>Leah</span> Role: <span>Pool Player</span>
+Name: <span>Vizzini</span> Role: <span>Pool Player</span>
 
 Background:
 
-* Leah has a knack for winning these pools and always participates.
+* Vizzini has a knack for winning these pools and always participates.
 
       </div>
       <div class="hide-for-small medium-4 columns">
-        <img src="/images/little-faces-arthur.png" alt="A picture of Arthur." />
+        <img src="/images/vizzini-persona.png" alt="A picture of Vizzini." />
       </div>
     </div>
 
-* She does it for the comradery and this usually comes in the form of talking major trash to her coworkers.
+* He does it for the comradery and this usually comes in the form of talking major trash to his coworkers.
 
 Related responsibilities:
 
-* Pick a winner.
+* Reviewing who he's already picked, submitting his weekly pick via email
 
-What’s important to Leah:
+What’s important to Vizzini:
 
-* Winning.
+* Winning, talking trash, comparing his win loss record to with everyone else's, checking the scores to see if his team won
 
   </div>
   <figcaption class="small-10 small-centered columns">
-    (Persona: Leah the Lucky is our skilled player.)
+    (Persona: Vizzini the Lucky is our skilled player.)
   </figcaption>
 </figure>
 
@@ -110,35 +110,35 @@ Look at that. There are two personas for the Pool Player role. The one that rese
     <div class="row">
       <div class="small-12 medium-8 columns">
 
-Name: <span>Lou</span> Role: <span>Pool Player</span>
+Name: <span>Inigo</span> Role: <span>Pool Player</span>
 
 Background:
 
-* Works in a warehouse. Doesn't like using computers. Rarely uses phone.
+* Works in a distribution center. Doesn't like using computers. Rarely uses his mobile phone.
 
       </div>
       <div class="hide-for-small medium-4 columns">
-        <img src="/images/little-faces-arthur.png" alt="A picture of Arthur." />
+        <img src="/images/inigo-persona.png" alt="A picture of Inigo." />
       </div>
     </div>
 
 Related responsibilities:
 
-* Pick a winner.
+* Reviewing the printed out pool bracket, submitting his weekly pick by Thursday.
 
-What’s important to Lou:
+What’s important to Inigo:
 
-* Winning.
+* Winning, talking trash, comparing his win loss record to with everyone else's by seeing a print out in the warehouse, checking the scores to see if his team won (by watching match day highlights)
 
   </div>
   <figcaption class="small-10 small-centered columns">
-    (Persona: Lou is a key find.)
+    (Persona: Inigo is a key find.)
   </figcaption>
 </figure>
 
 h2. Think not of self
 
-Good thing I went and talked to other people. I mean I really could've went down a path of applying my own mental model onto the thing I want to build. Seeing as how I'm a potential user of this app it's not necessarily a bad thing, but just like picking your nose in public, it's not a good habit to have.
+Good thing I went and talked to other people. I mean I really could've went down a path of applying my own mental model onto the thing I want to build. Seeing as how I'm a potential user of this app it's not necessarily a bad thing, but just like picking your nose in public, it's not a good habit to have. I now see that I simply can't think of replacing a software based spreadsheet with another digital alternative. Nope. I'll now need to think about how to help out Inigo as well.
 
 So I’ve learned a great lesson: don’t just think about yourself. It was so easy to do though… very tempting. But spending a little extra time and effort doing research and talking with other people to get a better idea of what other types of people could use my app seems to have paid off in a big way.
 
