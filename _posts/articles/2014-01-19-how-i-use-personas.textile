@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I use personas"
-description: "The beginning of a series on creating a new web application."
+description: "Personas are a great tool for identifying those unique groups of users."
 categories: 2014 01
 author: Jason Perez
 type: article
