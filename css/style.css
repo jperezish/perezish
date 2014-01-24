@@ -322,6 +322,15 @@ aside {
 }
 
 /* line 312, ../_compass/style.scss */
+.learning-notes-link {
+  list-style: none;
+}
+/* line 314, ../_compass/style.scss */
+.learning-notes-link a:hover {
+  background-color: #95BFAC;
+}
+
+/* line 319, ../_compass/style.scss */
 .featured-header {
   background: #4A4A44;
   font-size: 3em;
@@ -334,12 +343,12 @@ aside {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-/* line 323, ../_compass/style.scss */
+/* line 330, ../_compass/style.scss */
 .featured-header small, .featured-header i {
   color: #4A4A44;
   font-weight: normal;
 }
-/* line 327, ../_compass/style.scss */
+/* line 334, ../_compass/style.scss */
 .featured-header i {
   font-size: .5em;
   margin-left: 40%;
@@ -353,24 +362,24 @@ aside {
   overflow: hidden;
 }
 
-/* line 341, ../_compass/style.scss */
+/* line 348, ../_compass/style.scss */
 #mail-aside {
   background-position: 50% 0;
 }
 
-/* line 344, ../_compass/style.scss */
+/* line 351, ../_compass/style.scss */
 #article-aside {
   background-position: 50% 20%;
 }
 
-/* line 348, ../_compass/style.scss */
+/* line 355, ../_compass/style.scss */
 .featured-body {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 354, ../_compass/style.scss */
+/* line 361, ../_compass/style.scss */
 .featured-panel {
   padding-top: 0;
   padding-left: 0;
@@ -379,26 +388,26 @@ aside {
   border-radius: .5em;
 }
 
-/* line 363, ../_compass/style.scss */
+/* line 370, ../_compass/style.scss */
 #mc_embed_signup {
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
 }
-/* line 366, ../_compass/style.scss */
+/* line 373, ../_compass/style.scss */
 #mc_embed_signup .button {
   background-color: #67983B;
   font-size: 20px;
 }
-/* line 369, ../_compass/style.scss */
+/* line 376, ../_compass/style.scss */
 #mc_embed_signup .button:hover {
   background-color: #95BFAC;
 }
-/* line 373, ../_compass/style.scss */
+/* line 380, ../_compass/style.scss */
 #mc_embed_signup .clear {
   margin-left: 19.5%;
 }
 
-/* line 382, ../_compass/style.scss */
+/* line 389, ../_compass/style.scss */
 #resource-lead {
   height: 250px;
   background-color: #95BFAC;
@@ -409,7 +418,7 @@ aside {
   border-radius: 1em;
   padding-top: 11.5em;
 }
-/* line 391, ../_compass/style.scss */
+/* line 398, ../_compass/style.scss */
 #resource-lead p {
   color: #4A4A44;
   font-size: 5em;
@@ -418,7 +427,7 @@ aside {
   font-family: "pragmatica-web-condensed", sans-serif;
 }
 
-/* line 400, ../_compass/style.scss */
+/* line 407, ../_compass/style.scss */
 .index-card {
   background-color: #E3DFC5;
   border: .2em solid #4A4A44;
@@ -427,133 +436,133 @@ aside {
   padding-right: 2em;
   box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.5);
 }
-/* line 407, ../_compass/style.scss */
+/* line 414, ../_compass/style.scss */
 .index-card li {
   font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
   margin-left: 2em;
   font-size: 1.2em;
 }
-/* line 412, ../_compass/style.scss */
+/* line 419, ../_compass/style.scss */
 .index-card img {
   border: .15em solid #4A4A44;
   background-color: rgba(255, 255, 255, 0.5);
   margin-top: 1em;
   border-radius: 5px;
 }
-/* line 418, ../_compass/style.scss */
+/* line 425, ../_compass/style.scss */
 .index-card span {
   color: #ED4652;
   font-weight: bold;
 }
-/* line 422, ../_compass/style.scss */
+/* line 429, ../_compass/style.scss */
 .index-card p {
   border-bottom: 3px solid #61B8ED;
 }
-/* line 424, ../_compass/style.scss */
+/* line 431, ../_compass/style.scss */
 .index-card p:first-child {
   border-bottom: 5px solid #ED4F6F;
   font-size: 1.2em;
   line-height: 3em;
 }
-/* line 428, ../_compass/style.scss */
+/* line 435, ../_compass/style.scss */
 .index-card p:first-child span:first-child {
   padding-right: 1em;
 }
 
-/* line 436, ../_compass/style.scss */
+/* line 443, ../_compass/style.scss */
 figure figcaption {
   font-size: 1.1em;
 }
 
-/* line 446, ../_compass/style.scss */
+/* line 453, ../_compass/style.scss */
 .social-media i {
   font-size: 2em;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 458, ../_compass/style.scss */
+  /* line 465, ../_compass/style.scss */
   #site-name {
     margin-left: 0;
     font-size: 3.2em;
   }
 
-  /* line 463, ../_compass/style.scss */
+  /* line 470, ../_compass/style.scss */
   .nav-main-button {
     font-size: 1.5em;
     margin-left: 0;
     margin-right: 0;
   }
 
-  /* line 468, ../_compass/style.scss */
+  /* line 475, ../_compass/style.scss */
   #nav-position {
     margin-top: -1.07em;
   }
-  /* line 470, ../_compass/style.scss */
+  /* line 477, ../_compass/style.scss */
   #nav-position li:last-child {
     margin-left: 1.2em;
   }
 
-  /* line 476, ../_compass/style.scss */
+  /* line 483, ../_compass/style.scss */
   footer p {
     font-size: 1em;
   }
-  /* line 479, ../_compass/style.scss */
+  /* line 486, ../_compass/style.scss */
   footer a {
     font-size: 1em;
   }
-  /* line 482, ../_compass/style.scss */
+  /* line 489, ../_compass/style.scss */
   footer nav {
     margin-right: 4.69em;
     margin-top: -25px;
   }
 
-  /* line 489, ../_compass/style.scss */
+  /* line 496, ../_compass/style.scss */
   #resource-lead p {
     font-size: 1em;
     margin-top: 2.4em;
   }
 
-  /* line 495, ../_compass/style.scss */
+  /* line 502, ../_compass/style.scss */
   .featured-header i {
     width: 17%;
     margin-left: 40%;
   }
 
-  /* line 500, ../_compass/style.scss */
+  /* line 507, ../_compass/style.scss */
   .featured-panel {
     max-width: 90%;
     margin-left: 4.5%;
   }
 
-  /* line 505, ../_compass/style.scss */
+  /* line 512, ../_compass/style.scss */
   #mc_embed_signup .clear {
     margin-left: 30%;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 512, ../_compass/style.scss */
+  /* line 519, ../_compass/style.scss */
   .nav-main-button {
     font-size: 1.8em;
   }
 
-  /* line 516, ../_compass/style.scss */
+  /* line 523, ../_compass/style.scss */
   #nav-position {
     margin-top: 1em;
   }
 
-  /* line 520, ../_compass/style.scss */
+  /* line 527, ../_compass/style.scss */
   .featured-header i {
     width: 10%;
     margin-left: 45%;
   }
 
-  /* line 525, ../_compass/style.scss */
+  /* line 532, ../_compass/style.scss */
   .featured-panel {
     max-width: 80%;
     margin-left: 10%;
   }
 
-  /* line 530, ../_compass/style.scss */
+  /* line 537, ../_compass/style.scss */
   #mc_embed_signup .clear {
     margin-left: 37.5%;
   }

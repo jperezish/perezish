@@ -1,0 +1,11 @@
+<div class="panel featured-panel">
+  <div class="featured-header" id="article-aside">
+    <h3><small>Learning Notes</small></h3>
+    <i class="fi-clipboard-notes"></i>
+  </div>
+  <div class="featured-body">
+    <ul>
+      <li class="learning-notes-link"><a href="/learning/2014/01/notes-on-learning-ruby/" title="Notes on learning ruby - and all the related things">Notes on learning ruby</a></li>
+    </ul>
+  </div>
+</div>

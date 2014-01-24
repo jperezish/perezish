@@ -309,6 +309,13 @@ aside {
   margin-top: .25em;
 }
 
+.learning-notes-link {
+  list-style: none;
+  a:hover {
+    background-color: #95BFAC;
+  }
+}
+
 .featured-header {
   background: #4A4A44;
   font-size: 3em;
