@@ -1,0 +1,32 @@
+---
+layout: notes
+title: "RubyOffRails"
+description: "RubyOffRails - learn Ruby first, then learn Rails."
+categories: learning 2014 01
+tags: ruby
+author: Jason Perez
+type: note
+---
+
+h1. RubyOffRails
+
+I can quickly summarize my Ruby learning as follows:
+
+Do "online":https://www.codeschool.com/courses/ruby-bits "ruby":http://www.codecademy.com/tracks/ruby "things":https://rubymonk.com/, "install Ruby/Rails":http://railsinstaller.org/, do the "Hartl Tutorial":http://ruby.railstutorial.org/, do some "more":http://tutorials.jumpstartlab.com/projects/eventmanager.html "tutorials":http://tutorials.jumpstartlab.com/projects/microblogger.html, listen to "Ruby Rogues":http://rubyrogues.com/ (and not understand most of the topics), read "POODR":http://www.poodr.com/ and other "great":http://www.manning.com/black2/ "books":http://www.confidentruby.com/, "learn more":http://www.growing-object-oriented-software.com/ "about":http://designpatternsinruby.com/ "design":http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882, continue to do "more":http://pragmaticstudio.com/ruby "tutorials":http://pragmaticstudio.com/rails, constantly reference the "Ruby Docs":http://ruby-doc.org/, focus more and more on just Ruby (not Rails), learn about TDD/BDD using "RSpec":https://relishapp.com/rspec and "Cucumber":http://cukes.info/, try to write a gem (and get confused by design decisions like naming and the best way to send messages), visit a local meetup, continue to listen to all the Rogues podcasts (and realizing I understand what they're talking about... mostly) continue to try and sort out testing in isolation, keep hacking away at the gem (referencing all the things).
+
+<TODO: comic of a man alone on his island. perhaps a man in the middle of a self imposed island... if YOU can pull that off!>
+
+I felt really good about my path and progress, but I had some concerns. My main concerns were about using the most appropriate methods to convey intent from classes in the existing Ruby library. I also had concerns about design decisions. I found myself going down a certain path for a very long time and then rethinking the design and not having any feedback along the way from anyone to tap me on the shoulder and say "dude, maybe you should try it this way instead."
+
+I recently had an epiphany that hit me like a big *DUH*. My lonely man on a self imposed Ruby island routine was slowing me down. I wanted to decrease the "go off and research the topic" feedback loop, and the results weren't always the most appropriate solution. There's only so much you can get from books and searching alone. What I needed was a seasoned Rubyist to act as a coach and provide some guidance. So I looked around and came across "RubyOffRails":https://rubyoffrails.com/. This is an excellent service provided by "Jesse":https://twitter.com/jwo "Wolgamott":http://jessewolgamott.com/. I signed up for the "Developer":https://rubyoffrails.com/#take-my-money service.
+
+One of the recent assignments I worked on has to do with creating a website using Ruby and "Sinatra":http://www.sinatrarb.com/intro.html. Here's how it works:
+
+1. Watch the recorded screencast of Jesse setting up Sinatra, creating a simple feature for the site, adding style via "Twitter Boostrap":http://getbootstrap.com/, and then deploying to "Heroku":https://www.heroku.com/about.
+2. Access the repo on "Github":https://github.com/about
+3. "Fork and clone the repo":https://help.github.com/articles/fork-a-repo
+4. Complete the assignments, adding different features to the site (at 3 different levels of difficulty)
+5. Submit a "pull request":https://help.github.com/articles/using-pull-requests with your changes
+6. Jesse will "review your changes and make comments":https://github.com/RubyoffRails/Episode8/pull/12
+
+It's exactly what I need. A focus on Ruby first. Jesse provides his feedback to the pull requests in a timely manner, this definitely helps. I'll be posting more notes about this service as I continue to learn.

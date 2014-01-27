@@ -9,7 +9,7 @@ description: "A site about web applications and the people who use them."
       <article class="small-12 columns article-preview">
         <header>
           <img id="lead-image" src="{{ post.lead-image }}" alt="{{ post.lead-image-alt }}" title="{{ post.lead-image-title }}" />
-          <h1 class="article-title home-page"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+          <h1 class="article-title home-page"><a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a></h1>
           <p class="article-info home-article-info">
             by <span id="article-author"><a href="/about">{{ post.author }}</a></span>
             <time>{{ post.date | date: "%B %d, %Y" }}</time>
