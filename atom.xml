@@ -15,7 +15,7 @@ layout: nil
   </author>
 
   {% for post in site.posts %}
-    {% if post.type == "article" %}
+    {% if post.type == "article" or post.type == "note" %}
       <entry>
         <id>http://perezish.com{{ post.id }}</id>
         <link type="text/html" rel="alternate" href="http://perezish.com{{ post.url }}"/>

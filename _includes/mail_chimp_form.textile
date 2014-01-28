@@ -6,10 +6,9 @@
       <i class="fi-mail"></i>
     </div>
   <form action="http://perezish.us3.list-manage.com/subscribe/post?u=fe43abff3f2badc0a42f00aae&amp;id=c31922fdb2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-  <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+
   <div class="mc-field-group">
-    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-  </label>
+    <label for="mce-EMAIL">Email Address</label>
     <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
   </div>
     <div id="mce-responses" class="clear">
