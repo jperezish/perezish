@@ -10,18 +10,53 @@ type: note
 
 h1. The Ruby send method
 
-We recently had the first "RubyOffRails":https://rubyoffrails.com/ office hours session. There were a few giant chunks of topics that I'll need to go back and read into more thoroughly (primarily the use of singletons) but one of the quick bits was the use of the "#send":http://ruby-doc.org/core-2.1.0/Object.html#method-i-send method. This is the first time I've encountered its usage. "The Well Grounded Rubyist":http://www.manning.com/black2/ has a nice little write about #send in section "8.2.3. Symbols in practice".
+We recently had the first "Ruby Off Rails":https://rubyoffrails.com/ office hours session. There were a few giant chunks of topics that I'll need to go back and read into more thoroughly (primarily the use of singletons) but one of the quick bits was the use of the "#send":http://ruby-doc.org/core-2.1.0/Object.html#method-i-send method. This is the first time I've encountered its usage. For more info check out the "The Well Grounded Rubyist":http://www.manning.com/black2/. You'll find a nice little write up about #send in section "8.2.3. Symbols in practice".
 
-<!-- insert picture of someone screaming "I love tacos!".send(:upcase) -->
+<!-- insert picture of someone exclaiming "I love tacos!" -->
 
-Look at that. Someone obviously forgot to turn all of the characters to uppercase when exclaiming their love of tacos.
+<div class="row">
+  <div class="small-12 medium-5 columns">
+
+Let's say someone is exclaiming their love for tacos. Well look at that. Someone obviously forgot to turn all of the characters to uppercase.
+
+It's really the only appropriate way to express one's love for tacos.
 
 Let's upper case it then.
+
+</div>
+
+  <div class="small-12 medium-7 columns">
+    <img id="lead-image" src="http://placehold.it/330x330" alt="" title="" />
+  </div>
+</div>
+<!-- insert picture of someone exclaiming "I love tacos!".upcase -->
+
+<div class="row">
+  <div class="small-12 columns">
+
 {% highlight ruby %}
 "I love tacos!".upcase
 {% endhighlight %}
 
-Now instead of directly sending the `upcase` message to the string, let's use send to pass in an argument. We can do that in a few different ways.
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 medium-7 columns">
+    <img id="lead-image" src="http://placehold.it/330x330" alt="" title="" />
+  </div>
+  <div class="small-12 medium-5 columns">
+
+Now instead of directly sending the `upcase` message to the string, let's use send to pass in an argument.
+
+We can do that in a few different ways.
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 columns">
+
 {% highlight ruby %}
 message_holder = :upcase
 "I love tacos!".send(message_holder)
@@ -29,10 +64,39 @@ message_holder = :upcase
 "I love tacos!".send("upcase")
 {% endhighlight %}
 
-So #send is pretty flexible. If you need to determine a message dynamically then this will come in handy since you can assign the symbol to a variable and then send in the variable. That doesn't work if you try it with the dot notation.
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 medium-5 columns">
+
+So #send is pretty flexible. If you need to determine a message dynamically then this will come in handy since you can assign the symbol to a variable and then send in the variable.
+
+That doesn't work if you try it with the dot notation.
+
+  </div>
+  <div class="small-12 medium-7 columns">
+    <img id="lead-image" src="http://placehold.it/330x330" alt="" title="" />
+  </div>
+
+<!-- insert picture of someone exclaiming "I love tacos!".send(:upcase) -->
+</div>
+
+<div class="row">
+  <div class="small-12 columns">
 
 {% highlight ruby %}
 # this won't work
 message_holder = :upcase
 "I love tacos!".message_holder
 {% endhighlight %}
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-8 small-centered columns">
+    <img id="lead-image" src="http://placehold.it/470x470" alt="" title="" />
+  </div>
+</div>
+<!-- insert picture of someone exclaiming NoMethodError: undefined method `message_holder' for "i love tacos":String" -->
