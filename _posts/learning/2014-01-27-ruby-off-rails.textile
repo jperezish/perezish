@@ -25,7 +25,7 @@ I was feeling good about my progress, but I had some concerns. My main concerns 
   </div>
 </div>
 
-I recently had an epiphany that hit me like a big *DUH*. My lonely man on a self imposed Ruby island routine was slowing me down. I wanted to decrease the "go off and research the topic" feedback loop, and the results weren't always the most appropriate solution. There's only so much you can get from books and searching alone. What I needed was a seasoned Rubyist to act as a coach and provide some guidance. So I looked around and came across "RubyOffRails":https://rubyoffrails.com/. This is an excellent service provided by "Jesse":https://twitter.com/jwo "Wolgamott":http://jessewolgamott.com/. I signed up for the "Developer":https://rubyoffrails.com/#take-my-money service.
+I recently had an epiphany that hit me like a big *DUH*. My lonely man on a self imposed Ruby island routine was slowing me down. I wanted to decrease the "go off and research the topic" feedback loop, and the results weren't always the most appropriate solution. There's only so much you can get from books and searching alone. What I needed was a seasoned Rubyist to act as a coach and provide some guidance. So I looked around and came across "Ruby Off Rails":https://rubyoffrails.com/. This is an excellent service provided by "Jesse":https://twitter.com/jwo "Wolgamott":http://jessewolgamott.com/. I signed up for the "Developer":https://rubyoffrails.com/#take-my-money service.
 
 One of the recent assignments I worked on has to do with creating a website using Ruby and "Sinatra":http://www.sinatrarb.com/intro.html. Here's how it works:
 

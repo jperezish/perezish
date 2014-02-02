@@ -1,0 +1,38 @@
+---
+layout: notes
+title: "Ruby Off Rails Rails office hours"
+description: "Ruby Off Rails office hours - The send method"
+categories: learning 2014 02
+tags: ruby
+author: Jason Perez
+type: note
+---
+
+h1. The Ruby send method
+
+We recently had the first "RubyOffRails":https://rubyoffrails.com/ office hours session. There were a few giant chunks of topics that I'll need to go back and read into more thoroughly (primarily the use of singletons) but one of the quick bits was the use of the "#send":http://ruby-doc.org/core-2.1.0/Object.html#method-i-send method. This is the first time I've encountered its usage. "The Well Grounded Rubyist":http://www.manning.com/black2/ has a nice little write about #send in section "8.2.3. Symbols in practice".
+
+<!-- insert picture of someone screaming "I love tacos!".send(:upcase) -->
+
+Look at that. Someone obviously forgot to turn all of the characters to uppercase when exclaiming their love of tacos.
+
+Let's upper case it then.
+{% highlight ruby %}
+"I love tacos!".upcase
+{% endhighlight %}
+
+Now instead of directly sending the `upcase` message to the string, let's use send to pass in an argument. We can do that in a few different ways.
+{% highlight ruby %}
+message_holder = :upcase
+"I love tacos!".send(message_holder)
+"I love tacos!".send(:upcase)
+"I love tacos!".send("upcase")
+{% endhighlight %}
+
+So #send is pretty flexible. If you need to determine a message dynamically then this will come in handy since you can assign the symbol to a variable and then send in the variable. That doesn't work if you try it with the dot notation.
+
+{% highlight ruby %}
+# this won't work
+message_holder = :upcase
+"I love tacos!".message_holder
+{% endhighlight %}
