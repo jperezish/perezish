@@ -10,9 +10,9 @@ type: note
 
 h1. The Ruby send method
 
-We recently had the first "Ruby Off Rails":https://rubyoffrails.com/ office hours session. There were a few giant chunks of topics that I'll need to go back and read into more thoroughly (primarily the use of singletons) but one of the quick bits was the use of the "#send":http://ruby-doc.org/core-2.1.0/Object.html#method-i-send method. This is the first time I've encountered its usage. For more info check out the "The Well Grounded Rubyist":http://www.manning.com/black2/. You'll find a nice little write up about #send in section "8.2.3. Symbols in practice".
+We recently had the first "Ruby Off Rails":https://rubyoffrails.com/ office hours session. There were a few topics we covered that I'll need to go back and read into more thoroughly (primarily the use of "singletons":http://ruby-doc.org/stdlib-1.9.3/libdoc/singleton/rdoc/Singleton.html), but one of the quick bits was the use of the "#send":http://ruby-doc.org/core-2.1.0/Object.html#method-i-send method. This is the first time I've encountered its usage. For more info check out the "The Well Grounded Rubyist":http://www.manning.com/black2/. You'll find a nice little write up about #send in section "8.2.3. Symbols in practice".
 
-<!-- insert picture of someone exclaiming "I love tacos!" -->
+<!-- insert picture of someone exclaiming "i love tacos!" -->
 
 <div class="row">
   <div class="small-12 medium-5 columns">
@@ -26,16 +26,16 @@ Let's upper case it then.
 </div>
 
   <div class="small-12 medium-7 columns">
-    <img id="lead-image" src="http://placehold.it/330x330" alt="" title="" />
+    <img id="lead-image" src="/images/I_love_tacos_lower_case.png" alt="" title="" />
   </div>
 </div>
-<!-- insert picture of someone exclaiming "I love tacos!".upcase -->
+<!-- insert picture of someone exclaiming "i love tacos!".upcase -->
 
 <div class="row">
   <div class="small-12 columns">
 
 {% highlight ruby %}
-"I love tacos!".upcase
+"i love tacos!".upcase
 {% endhighlight %}
 
   </div>
@@ -43,11 +43,11 @@ Let's upper case it then.
 
 <div class="row">
   <div class="small-12 medium-7 columns">
-    <img id="lead-image" src="http://placehold.it/330x330" alt="" title="" />
+    <img id="lead-image" src="/images/I_love_tacos_up_case.png" alt="" title="" />
   </div>
   <div class="small-12 medium-5 columns">
 
-Now instead of directly sending the `upcase` message to the string, let's use send to pass in an argument.
+Now instead of directly sending the @upcase@ message to the string, let's use send to pass in an argument.
 
 We can do that in a few different ways.
 
@@ -59,9 +59,9 @@ We can do that in a few different ways.
 
 {% highlight ruby %}
 message_holder = :upcase
-"I love tacos!".send(message_holder)
-"I love tacos!".send(:upcase)
-"I love tacos!".send("upcase")
+"i love tacos!".send(message_holder)
+"i love tacos!".send(:upcase)
+"i love tacos!".send("upcase")
 {% endhighlight %}
 
   </div>
@@ -76,10 +76,10 @@ That doesn't work if you try it with the dot notation.
 
   </div>
   <div class="small-12 medium-7 columns">
-    <img id="lead-image" src="http://placehold.it/330x330" alt="" title="" />
+    <img id="lead-image" src="/images/I_love_tacos_send_up_case.png" alt="" title="" />
   </div>
 
-<!-- insert picture of someone exclaiming "I love tacos!".send(:upcase) -->
+<!-- insert picture of someone exclaiming "i love tacos!".send(:upcase) -->
 </div>
 
 <div class="row">
@@ -88,7 +88,7 @@ That doesn't work if you try it with the dot notation.
 {% highlight ruby %}
 # this won't work
 message_holder = :upcase
-"I love tacos!".message_holder
+"i love tacos!".message_holder
 {% endhighlight %}
 
   </div>
@@ -96,7 +96,7 @@ message_holder = :upcase
 
 <div class="row">
   <div class="small-8 small-centered columns">
-    <img id="lead-image" src="http://placehold.it/470x470" alt="" title="" />
+    <img id="lead-image" src="/images/I_love_tacos_no_method_error.png" alt="" title="" />
   </div>
 </div>
 <!-- insert picture of someone exclaiming NoMethodError: undefined method `message_holder' for "i love tacos":String" -->
