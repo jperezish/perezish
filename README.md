@@ -6,7 +6,7 @@ This is the repo for http://perezish.com. My blog where I add some notes on lear
 
 ## Site Setup
 
-* ![Jekyll](http://jekyllrb.com/) as the CMS.
-* ![Zurb Foundation](http://foundation.zurb.com/) for the responsive grid and base styles.
-* ![Compass](http://compass-style.org/) and ![Sass](http://sass-lang.com/) to DRY out the CSS.
+* [Jekyll](http://jekyllrb.com/) as the CMS.
+* [Zurb Foundation](http://foundation.zurb.com/) for the responsive grid and base styles.
+* [Compass](http://compass-style.org/) and [Sass](http://sass-lang.com/) to DRY out the CSS.
 * The site is hosted on Amazon’s AWS S3.
