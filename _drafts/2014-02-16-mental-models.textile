@@ -19,4 +19,4 @@ h3. Thought process of a Pool Manager
 h3. Important features
 h2. What's next
 
-Now that we have some user stories around the Westley Pool Manager persona we're going to start digging into the details on these features. We'll do that next time.
+Now that we have some user stories around the Westley Pool Manager persona we're going to start digging into the details on these features. As it turns out we actually have enough info here to put together a nice little teaser product page as well. We'll do that next time.
