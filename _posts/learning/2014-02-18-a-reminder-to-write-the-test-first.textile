@@ -1,0 +1,213 @@
+---
+layout: notes
+title: "A reminder to write the test first"
+description: "If you don't write your test first you could be setting yourself up for a less than optimal design."
+categories: learning 2014 02
+tags: ruby
+author: Jason Perez
+type: note
+---
+
+h1. A reminder to write the test first
+
+I recently submitted the "Salesman Traveler":https://github.com/jperezish/Episode7 assignment for "Ruby Off Rails":https://rubyoffrails.com/. This assignment starts with an already working app that finds the best route from a list of stops on a sales person's trip. It uses the "Ruby Geocoder gem":http://www.rubygeocoder.com/ to return the distance between two stops. The goal of the app is to provide the shortest route, given a set of stops.
+
+My main take away from this assignment involves refactoring the "SalesPerson class":https://github.com/jperezish/Episode7/blob/master/lib/sales_person.rb. This turned into another lesson on listening to your tests to help you sort out a better design. Well here's the initial design of the class created by "Jesse":https://twitter.com/jwo :
+
+<div class="row">
+  <div class="small-12 columns">
+
+{% highlight ruby %}
+
+  class SalesPerson
+
+    attr_reader :cities
+    def initialize
+      @cities = []
+    end
+
+    ...
+
+    def route
+      CalculatesRoute.calculate(cities)
+    end
+  end
+
+{% endhighlight %}
+
+  </div>
+</div>
+
+The initial collaborator <code>CalculatesRoute</code> had a single responsibility to calculate a route. It did this via the class method <code>.calculate</code>. Then the assignment adds a couple new features:
+
+# Provide the total miles for the route
+# Provide the total travel time for the route (at a speed of 55 mph)
+
+These new messages seemed to change the role of the collaborator. I thought I’d just change the class name to the more appropriate <code>Route</code>. This route now has new methods that rely on an instance of a <code>Route</code>. I update it to respond to <code>#calculate</code>, <code>#miles_traveled</code>, and <code>#time_traveled</code>. Although I now think I should've named the last two <code>#total_miles</code> and <code>#total_travel_time</code>.
+
+h2. be careful with any_instance
+
+I made a mistake. I changed the class first, then I went to update the spec. So now I'm focused on the implementation and not so much on how the objects are collaborating. I end up with three methods I want. I assign the collaborator to the <code>@route</code> instance variable. I do this because I’m focused on the implementation of the messages. Not how the objects will establish communication with each other.
+
+<div class="row">
+  <div class="small-12 columns">
+
+{% highlight ruby %}
+
+  class SalesPerson
+    attr_reader :cities
+    def initialize
+      @cities = []
+      @route = Route.new
+    end
+
+    ...
+
+    def route
+      @route.calculate(cities)
+    end
+
+    def miles_traveled
+      @route.miles_traveled
+    end
+
+    def time_traveled
+      @route.time_traveled
+    end
+  end
+
+{% endhighlight %}
+
+  </div>
+</div>
+
+So now that I mucked around in the class I head over to my spec. I realize that I need to get at <code>@route</code> to test that it receives the message, but I can't. I then look into what in RSpec will help me get there and I come across "any_instance":https://www.relishapp.com/rspec/rspec-mocks/v/2-6/docs/method-stubs/stub-on-any-instance-of-a-class. Perfect! Now I'm all set.
+
+<div class="row">
+  <div class="small-12 columns">
+
+{% highlight ruby %}
+
+  describe SalesPerson do
+
+    ...
+
+    it "should calculate a route via the Route" do
+      cities = [double, double, double]
+      subject.stub(:cities) { cities }
+      Route.any_instance.should_receive(:calculate).with(cities)
+      subject.route
+    end
+
+    it "should return the route from Route" do
+      route_stub = [double, double]
+      Route.any_instance. stub(:calculate) { route_stub }
+      subject.route.should eq(route_stub)
+    end
+
+    ...
+
+    it "should calculate total miles traveled via Route" do
+      Route.any_instance.should_receive(:miles_traveled)
+      subject.miles_traveled
+    end
+
+    it "should return total time traveled at 60 mph via Route" do
+      Route.any_instance.should_receive(:time_traveled)
+      subject.time_traveled
+    end
+  end
+
+{% endhighlight %}
+
+  </div>
+</div>
+
+I submit my code to Jesse and then "he lets me know":https://github.com/RubyoffRails/Episode7/pull/12#discussion_r9712520 that <code>any_instance</code> is a possible code smell. After reading "the":https://github.com/rspec/rspec-mocks/issues/336 "links":http://jamesmead.org/blog/2007-11-29-mock-object-injection#instance-variable-set-injection he provides I now have a better understanding of what I did wrong.
+
+h2. write tests first
+
+I didn't write my test first. If I write that test first then I keep myself focused on figuring out how the <code>SalesPerson</code> sends messages to the <code>Route</code>. That's one of the important things the test does. It's a contract of expectations.
+
+<div class="row">
+  <div class="small-12 columns">
+
+{% highlight ruby %}
+
+  describe SalesPerson do
+
+    before do
+      @route_double = double
+      @sales_person = SalesPerson.new(@route_double)
+    end
+
+    ...
+
+    it "should calculate a route via the Route" do
+      cities = [double, double, double]
+      @sales_person.stub(:cities) { cities }
+      @route_double.should_receive(:calculate).with(cities)
+      @sales_person.route
+    end
+
+    it "should return the route from Route" do
+      route_stub = [double, double]
+      @route_double.stub(:calculate) { route_stub }
+      @sales_person.route.should eq(route_stub)
+    end
+
+    ...
+
+    it "should calculate total miles traveled via Route" do
+      @route_double.should_receive(:miles_traveled)
+      @sales_person.miles_traveled
+    end
+
+    it "should return total time traveled at 60 mph via Route" do
+      @route_double.should_receive(:time_traveled)
+      @sales_person.time_traveled
+    end
+  end
+
+{% endhighlight %}
+
+  </div>
+</div>
+
+I'd like to say, for this particular <code>SalesPerson</code>, what are the <code>#miles_traveled</code>? Figuring out the miles for the route is the job of <code>Route</code> and that's where the message is going so I now ensure that the <code>Route</code> gets the message. I use dependency injection. Now I can use "RSpec's test double":https://relishapp.com/rspec/rspec-mocks/docs (<code>@route_double = double</code>) to test that the doubles receive the expected messages.
+
+<div class="row">
+  <div class="small-12 columns">
+
+{% highlight ruby %}
+
+  class SalesPerson
+
+    ...
+
+    def initialize(route = Route.new)
+      @cities = []
+      @route = route
+    end
+
+    ...
+
+    def route
+      @route.calculate(cities)
+    end
+
+    def miles_traveled
+      @route.miles_traveled
+    end
+
+    def time_traveled
+      @route.time_traveled
+    end
+  end
+
+{% endhighlight %}
+
+  </div>
+</div>
+
+Yes this is just a little mistake. It's easy to correct. But it’s a good illustration of how not testing first can lead to a less than optimal design.
