@@ -1,0 +1,11 @@
+---
+published: false
+---
+
+h1. First feature details
+
+recap
+
+h2. Getting details from the users
+h2. Setting expectations
+h2. Create a cuucmber feature

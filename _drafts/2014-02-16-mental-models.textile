@@ -1,0 +1,22 @@
+---
+published: false
+---
+
+h1. Mental Models
+
+Mental models occupy tht odd space between what we explicitly convey to people and our thought process. They are the rationale behind the actions. They are the internal conflict behind the decision to take those actions. Yes, they're that fuzzy bit of 
+
+Last time we identifed the key personas in the Bragging Points app. There are two main roles: Pool Manager and Pool Player. The Pool Manager has one persona: Westley. The Pool Player has two personas: Inigo and Vizzini.
+
+h2. What I like about mental models
+
+This new app is going to have an initial set of features, I mean you have to start somewhere. My initial goal is to keep the users engaged in the feeback loop as we itereate throught he initial versions of this application. Now I can simply have the users list out all of the features they'd like to have and then have them prioritize those features. This could actually work and the users will feel great about having a voice and being a part of the process. But what if they're not being honest with themselves? What if what they want isn't really what they need. Perhaps mental models will help put together a picture of what is needed. Without much pomp and circumstance you can get a nice visual idea of how much mental thought is being put behind each one of those identified tasks.
+
+Now that I have a good snapshot of some of the important areas of the app I can focus on features in this specific area, get these out first, and then get the feedback. Not only will the users feel like their involved, but they're also going to increase the chances of earning their trust.
+
+h2. The Pool Maanger's mental model
+h3. Thought process of a Pool Manager
+h3. Important features
+h2. What's next
+
+Now that we have some user stories around the Westley Pool Manager persona we're going to start digging into the details on these features. As it turns out we actually have enough info here to put together a nice little teaser product page as well. We'll do that next time.
