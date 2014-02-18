@@ -36,7 +36,7 @@ If you're just mulling around the idea of programming then maybe you need to giv
 
 * "Try Ruby":http://tryruby.org/ online. This is a great self contained interactive intro tutorial.
 * "Ruby Bits":http://www.codeschool.com/courses/ruby-bits is brought to you by the same people that put together the Try Ruby tutorial.
-* "Ruby Bits Part 2"::http://www.codeschool.com/courses/ruby-bits-part-2
+* "Ruby Bits Part 2":http://www.codeschool.com/courses/ruby-bits-part-2
 * "Ruby Monk's":http://rubymonk.com/ Ruby Primer course is pretty good. The other courses are good as well, just check yourself for learning brain freeze.
 * "Codecademy":http://www.codecademy.com/ for Ruby. They offer other free training for HTML, CSS, javascript, etc. I'd recommend the web fundamentals if you don't really know much about HTML and CSS. HTML, CSS, javascript and their ilk will become more important the closer you get to creating web apps.
 
