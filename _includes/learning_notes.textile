@@ -1,5 +1,5 @@
 <div class="panel featured-panel learning-notes">
-  <div class="featured-header">
+  <div class="featured-header" id="learning-aside">
     <h3><small>Learning Notes</small></h3>
     <i class="fi-clipboard-notes"></i>
   </div>

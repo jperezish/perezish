@@ -148,7 +148,7 @@ My goal, of course, is to create an app. Not to create documents.
 
 <aside>
   <div class="panel featured-panel">
-    <div class="featured-header" id="article-aside">
+    <div class="featured-header" id="article-note">
       <h3><small>programming note</small></h3>
       <i class="fi-info"></i>
     </div>
