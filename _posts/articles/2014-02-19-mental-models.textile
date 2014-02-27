@@ -19,15 +19,27 @@ Last time we identified the key personas in the Bragging Points app. There are t
 
 h2. What I like about mental models
 
-This new app is going to have an initial set of features, I mean you have to start somewhere. My initial goal is to keep the users engaged in the feedback loop as we iterate through the initial versions of this application. Now I can simply have the users list out all of the features they'd like to have and then have them prioritize those features. This could actually work and the users will feel great about having a voice and being a part of the process. But what if they're not being honest with themselves? What if what they want isn't really what they need. Perhaps mental models will help put together a picture of what is needed. Without much pomp and circumstance you can get a nice visual idea of how much mental thought is being put behind each one of those identified tasks.
+This new app is going to have an initial set of features, I mean you have to start somewhere. My initial goal is to keep the users engaged in the feedback loop as we iterate through the initial versions of this application.
 
-Now that I have a good snapshot of some of the important areas of the app I can focus on features in this specific area, get these out first, and then get the feedback. Not only will the users feel like their involved, but they're also going to increase the chances of earning their trust.
+I can have the users list out all of the features they'd like to have and then have them prioritize those features. This could actually work and the users will feel great about having a voice and being a part of the process. But what if they're not being honest with themselves? What if what they want isn't really what they need. Perhaps mental models will help put together a picture of what is needed. Without much pomp and circumstance you can get a nice visual idea of how much mental thought is being put behind each one of those identified tasks.
 
 h2. The Pool Maanger's mental model
 
+After meeting with some potential Pool Managers I come up with the following model.
+
+
+
+The top parts of this model represent the and the bottom parts represent the . What we can clearly see is that Pool Managers spend a lot of time and mental energy managing this whole bit. Perhaps this is a good place to start.
+
+Now that I have a good snapshot of some of the important areas of the app I can focus on features in this specific area, get these out first, and then get the feedback. Not only will the users feel like their involved, but they're also going to increase the chances of earning their trust.
+
 h3. Thought process of a Pool Manager
 
+
+
 h3. Important features
+
+
 
 h2. What's next
 
