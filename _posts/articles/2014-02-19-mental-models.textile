@@ -37,9 +37,15 @@ h3. Thought process of a Pool Manager
 
 
 
-h3. Important features
+h3. Thinking about the app
 
+We may not be able to get rid of some of these steps, even the little ones just yet. We may be able to get rid of some of the steps and decrease the size of these skyscrapers.
 
+For instance, look at "Get the current schedule". This step involves going to another website to get schedules. We may do that even in the app. Why? Wellthat type of integration isn't something we want to be caught up in right away.
+
+We can see from this skyscraper view the areas where there's a lot of tasks that need to be done.
+
+Let's look at "get the player pick sheets back" compared to "add each players picks to the   master". It's obvious to see that getting the sheets back has more steps to it than does entering all the picks. But I'm sure if you looked at time spent... they're just different kinds of work. I'm sure entering all of the picks is a very boring and arduous task whereas hunting people down for their picks has its own challenges. I
 
 h2. What's next
 
