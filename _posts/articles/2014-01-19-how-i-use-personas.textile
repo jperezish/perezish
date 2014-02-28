@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How I use personas"
+title: "Using personas"
 description: "Personas are a great tool for identifying those unique groups of users."
 categories: 2014 01
 author: Jason Perez
@@ -14,17 +14,17 @@ lead-image-title: "Where do they get the fuel from?"
   Personas receive a bad rap for how people use them. Is the sword less effective when wielded by the penguin? Most certainly so. But is that the fault of the sword or the penguin (and who gave that sword to the penguin)?
 </p>
 
-Okay "last time":/2013/10/its-time-for-a-new-system/ I lied. I said I was going to look at mental models and how they tie into this whole discovery of the business domain. Well I decided not to speed ahead. I want to spend some time looking at personas. I think personas are great for identifying different segments of people that interact with an application. So I'm going to take it right to how I would use a persona on a practical, start now for free, level.
+Okay "last time":/2013/10/its-time-for-a-new-system/ I lied. I said I was going to look at mental models and how they tie into this whole discovery of the business domain. Well I decided not to speed ahead. Let's spend some time looking at personas. Personas are great for identifying different segments of people that interact with an application. Why don't we start by using personas on a practical, start now for free, level.
 
 If you want to get deeper into the what and the why (and also some more how) then I suggest taking a look at "this article":http://www.bunnyfoot.com/blog/2011/06/your-guide-to-personas-and-how-to-use-them/. If you want to be _super serious_ then you can check out this "super serious explanation of personas":http://www.usability.gov/how-to-and-tools/methods/personas.html.
 
 h2. Let's look at an example
 
-I'm going to create a "NFL":http://www.nfl.com/ survivor pool app - let's call it "Beat Your Friends!"... erm... or perhaps "Bragging Points"... it's a working title. This is where players select a football team of their choice each week.  Typically, players can’t pick the same team twice during their run in the pool. If they select a winning team then they stay in pool. If the team they selected loses, then they're out. So sorry, maybe next time! The winner gets a predetermined amount of "bragging points".
+Let's create a "NFL":http://www.nfl.com/ survivor pool app - we'll call it "Beat Your Friends!"... erm... or perhaps "Bragging Points"... it's a working title. This is where players select a football team of their choice each week.  Typically, players can’t pick the same team twice during their run in the pool. If they select a winning team then they stay in the pool. If the team they selected loses, then they're out. So sorry, maybe next time! The winner gets a predetermined amount of "bragging points".
 
 <!-- TODO: insert a survivor pool mockup diagram -->
 
-I start to think about the people that will use the app. Well I’ll use the app, and I can think of two types of people: a person to manage the pool and people to play in the pool (floaties not required).
+The first thing we can do is start to think about the people that will use the app. Well I’ll use the app, and I can think of two types of people: a person to manage the pool and people to play in the pool (floaties not required).
 
 The *Pool Manager* will set up the pool, invite people to play, etc.
 
@@ -62,7 +62,7 @@ What’s important to Westley:
   </figcaption>
 </figure>
 
-The *Pool Player* is any person participating in the pool. They have some bragging points on the line. I look at the role of Pool Player and, well, I have some idea of who this person is.
+The *Pool Player* is any person participating in the pool. They have some bragging points on the line. We look at the role of Pool Player and, well, we have some idea of who this person is.
 
 <figure class="row">
   <div class="small-10 small-centered columns index-card">
@@ -97,13 +97,13 @@ What’s important to Vizzini:
   </figcaption>
 </figure>
 
-Wow. What a surprise. Both of these personas do all of the same things that I would do. Maybe I should poke around and see what other people think.
+Wow. What a surprise. Both of these personas do all of the same things that we would do. Maybe we should poke around and see what other people think.
 
 h2. But wait, there's more!
 
-Considering I have a budget of *NOTHING* I move forward with additional research by talking to family, friends, and anyone else I can corner and explain the idea too. This exercise is of great benefit because, apparently, there are a good amount of people that don't check their phones every 10 minutes. In fact they don't really want much to do with computers. They do, however, drop major bragging points in offline suicide pools.
+Considering we're awesome boostrappers and have a budget of *NOTHING* we move forward with additional research by talking to family, friends, and anyone else we can corner and explain the idea too. This exercise is of great benefit because, apparently, there are a good amount of people that don't check their phones every 10 minutes. In fact they don't really want much to do with computers. They do, however, drop major bragging points in offline suicide pools.
 
-Look at that. There are two personas for the Pool Player role. The one that resembles me and this new one here:
+Look at that. There are two personas for the Pool Player role. The one that resembles us and this new one here:
 
 <figure class="row">
   <div class="small-10 small-centered columns index-card">
@@ -138,13 +138,13 @@ What’s important to Inigo:
 
 h2. Think not of self
 
-Good thing I went and talked to other people. I mean I really could've went down a path of applying my own mental model onto the thing I want to build. Seeing as how I'm a potential user of this app it's not necessarily a bad thing, but just like picking your nose in public, it's not a good habit to have. I now see that I simply can't think of replacing a software based spreadsheet with another digital alternative. Nope. I'll now need to think about how to help out Inigo as well.
+Good thing we went and talked to other people. I mean we really could've went down a path of applying our own mental model onto the thing we want to build. Seeing as how we're potential users of this app it's not necessarily a bad thing, but just like picking your nose in public, it's not a good habit to have. We now see that we simply can't think of replacing a software based spreadsheet with another digital alternative. Nope. We'll now need to think about how to help out Inigo as well.
 
-So I’ve learned a great lesson: don’t just think about yourself. It was so easy to do though… very tempting. But spending a little extra time and effort doing research and talking with other people to get a better idea of what other types of people could use my app seems to have paid off in a big way.
+So we’ve learned a great lesson: don’t just think about yourself. It was so easy to do though… very tempting. But spending a little extra time and effort doing research and talking with other people to get a better idea of what other types of people could use the app seems to have paid off in a big way.
 
-My general rule of thumb on this is to not get too serious about creating any domain discovery work products, and don’t over think it. I suppose this advice can be said about most analytical tasks but it’s good to always keep in mind. I don’t need to make creating personas my lifes work. I should be pragmatic in my activities and check my rationale for doing things.
+My general rule of thumb on this is to not get too serious about creating any domain discovery work products, and don’t over think it. I suppose this advice can be said about most analytical tasks, but it’s good to always keep in mind. We don’t need to make creating personas our life's work. We should be pragmatic in our activities and check the rationale for doing things.
 
-My goal, of course, is to create an app. Not to create documents.
+Our goal, of course, is to create an app. Not to create documents.
 
 <aside>
   <div class="panel featured-panel">
@@ -154,7 +154,7 @@ My goal, of course, is to create an app. Not to create documents.
     </div>
     <div class="featured-body">
 
-Last time I set up a scenario where I was going to step through the creation of a system. I like the idea, but I don't like the narrative, nor the academic polish (well it felt like that to me at least), nor the subject matter (what the hell was I thinking?). Just like my blog innards and content, my code, and a nudist colony in the arctic, all the little bits are just out in the open for everyone to see (revision history and all). Yes I'm going to step through the creation of an app, but I'm changing the narrative and keeping the writing a little more loose. It's more me. Let's create a fun app instead! Woot woot!
+Last time we set up a scenario where we were going to step through the creation of a system. It's a good idea, but I don't like the narrative, nor the academic polish (well it felt like that to me at least), nor the subject matter (what the hell was I thinking?). Just like my blog innards and content, my code, and a nudist colony in the arctic, all the little bits are just out in the open for everyone to see (revision history and all). Yes we're going to step through the creation of an app, but let's change the narrative and keep the writing a little more loose. We can create a fun app instead! Woot woot!
 
     </div>
   </div>
