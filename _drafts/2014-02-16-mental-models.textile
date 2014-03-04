@@ -4,7 +4,12 @@ published: false
 
 h1. Mental Models
 
-Mental models occupy tht odd space between what we explicitly convey to people and our thought process. They are the rationale behind the actions. They are the internal conflict behind the decision to take those actions. Yes, they're that fuzzy bit of 
+Mental models diagram that space between what we explicitly convey to people and our internal thought process. They are the rationale behind the actions. They are the internal conflict behind the decision to take those actions. Yes, they're that fuzzy bit of 
+
+http://rosenfeldmedia.com/books/mental-models/
+http://rosenfeldmedia.com/blogs/mental-models/isnt-a-mental-model-something/
+
+Because it's usually internal thoughts, we'll have to find a way to get at this information.
 
 Last time we identifed the key personas in the Bragging Points app. There are two main roles: Pool Manager and Pool Player. The Pool Manager has one persona: Westley. The Pool Player has two personas: Inigo and Vizzini.
 
