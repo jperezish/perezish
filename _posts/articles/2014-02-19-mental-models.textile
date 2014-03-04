@@ -1,19 +1,31 @@
 ---
 layout: post
-title: "Mental Models"
-description: "Mental models are totally mental"
+title: Mental Models
+description: Mental models are totally mental
 categories: 2014 02
 author: Jason Perez
 type: article
-lead-image: "/images/penguins-and-personas.png"
-lead-image-alt: "derpy derp"
-lead-image-title: "I love derps"
+"lead-image": "/images/penguins-and-personas.png"
+"lead-image-alt": derpy derp
+"lead-image-title": I love derps
 published: false
 ---
 
 <p class="lead-in">
-  Mental models occupy that odd space between what we explicitly convey to people and our thought process. They are the rationale behind the actions. They are the internal conflict behind the decision to take those actions. Yes, they're that fuzzy bit of
+What feature in our Bragging Points app should we implement first? I don't know. I know which one I think is cool. But I don't know if anyone will use it. That's where mental models can help us out. Mental models provide us with visual representations of the thought process of a person or a group of people. Each model represents the thought process of a specific segments of user. We've seen these segments already. They're our user stories.
 </p>
+
+If we were to observe the process of ordering food, we could break this down into easily observable steps: reading the menu, making a selection, placing the order. The mental model is concerned then with the thoughts we have as we work through these steps.
+
+# Try to find the lunch specials
+# Confused by the large selection
+# It's 3PM but I don't see a time limit on the lunch specials
+# Is it still lunch time
+# I'll ask that because if it's lunch time then...
+
+In this quick example we can see how a mental model can help inform design decisions. In the case of reading the menu, perhaps we can make the lunch menu a little easier to find at lunch time. Maybe we have a separate lunch menu that we only provide during our lunch hours.
+
+h2. Checking our progress
 
 Last time we identified the key personas in the Bragging Points app. There are two main roles: Pool Manager and Pool Player. The Pool Manager has one persona: Westley. The Pool Player has two personas: Inigo and Vizzini.
 
