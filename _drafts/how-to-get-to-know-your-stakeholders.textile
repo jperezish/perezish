@@ -1,0 +1,15 @@
+---
+published: false
+---
+
+<comic of someone hiding behind a bush and then jumping out in front of a couple on a walk: 
+panel 1 (couple takling, enjoying a peaceful walk, guy hiding behins a bush): "What a peaceful, tranquil evening. Did you have a nice time at your bikram yo..."
+panel 2(guy in front of the couple): "Hi there! It looks like you like walking, I'm building a social community app that helps walkers find the most walkable walks in their community called 'Walkie-Talkie' and I have a SUPER AWESOME QUESTION TO ASK YOU!!!">
+
+How do I know if I'm creating the right thing? I'm sure we've all heard the advice to talk to your customers. Yes. Do that. But how? What about when you're part of an enterprise and the application is for stakeholder's internal to that organzation. Let's take a look at an approach that incorporates techniques used in the product world. Let's see how those techniques can help upfront analysis activities in performed inside your organization.
+
+One of the hardest parts of jumping into anything new is the beginning. The first thing you want to do is get at your audience. Who are they and what do they want? A product developed for a market needs a different approach to get to their customers versus a product created for stakeholders internal to a business. Let's take a look at this.
+
+h2. 
+
+
