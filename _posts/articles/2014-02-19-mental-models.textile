@@ -12,10 +12,12 @@ published: false
 ---
 
 <p class="lead-in">
-What feature in our Bragging Points app should we implement first? I don't know. I know which one I think is cool. But I don't know if anyone will use it. That's where mental models can help us out. Mental models provide us with visual representations of the thought process of a person or a group of people. Each model represents the thought process of a specific segments of user. We've seen these segments already in the form of our initial user stories. Indi Young wrote an excellent book on Mental Models. In it, she categorizes mental models as a generative research technique that explores the mind space of someone doing something.
+What feature in our Bragging Points app should we implement first? I don't know. I know which one I think is cool. But I don't know if anyone will use it. That's where mental models can help us out. Mental models provide us with visual representations of the thought process of a person or a group of people. Each model represents the thought process of a specific segments of user. We've seen these segments already in the form of our initial user stories.
 </p>
 
-If we were to observe the process of ordering food, we could break this down into easily observable steps: reading the menu, making a selection, placing the order. The mental model is concerned then with the thoughts we have as we work through these steps.
+Indi Young wrote an excellent book on Mental Models. In it, she categorizes mental models as a generative research technique that explores the mind space of someone doing something.
+
+If we were to observe the process of ordering food, we could break this down into easily observable steps: reading the menu, making a selection, placing the order. The mental model is concerned then with the thoughts we have as how we work through these steps.
 
 * Attempt to find the lunch specials
 * Confused by the large selection
@@ -29,17 +31,30 @@ h2. Checking our progress
 
 Last time we identified the key personas in the Bragging Points app. There are two main roles: Pool Manager and Pool Player. The Pool Manager has one persona: Westley. The Pool Player has two personas: Inigo and Vizzini.
 
-h2. What I like about mental models
+h2. About mental models
 
 This new app is going to have an initial set of features, I mean you have to start somewhere. My initial goal is to keep the users engaged in the feedback loop as we iterate through the initial versions of this application.
 
 I can have the users list out all of the features they'd like to have and then have them prioritize those features. This could actually work and the users will feel great about having a voice and being a part of the process. But what if they're not being honest with themselves? What if what they want isn't really what they need. Perhaps mental models will help put together a picture of what is needed. Without much pomp and circumstance you can get a nice visual idea of how much mental thought is being put behind each one of those identified tasks.
 
-h2. The Pool Maanger's mental model
+h2. The Pool Manager's mental model
 
-After meeting with some potential Pool Managers I come up with the following model.
+We talk with some users and ask for their thoughts on After meeting with some potential Pool Managers we come up with the following aggregated:
+
+"Well the first thing I do is open up a new spreadsheet. I used to use an old completed bracket but it's more work to go in and delete all the stuff and plus all the matchups are different. So before I can do anything with the spreadsheet I look up the current schedule on my favorite sports website. I enter all of those details into the spreadsheet then I send the spreadsheet out. This part is kinda a pain in the ass because not everyone has email. some of the people I play with in the same pool are from work,, some are family, friends. The trouble I usually get is when a cousin of a coworker is playing and I need to keep track of that..."
+
+So this stream of thought feedback from the users is great, but it can be long. We don't need to rehash the whole thing here. But the important part of this is to get an idea of the raw format. We need to extract tasks out of this information. A task being anything that the user needs to accomplish, visible or not.
+
+* Get the current schedule
+** go to a preferred sports website
+* Create a new pick sheet
+* Send out the pick sheet to all potential players
+* Get the 
 
 
+Ideally we'd like to get some observational data. this can be done by spending a day with a few Pool Managers to see what they do. This is an opportunity to ask follow up questions upon observing them step through their tasks. The goal is to have them guide themself through their process. Have them verbalize what they're thinking about in the moment.
+
+But it's the off season. There aren't any active pools right now so we move forward with the information we have.
 
 The top parts of this model represent the and the bottom parts represent the . What we can clearly see is that Pool Managers spend a lot of time and mental energy managing this whole bit. Perhaps this is a good place to start.
 
