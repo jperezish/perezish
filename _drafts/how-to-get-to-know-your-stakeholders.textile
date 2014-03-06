@@ -11,5 +11,5 @@ How do I know if I'm creating the right thing? I'm sure we've all heard the advi
 One of the hardest parts of jumping into anything new is the beginning. The first thing you want to do is get at your audience. Who are they and what do they want? A product developed for a market needs a different approach to get to their customers versus a product created for stakeholders internal to a business. Let's take a look at this.
 
 h2. 
-
+* Let's define stakeholder as anyone with an interest in the actions you're undertaking.
 
