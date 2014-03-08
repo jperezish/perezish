@@ -1,0 +1,57 @@
+---
+layout: post
+title: Get to know your stakeholders
+description: What is the role of each stakeholder? What is their vested interest in your application?
+categories: 2014 03
+author: Jason Perez
+type: article
+"lead-image": "/images/penguins-and-personas.png"
+"lead-image-alt": derpy derp
+"lead-image-title": I love derps
+published: false
+---
+
+<comic of someone hiding behind a bush and then jumping out in front of a couple on a walk:
+panel 1 (couple talking, enjoying a peaceful walk, guy hiding behind a bush): "What a peaceful, tranquil evening. Did you have a nice time at your bikram yo..."
+panel 2(guy in front of the couple): "Hi there! It looks like you like walking, I'm building a social community app that helps walkers find the most walkable walks in their community called 'Walkie-Talkie' and I have a SUPER AWESOME QUESTION TO ASK YOU!!!">
+
+<p class="lead-in">
+How do you know if you're creating the right thing? Yes, we've heard the advice to talk to your customers. It's great advice. But how do you do that? What about when you're part of an organization and the application is for stakeholder's internal to that organization. Are there things you'd do differently? Perhaps. Let's look at one thing that good product people do and apply that to applications internal to an organization.
+</p>
+
+h2. Differences in internal and external applications
+
+One of the hardest parts of jumping into anything new is the beginning. The first thing you want to do is get at your audience. Who are they and what do they want? A product developed for a market needs a different approach to get to their customers versus a product created for stakeholders internal to a business. Take a look at this:
+
+<drawing about internal app>
+
+As you can see from this simplistic diagram all of the people you need to get to are in your organization! Nice! What's that you say? You have 2000 people in your company in three different locations across your country?
+
+Hmmm... well hold that thought as we look at the case of someone creating an application for an external market:
+
+<drawing about external app>
+
+The truth is, even thought the starting points are different, both situations require research into who is going to use the applications. One factor, of course, is the size of your market/organization.
+
+<insert graph showing probability of y-axis: just using a spreadsheet vs an app, x-axis: number of people in the org>
+
+The smaller it is, the less likely the need for any sort of application to begin with.
+
+Form over function. You can say that this is a differentiating factor in internal vs external applications. We can't make this statement
+But it doesn't change the needs. Both have to solve a real need in order to be successful.
+
+Let's define a stakeholder as anyone with an interest in the actions you're undertaking.
+
+h2. Don't get caught up in the stakeholder analysis trap
+
+You didn't know there is a trap? Well there is. A stakeholder analysis something you'll see in other disciplines. It encompasses the activities of discovering who the people are that have an interest in your project and also aims to define what type of involvement they'll have. In regards to creating a new application within your organization, let's make a clear distinction. Let's separate the people. Influence, like you'd see on a stakeholder matrix, will take a back seat to one key distinction: separate the stakeholder that will directly use the app from the ones that will indirectly benefit from the app.
+
+This is important because the time will come when we need to do some additional digging into the direct users of the app.
+
+Helping to break them up in such a way also lets you not get distracted by the HiPPO.
+
+Get to know your stakeholders more like a potential market for a product, not like a high level decision maker.
+
+At the end of the day if you focus your efforts on the
+
+The problem is people hear stakeholder analysis and there's a tendency to focus on the HiPPO (Highest paid person's opinion ). The problem is the HiPPO the odds are that person won't interact with your system in a way that will really make a difference.
