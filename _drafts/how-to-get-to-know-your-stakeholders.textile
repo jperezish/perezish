@@ -4,12 +4,26 @@ published: false
 
 <comic of someone hiding behind a bush and then jumping out in front of a couple on a walk: 
 panel 1 (couple takling, enjoying a peaceful walk, guy hiding behins a bush): "What a peaceful, tranquil evening. Did you have a nice time at your bikram yo..."
-panel 2(guy in front of the couple): "Hi there! It looks like you like walking, I'm building a social community app that helps walkers find the most walkable walks in their community called 'Walkie-Talkie' and I have a SUPER AWESOME QUESTION TO ASK YOU!!!">
+panel 2(guy in front of the couple): "Hi there! I bet you like walking. Well I'm building a social community app that helps walkers find the most walkable walks in their community called 'Walkie-Talkie' and I have a SUPER AWESOME QUESTION TO ASK YOU!!!">
 
-How do I know if I'm creating the right thing? I'm sure we've all heard the advice to talk to your customers. Yes. Do that. But how? What about when you're part of an enterprise and the application is for stakeholder's internal to that organzation. Let's take a look at an approach that incorporates techniques used in the product world. Let's see how those techniques can help upfront analysis activities in performed inside your organization.
+How do you know if you're creating the right thing? I'm sure we've all heard the advice to talk to your customers. Yes. Do that. But how? What about when you're part of an enterprise and the application is for stakeholder's internal to that organization. What questions do you ask? What's the end goal for this line of questioning? Let's take a look at an approach that incorporates techniques used in the product world. Let's see how those techniques can help upfront analysis activities performed inside your organization.
 
 One of the hardest parts of jumping into anything new is the beginning. The first thing you want to do is get at your audience. Who are they and what do they want? A product developed for a market needs a different approach to get to their customers versus a product created for stakeholders internal to a business. Let's take a look at this.
 
-h2. 
-* Let's define stakeholder as anyone with an interest in the actions you're undertaking.
+h2. Know your market - Get to know the business domain
 
+Let's define stakeholder as anyone with an interest in the actions you're undertaking.
+
+So the what's a business domain?
+
+So how do you do this?
+
+h3. What is the purpose?
+
+h3. Who are the people?
+
+h3. What is their interest?
+
+These are all the standard things that you'd see in any initial discovery component. A good interviewer does some research on her guest before the interview. If the guest is an author perhaps she reads their latest book. If the guest is a movie star, then there will be recent movies, biographies, gossip and rumors, etc. The point is as a good interviewer, she'll want to provide her audience with a compelling interview. This benefits all stakeholders in their own way. The movie star gets exposure for his latest movie, the interviewer retains or grows her audience, the listener is entertained.
+
+In this example we see how the
