@@ -1,0 +1,32 @@
+---
+published: false
+---
+
+<comic of someone hiding behind a bush and then jumping out in front of a couple on a walk: 
+panel 1 (couple takling, enjoying a peaceful walk, guy hiding behins a bush): "What a peaceful, tranquil evening. Did you have a nice time at your bikram yo..."
+panel 2(guy in front of the couple): "Hi there! It looks like you like walking, I'm building a social community app that helps walkers find the most walkable walks in their community called 'Walkie-Talkie' and I have a SUPER AWESOME QUESTION TO ASK YOU!!!">
+
+How do I know if I'm creating the right thing? Yes, we've heard the advice to talk to your customers. It's great advice. But how? What about when you're part of an enterprise and the application is for stakeholder's internal to that organzation. 
+
+Are there differences between the two types of audiences?
+
+Let's take a look at an approach that incorporates techniques used in the product world. Let's see how those techniques can help upfront analysis activities in performed inside your organization.
+
+One of the hardest parts of jumping into anything new is the beginning. The first thing you want to do is get at your audience. Who are they and what do they want? A product developed for a market needs a different approach to get to their customers versus a product created for stakeholders internal to a business. Let's take a look at this.
+
+h2. 
+Let's define a stakeholder as anyone with an interest in the actions you're undertaking.
+
+h2. Don't get caught up in the stakeholder analysis trap
+
+You didn't know there is a trap? Well there is. A stakeholder analsysis something you'll see in other disiplines. It encompases the activities of discovering who the people are that have an interest in your project and also aims to define what type of involvement they'll have. In regards to creating a new application within your organization, let's make a clear distinction. Let's separate the people. Influence, like you'd see on a stakeholder matrix, will take a back seat to one key distinction: separate the stakeholder that will directly use the app from the ones that will indirectly benefit from the app.
+
+This is importnat because the time will come when we need to do some additional digging into the direct users of the app.
+
+Helping to break them up in such a way also lets you not get distracted by the HiPPO.
+
+Get to know your stakeholders more like a potential market for a product, not like a high level decision maker.
+
+At the end of the day if you focus your efforts on the 
+
+The problem is people hear stakeholder analysis and there's a tendency to focus on the HiPPO (Highest paid person's opinion ). The problem is the HiPPO the odds are that person won't interact with your system in a way that will really make a difference.
