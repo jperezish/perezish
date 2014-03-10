@@ -12,8 +12,10 @@ published: true
 ---
 
 <p class="lead-in">
-  How do you know if you're creating the right thing? Yes, we've heard the advice to talk to your customers. It's great advice. But how do you do that? What about when you're part of an organization and the application is for stakeholder's internal to that organization. Are there things you'd do differently? Perhaps. Let's look at one thing that good product people do and apply that to applications internal to an organization.
+  How do you know if you're creating the right application? Yes, we've heard the advice to talk to your customers. It's great advice. But how do you do that? What about when you're creating applications for stakeholders internal to an organization. Would you take a different approach? 
 </p>
+
+Let's look at one thing that good product people do and apply that to applications internal to an organization. Is the best approach to just jump in and start asking questions? Well, that might work. But there are a lot of things that _might_ work. Let's take a look at some activities that are the same whether you're working on an internal business application or a product for a customer.
 
 <!-- comic of someone hiding behind a bush and then jumping out in front of a couple on a walk:
 panel 1 (couple talking, enjoying a peaceful walk, guy hiding behind a bush): "What a peaceful, tranquil evening. Did you have a nice time at your bikram yo..."
@@ -21,7 +23,13 @@ panel 2(guy in front of the couple): "Hi there! It looks like you like walking, 
 
 h2. Differences in internal and external applications
 
-One of the hardest parts of jumping into anything new is the beginning. The first thing you want to do is get at your audience. Who are they and what do they want? A product developed for a market needs a different approach to get to their customers versus a product created for stakeholders internal to a business. Take a look at this:
+We started out last time getting to know our potential customers by breaking them into segments. We did this initially by roles in they play in our survivor pool. This wasn't done randomly. We interviewed some people and gathered data. We let that data guide us.
+
+Maybe you don't create products for customers. Maybe you're a Business Analyst and you work on systems that are supporting internal business functions in your organzation. You may wonder how that product stuff applies to you.
+
+Let's explore this.
+
+The first thing you want to do is get at your audience. Who are they and what do they want? A product developed for a market needs a different approach to get to their customers versus a product created for stakeholders internal to a business. Take a look at this:
 
 <div class="small-12 small-centered columns">
   <img src="/images/people_you_work_with.png" class="align-center" alt="A picture of a diagram showing that all of the stakeholders are internal to this particluar organization." title="This should be easy, right?" />
@@ -58,16 +66,3 @@ The primary goal we should be focused on here is helping people solve problems. 
 
 classify and identify the different types of people.
 
-h2. The people analysis trap
-
-Did you know there is a trap? A stakeholder analysis something you'll see in other disciplines. It encompasses the activities of discovering who the people are that have an interest in your project and also aims to define what type of involvement they'll have. In regards to creating a new application within your organization, let's make a clear distinction. Let's separate the people. Influence, like you'd see on a stakeholder matrix, will take a back seat to one key distinction: separate the stakeholder that will directly use the app from the ones that will indirectly benefit from the app.
-
-This is important because the time will come when we need to do some additional digging into the direct users of the app.
-
-Helping to break them up in such a way also lets you not get distracted by the HiPPO.
-
-Get to know your stakeholders more like a potential market for a product, not like a high level decision maker.
-
-At the end of the day if you focus your efforts on the
-
-The problem is people hear stakeholder analysis and there's a tendency to focus on the HiPPO (Highest paid person's opinion ). The problem is the HiPPO the odds are that person won't interact with your system in a way that will really make a difference.
