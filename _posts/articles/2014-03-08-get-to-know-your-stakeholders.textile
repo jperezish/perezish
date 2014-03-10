@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Get to know your stakeholders
-description: What is the role of each stakeholder? What is their vested interest in your application?
+description: "What is the role of each stakeholder? What is their vested interest in your application?"
 categories: 2014 03
 author: Jason Perez
 type: article
@@ -52,11 +52,13 @@ But it doesn't change the needs. Both have to solve a real need in order to be s
 
 Let's define a stakeholder as anyone with an interest in the actions you're undertaking.
 
-h2. Stakeholders is people!
+h2. Stakeholders is people! Market is people!
+
+The primary goal we should be focused on here is helping people solve problems. Let's not focus on whether we're calling those people stakeholders or a market segment. Let's also not focus on whether we're providing these people with a system or product. Let's then focus on the people, their problem, and a solution for their problem.
 
 classify and identify the different types of people.
 
-h2. The stakeholder analysis trap
+h2. The people analysis trap
 
 Did you know there is a trap? A stakeholder analysis something you'll see in other disciplines. It encompasses the activities of discovering who the people are that have an interest in your project and also aims to define what type of involvement they'll have. In regards to creating a new application within your organization, let's make a clear distinction. Let's separate the people. Influence, like you'd see on a stakeholder matrix, will take a back seat to one key distinction: separate the stakeholder that will directly use the app from the ones that will indirectly benefit from the app.
 
@@ -69,5 +71,3 @@ Get to know your stakeholders more like a potential market for a product, not li
 At the end of the day if you focus your efforts on the
 
 The problem is people hear stakeholder analysis and there's a tendency to focus on the HiPPO (Highest paid person's opinion ). The problem is the HiPPO the odds are that person won't interact with your system in a way that will really make a difference.
-
-
