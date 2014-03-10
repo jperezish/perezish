@@ -69,6 +69,16 @@ footer {
 }
 
 //
+// Helper Classes
+//
+
+.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+//
 // Site Header
 //
 
@@ -99,6 +109,7 @@ footer {
   background: #86C7D6 url('/images/img-noise-361x370.png');
   height: 150px;
   box-shadow: 0px 1px 5px 0px rgba(75, 59, 36, 0.75);
+  &.small-header {height: 30px;}
   #logo {
     i {
       text-align: center;
@@ -275,9 +286,9 @@ time.icon
     top: 0;
     padding: 0.3em 0;
     color: #4A4A44;
-    background-color: #ECD0A1;
-    border-bottom: 1px solid #B09573;
-    box-shadow: 0 2px 0 #D0B78F;
+    background-color: #86c7d6;
+    border-bottom: 1px solid #2C798B;
+    box-shadow: 0 2px 0 #7498A1;
   }
   em {
     position: absolute;

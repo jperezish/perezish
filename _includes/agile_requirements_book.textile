@@ -1,0 +1,5 @@
+<div>
+    <img src="/images/agile_requirements_book.png" class="align-center">
+    <p>Are your requirements agile?</p>
+    <a href="/agile-requirements">Tell me if you can relate to this</a>
+</div>
