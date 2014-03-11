@@ -429,28 +429,70 @@ aside {
 }
 
 /* line 410, ../_compass/style.scss */
+#book-aside {
+  border: none;
+  background: none;
+}
+/* line 413, ../_compass/style.scss */
+#book-aside .featured-header {
+  border-bottom: none;
+  box-shadow: inset 0 0 10px #416B49;
+  padding-bottom: 0;
+  background-color: #3EA2BB;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* line 421, ../_compass/style.scss */
+#book-aside .featured-body {
+  padding-top: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+/* line 426, ../_compass/style.scss */
+#book-aside .featured-body a {
+  display: block;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #F3E47D;
+}
+/* line 431, ../_compass/style.scss */
+#book-aside .featured-body a:hover {
+  background-color: #F3E89D;
+}
+/* line 432, ../_compass/style.scss */
+#book-aside .featured-body a span {
+  text-shadow: 0px 2px 2px #fefefe;
+  color: #CB4D2C;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1em;
+  letter-spacing: .05em;
+}
+
+/* line 444, ../_compass/style.scss */
 #learning-aside {
   background: #739671 url("/images/img-noise-361x370.png");
 }
 
-/* line 412, ../_compass/style.scss */
+/* line 446, ../_compass/style.scss */
 #article-aside {
   background: #739671 url("/images/img-noise-361x370.png");
 }
 
-/* line 414, ../_compass/style.scss */
+/* line 448, ../_compass/style.scss */
 #article-note {
   background: #739671 url("/images/img-noise-361x370.png");
 }
 
-/* line 416, ../_compass/style.scss */
+/* line 450, ../_compass/style.scss */
 .featured-body {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 422, ../_compass/style.scss */
+/* line 456, ../_compass/style.scss */
 .featured-panel {
   padding-top: 0;
   padding-left: 0;
@@ -458,26 +500,33 @@ aside {
   border-radius: .5em;
 }
 
-/* line 431, ../_compass/style.scss */
-#mc_embed_signup {
-  clear: left;
-  font: 14px Helvetica, Arial, sans-serif;
+/* line 469, ../_compass/style.scss */
+.book-landing-page h1 {
+  font-weight: bold;
 }
-/* line 434, ../_compass/style.scss */
-#mc_embed_signup .button {
-  background-color: #67983B;
-  font-size: 20px;
+/* line 470, ../_compass/style.scss */
+.book-landing-page h2 {
+  font-size: 1.7em;
 }
-/* line 437, ../_compass/style.scss */
-#mc_embed_signup .button:hover {
-  background-color: #95BFAC;
+/* line 472, ../_compass/style.scss */
+.book-landing-page .important-question strong {
+  font-size: 1.6em;
 }
-/* line 441, ../_compass/style.scss */
-#mc_embed_signup .clear {
-  margin-left: 19.5%;
+/* line 476, ../_compass/style.scss */
+.book-landing-page .main-copy {
+  margin-top: 30px;
+}
+/* line 479, ../_compass/style.scss */
+.book-landing-page li {
+  list-style: none;
+}
+/* line 481, ../_compass/style.scss */
+.book-landing-page li:before {
+  content: "* ";
+  color: red;
 }
 
-/* line 450, ../_compass/style.scss */
+/* line 488, ../_compass/style.scss */
 #resource-lead {
   height: 250px;
   background-color: #95BFAC;
@@ -488,7 +537,7 @@ aside {
   border-radius: 1em;
   padding-top: 11.5em;
 }
-/* line 459, ../_compass/style.scss */
+/* line 497, ../_compass/style.scss */
 #resource-lead p {
   color: #4A4A44;
   font-size: 5em;
@@ -497,7 +546,7 @@ aside {
   font-family: "pragmatica-web-condensed", sans-serif;
 }
 
-/* line 468, ../_compass/style.scss */
+/* line 506, ../_compass/style.scss */
 .index-card {
   background: #f8f6df url("/images/handmadepaper.png");
   border: .2em solid #4A4A44;
@@ -506,61 +555,61 @@ aside {
   padding-right: 2em;
   box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.5);
 }
-/* line 475, ../_compass/style.scss */
+/* line 513, ../_compass/style.scss */
 .index-card li {
   font-family: "chaparral-pro", Georgia, "Times New Roman", Times, serif;
   margin-left: 2em;
   font-size: 1.2em;
 }
-/* line 480, ../_compass/style.scss */
+/* line 518, ../_compass/style.scss */
 .index-card img {
   border: .15em solid #4A4A44;
   background-color: rgba(255, 255, 255, 0.5);
   margin-top: 1em;
   border-radius: 5px;
 }
-/* line 486, ../_compass/style.scss */
+/* line 524, ../_compass/style.scss */
 .index-card span {
   color: #ED4652;
   font-weight: bold;
 }
-/* line 490, ../_compass/style.scss */
+/* line 528, ../_compass/style.scss */
 .index-card p {
   border-bottom: 3px solid #61B8ED;
 }
-/* line 492, ../_compass/style.scss */
+/* line 530, ../_compass/style.scss */
 .index-card p:first-child {
   border-bottom: 5px solid #ED4F6F;
   font-size: 1.2em;
   line-height: 3em;
 }
-/* line 496, ../_compass/style.scss */
+/* line 534, ../_compass/style.scss */
 .index-card p:first-child span:first-child {
   padding-right: 1em;
 }
 
-/* line 504, ../_compass/style.scss */
+/* line 542, ../_compass/style.scss */
 figure figcaption {
   font-size: 1.1em;
 }
 
-/* line 510, ../_compass/style.scss */
+/* line 548, ../_compass/style.scss */
 .notes h1, .notes h2, .notes h3, .notes h4, .notes h5 {
   text-align: left;
 }
 
-/* line 518, ../_compass/style.scss */
+/* line 556, ../_compass/style.scss */
 .social-media i {
   font-size: 2em;
 }
 
-/* line 527, ../_compass/style.scss */
+/* line 565, ../_compass/style.scss */
 article p code {
   font-size: .9em;
   color: #4A4A44;
 }
 
-/* line 531, ../_compass/style.scss */
+/* line 569, ../_compass/style.scss */
 .highlight {
   background: #4A4A44;
   color: #ffffff;
@@ -570,90 +619,90 @@ article p code {
   box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.8);
 }
 
-/* line 538, ../_compass/style.scss */
+/* line 576, ../_compass/style.scss */
 .highlight .hll {
   background-color: #ffffcc;
 }
 
-/* line 539, ../_compass/style.scss */
+/* line 577, ../_compass/style.scss */
 .highlight .c {
   color: #87ceeb;
 }
 
 /* Comment */
-/* line 540, ../_compass/style.scss */
+/* line 578, ../_compass/style.scss */
 .highlight .err {
   color: #ffffff;
 }
 
 /* Error */
-/* line 541, ../_compass/style.scss */
+/* line 579, ../_compass/style.scss */
 .highlight .g {
   color: #ffffff;
 }
 
 /* Generic */
-/* line 542, ../_compass/style.scss */
+/* line 580, ../_compass/style.scss */
 .highlight .k {
   color: #f0e68c;
 }
 
 /* Keyword */
-/* line 543, ../_compass/style.scss */
+/* line 581, ../_compass/style.scss */
 .highlight .l {
   color: #ffffff;
 }
 
 /* Literal */
-/* line 544, ../_compass/style.scss */
+/* line 582, ../_compass/style.scss */
 .highlight .n {
   color: #ffffff;
 }
 
 /* Name */
-/* line 545, ../_compass/style.scss */
+/* line 583, ../_compass/style.scss */
 .highlight .o {
   color: #ffffff;
 }
 
 /* Operator */
-/* line 546, ../_compass/style.scss */
+/* line 584, ../_compass/style.scss */
 .highlight .x {
   color: #ffffff;
 }
 
 /* Other */
-/* line 547, ../_compass/style.scss */
+/* line 585, ../_compass/style.scss */
 .highlight .p {
   color: #ffffff;
 }
 
 /* Punctuation */
-/* line 548, ../_compass/style.scss */
+/* line 586, ../_compass/style.scss */
 .highlight .cm {
   color: #87ceeb;
 }
 
 /* Comment.Multiline */
-/* line 549, ../_compass/style.scss */
+/* line 587, ../_compass/style.scss */
 .highlight .cp {
   color: #cd5c5c;
 }
 
 /* Comment.Preproc */
-/* line 550, ../_compass/style.scss */
+/* line 588, ../_compass/style.scss */
 .highlight .c1 {
   color: #87ceeb;
 }
 
 /* Comment.Single */
-/* line 551, ../_compass/style.scss */
+/* line 589, ../_compass/style.scss */
 .highlight .cs {
   color: #87ceeb;
 }
 
 /* Comment.Special */
-/* line 552, ../_compass/style.scss */
+/* line 590, ../_compass/style.scss */
 .highlight .gd {
   color: #0000c0;
   font-weight: bold;
@@ -661,14 +710,14 @@ article p code {
 }
 
 /* Generic.Deleted */
-/* line 553, ../_compass/style.scss */
+/* line 591, ../_compass/style.scss */
 .highlight .ge {
   color: #c000c0;
   text-decoration: underline;
 }
 
 /* Generic.Emph */
-/* line 554, ../_compass/style.scss */
+/* line 592, ../_compass/style.scss */
 .highlight .gr {
   color: #c0c0c0;
   font-weight: bold;
@@ -676,20 +725,20 @@ article p code {
 }
 
 /* Generic.Error */
-/* line 555, ../_compass/style.scss */
+/* line 593, ../_compass/style.scss */
 .highlight .gh {
   color: #cd5c5c;
 }
 
 /* Generic.Heading */
-/* line 556, ../_compass/style.scss */
+/* line 594, ../_compass/style.scss */
 .highlight .gi {
   color: #ffffff;
   background-color: #0000c0;
 }
 
 /* Generic.Inserted */
-/* line 557, ../_compass/style.scss */
+/* line 595, ../_compass/style.scss */
 .highlight span.go {
   color: #add8e6;
   font-weight: bold;
@@ -697,25 +746,25 @@ article p code {
 }
 
 /* Generic.Output, qualified with span to prevent applying this style to the Go language, see #1153. */
-/* line 558, ../_compass/style.scss */
+/* line 596, ../_compass/style.scss */
 .highlight .gp {
   color: #ffffff;
 }
 
 /* Generic.Prompt */
-/* line 559, ../_compass/style.scss */
+/* line 597, ../_compass/style.scss */
 .highlight .gs {
   color: #ffffff;
 }
 
 /* Generic.Strong */
-/* line 560, ../_compass/style.scss */
+/* line 598, ../_compass/style.scss */
 .highlight .gu {
   color: #cd5c5c;
 }
 
 /* Generic.Subheading */
-/* line 561, ../_compass/style.scss */
+/* line 599, ../_compass/style.scss */
 .highlight .gt {
   color: #c0c0c0;
   font-weight: bold;
@@ -723,359 +772,359 @@ article p code {
 }
 
 /* Generic.Traceback */
-/* line 562, ../_compass/style.scss */
+/* line 600, ../_compass/style.scss */
 .highlight .kc {
   color: #f0e68c;
 }
 
 /* Keyword.Constant */
-/* line 563, ../_compass/style.scss */
+/* line 601, ../_compass/style.scss */
 .highlight .kd {
   color: #f0e68c;
 }
 
 /* Keyword.Declaration */
-/* line 564, ../_compass/style.scss */
+/* line 602, ../_compass/style.scss */
 .highlight .kn {
   color: #f0e68c;
 }
 
 /* Keyword.Namespace */
-/* line 565, ../_compass/style.scss */
+/* line 603, ../_compass/style.scss */
 .highlight .kp {
   color: #f0e68c;
 }
 
 /* Keyword.Pseudo */
-/* line 566, ../_compass/style.scss */
+/* line 604, ../_compass/style.scss */
 .highlight .kr {
   color: #f0e68c;
 }
 
 /* Keyword.Reserved */
-/* line 567, ../_compass/style.scss */
+/* line 605, ../_compass/style.scss */
 .highlight .kt {
   color: #bdb76b;
 }
 
 /* Keyword.Type */
-/* line 568, ../_compass/style.scss */
+/* line 606, ../_compass/style.scss */
 .highlight .ld {
   color: #ffffff;
 }
 
 /* Literal.Date */
-/* line 569, ../_compass/style.scss */
+/* line 607, ../_compass/style.scss */
 .highlight .m {
   color: #ffffff;
 }
 
 /* Literal.Number */
-/* line 570, ../_compass/style.scss */
+/* line 608, ../_compass/style.scss */
 .highlight .s {
   color: #ffffff;
 }
 
 /* Literal.String */
-/* line 571, ../_compass/style.scss */
+/* line 609, ../_compass/style.scss */
 .highlight .na {
   color: #ffffff;
 }
 
 /* Name.Attribute */
-/* line 572, ../_compass/style.scss */
+/* line 610, ../_compass/style.scss */
 .highlight .nb {
   color: #ffffff;
 }
 
 /* Name.Builtin */
-/* line 573, ../_compass/style.scss */
+/* line 611, ../_compass/style.scss */
 .highlight .nc {
   color: #ffffff;
 }
 
 /* Name.Class */
-/* line 574, ../_compass/style.scss */
+/* line 612, ../_compass/style.scss */
 .highlight .no {
   color: #ffa0a0;
 }
 
 /* Name.Constant */
-/* line 575, ../_compass/style.scss */
+/* line 613, ../_compass/style.scss */
 .highlight .nd {
   color: #ffffff;
 }
 
 /* Name.Decorator */
-/* line 576, ../_compass/style.scss */
+/* line 614, ../_compass/style.scss */
 .highlight .ni {
   color: #ffdead;
 }
 
 /* Name.Entity */
-/* line 577, ../_compass/style.scss */
+/* line 615, ../_compass/style.scss */
 .highlight .ne {
   color: #ffffff;
 }
 
 /* Name.Exception */
-/* line 578, ../_compass/style.scss */
+/* line 616, ../_compass/style.scss */
 .highlight .nf {
   color: #ffffff;
 }
 
 /* Name.Function */
-/* line 579, ../_compass/style.scss */
+/* line 617, ../_compass/style.scss */
 .highlight .nl {
   color: #ffffff;
 }
 
 /* Name.Label */
-/* line 580, ../_compass/style.scss */
+/* line 618, ../_compass/style.scss */
 .highlight .nn {
   color: #ffffff;
 }
 
 /* Name.Namespace */
-/* line 581, ../_compass/style.scss */
+/* line 619, ../_compass/style.scss */
 .highlight .nx {
   color: #ffffff;
 }
 
 /* Name.Other */
-/* line 582, ../_compass/style.scss */
+/* line 620, ../_compass/style.scss */
 .highlight .py {
   color: #ffffff;
 }
 
 /* Name.Property */
-/* line 583, ../_compass/style.scss */
+/* line 621, ../_compass/style.scss */
 .highlight .nt {
   color: #f0e68c;
 }
 
 /* Name.Tag */
-/* line 584, ../_compass/style.scss */
+/* line 622, ../_compass/style.scss */
 .highlight .nv {
   color: #98fb98;
 }
 
 /* Name.Variable */
-/* line 585, ../_compass/style.scss */
+/* line 623, ../_compass/style.scss */
 .highlight .ow {
   color: #ffffff;
 }
 
 /* Operator.Word */
-/* line 586, ../_compass/style.scss */
+/* line 624, ../_compass/style.scss */
 .highlight .w {
   color: #ffffff;
 }
 
 /* Text.Whitespace */
-/* line 587, ../_compass/style.scss */
+/* line 625, ../_compass/style.scss */
 .highlight .mf {
   color: #ffffff;
 }
 
 /* Literal.Number.Float */
-/* line 588, ../_compass/style.scss */
+/* line 626, ../_compass/style.scss */
 .highlight .mh {
   color: #ffffff;
 }
 
 /* Literal.Number.Hex */
-/* line 589, ../_compass/style.scss */
+/* line 627, ../_compass/style.scss */
 .highlight .mi {
   color: #ffffff;
 }
 
 /* Literal.Number.Integer */
-/* line 590, ../_compass/style.scss */
+/* line 628, ../_compass/style.scss */
 .highlight .mo {
   color: #ffffff;
 }
 
 /* Literal.Number.Oct */
-/* line 591, ../_compass/style.scss */
+/* line 629, ../_compass/style.scss */
 .highlight .sb {
   color: #ffffff;
 }
 
 /* Literal.String.Backtick */
-/* line 592, ../_compass/style.scss */
+/* line 630, ../_compass/style.scss */
 .highlight .sc {
   color: #ffffff;
 }
 
 /* Literal.String.Char */
-/* line 593, ../_compass/style.scss */
+/* line 631, ../_compass/style.scss */
 .highlight .sd {
   color: #ffffff;
 }
 
 /* Literal.String.Doc */
-/* line 594, ../_compass/style.scss */
+/* line 632, ../_compass/style.scss */
 .highlight .s2 {
   color: #ffffff;
 }
 
 /* Literal.String.Double */
-/* line 595, ../_compass/style.scss */
+/* line 633, ../_compass/style.scss */
 .highlight .se {
   color: #ffffff;
 }
 
 /* Literal.String.Escape */
-/* line 596, ../_compass/style.scss */
+/* line 634, ../_compass/style.scss */
 .highlight .sh {
   color: #ffffff;
 }
 
 /* Literal.String.Heredoc */
-/* line 597, ../_compass/style.scss */
+/* line 635, ../_compass/style.scss */
 .highlight .si {
   color: #ffffff;
 }
 
 /* Literal.String.Interpol */
-/* line 598, ../_compass/style.scss */
+/* line 636, ../_compass/style.scss */
 .highlight .sx {
   color: #ffffff;
 }
 
 /* Literal.String.Other */
-/* line 599, ../_compass/style.scss */
+/* line 637, ../_compass/style.scss */
 .highlight .sr {
   color: #ffffff;
 }
 
 /* Literal.String.Regex */
-/* line 600, ../_compass/style.scss */
+/* line 638, ../_compass/style.scss */
 .highlight .s1 {
   color: #ffffff;
 }
 
 /* Literal.String.Single */
-/* line 601, ../_compass/style.scss */
+/* line 639, ../_compass/style.scss */
 .highlight .ss {
   color: #ffffff;
 }
 
 /* Literal.String.Symbol */
-/* line 602, ../_compass/style.scss */
+/* line 640, ../_compass/style.scss */
 .highlight .bp {
   color: #ffffff;
 }
 
 /* Name.Builtin.Pseudo */
-/* line 603, ../_compass/style.scss */
+/* line 641, ../_compass/style.scss */
 .highlight .vc {
   color: #98fb98;
 }
 
 /* Name.Variable.Class */
-/* line 604, ../_compass/style.scss */
+/* line 642, ../_compass/style.scss */
 .highlight .vg {
   color: #98fb98;
 }
 
 /* Name.Variable.Global */
-/* line 605, ../_compass/style.scss */
+/* line 643, ../_compass/style.scss */
 .highlight .vi {
   color: #98fb98;
 }
 
 /* Name.Variable.Instance */
-/* line 606, ../_compass/style.scss */
+/* line 644, ../_compass/style.scss */
 .highlight .il {
   color: #ffffff;
 }
 
 /* Literal.Number.Integer.Long */
 @media only screen and (max-width: 40em) {
-  /* line 614, ../_compass/style.scss */
+  /* line 652, ../_compass/style.scss */
   .nav-main-button {
     font-size: 1.5em;
     margin-left: 0;
     margin-right: 0;
   }
 
-  /* line 620, ../_compass/style.scss */
+  /* line 658, ../_compass/style.scss */
   #site-header nav ul {
     margin-left: 12px;
   }
-  /* line 623, ../_compass/style.scss */
+  /* line 661, ../_compass/style.scss */
   #site-header nav li:last-child {
     margin-left: 20px;
   }
 
-  /* line 628, ../_compass/style.scss */
+  /* line 666, ../_compass/style.scss */
   #site-header {
     height: 115px;
   }
 
-  /* line 631, ../_compass/style.scss */
+  /* line 669, ../_compass/style.scss */
   footer p {
     font-size: 1em;
   }
-  /* line 634, ../_compass/style.scss */
+  /* line 672, ../_compass/style.scss */
   footer a {
     font-size: 1em;
   }
-  /* line 637, ../_compass/style.scss */
+  /* line 675, ../_compass/style.scss */
   footer nav {
     margin-right: 4.69em;
     margin-top: -25px;
   }
 
-  /* line 644, ../_compass/style.scss */
+  /* line 682, ../_compass/style.scss */
   #resource-lead p {
     font-size: 1em;
     margin-top: 2.4em;
   }
 
-  /* line 650, ../_compass/style.scss */
+  /* line 688, ../_compass/style.scss */
   .featured-header i {
     width: 17%;
     margin-left: 40%;
   }
 
-  /* line 655, ../_compass/style.scss */
+  /* line 693, ../_compass/style.scss */
   .featured-panel {
     max-width: 90%;
     margin-left: 4.5%;
   }
 
-  /* line 660, ../_compass/style.scss */
+  /* line 698, ../_compass/style.scss */
   #mc_embed_signup .clear {
     margin-left: 30%;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 667, ../_compass/style.scss */
+  /* line 705, ../_compass/style.scss */
   .nav-main-button {
     font-size: 1.8em;
   }
 
-  /* line 671, ../_compass/style.scss */
+  /* line 709, ../_compass/style.scss */
   #nav-position {
     margin-top: 1em;
   }
 
-  /* line 675, ../_compass/style.scss */
+  /* line 713, ../_compass/style.scss */
   .featured-header i {
     width: 10%;
     margin-left: 45%;
   }
 
-  /* line 680, ../_compass/style.scss */
+  /* line 718, ../_compass/style.scss */
   .featured-panel {
     max-width: 80%;
     margin-left: 10%;
   }
 
-  /* line 685, ../_compass/style.scss */
+  /* line 723, ../_compass/style.scss */
   #mc_embed_signup .clear {
     margin-left: 37.5%;
   }

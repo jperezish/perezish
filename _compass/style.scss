@@ -407,6 +407,40 @@ aside {
   }
 }
 
+#book-aside {
+  border: none;
+  background: none;
+  .featured-header {
+    border-bottom: none;
+    box-shadow: inset 0 0 10px #416B49;
+    padding-bottom: 0;
+    background-color: #3EA2BB;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .featured-body {
+    padding-top: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    a {
+      display: block;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      background-color: #F3E47D;
+      &:hover {background-color: #F3E89D;}
+      span {
+        text-shadow: 0px 2px 2px #fefefe;
+        color: #CB4D2C;
+        font-weight: bold;
+        font-size: 1.5em;
+        line-height: 1em;
+        letter-spacing: .05em;
+      }
+    }
+  }
+}
+
 #learning-aside {background: #739671 url("/images/img-noise-361x370.png");}
 
 #article-aside {background: #739671 url("/images/img-noise-361x370.png");}
@@ -427,25 +461,29 @@ aside {
   border-radius: .5em;
 }
 
-//override default mailchimp styles
-#mc_embed_signup {
-  clear:left;
-  font:14px Helvetica, Arial, sans-serif;
-  .button {
-    background-color: #67983B;
-    font-size: 20px;
-    &:hover {
-      background-color: #95BFAC;
-    }
-  }
-  .clear {
-    margin-left: 19.5%;
-  }
-}
-
 //
 // Custom Article Content
 //
+
+.book-landing-page {
+  h1 { font-weight: bold; }
+  h2 { font-size: 1.7em; }
+  .important-question {
+    strong {
+      font-size: 1.6em;
+    }
+  }
+  .main-copy {
+    margin-top: 30px;
+  }
+  li {
+    list-style: none;
+    &:before {
+      content: "* ";
+      color: red;
+    }
+  }
+}
 
 #resource-lead {
   height: 250px;
