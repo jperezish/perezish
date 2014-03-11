@@ -65,11 +65,9 @@ h2. Stakeholders is people! Market is people!
 
 The primary goal is to identify the right people for what we want to do right now. We may refer to groups of these people as stakeholders, market segments, or potential customers. 
 
-classify and identify the different types of people.
+There is a point in comparing and contrasting the business analyst and the digital product manager. The point is to create an awareness that the two roles are more similar than they're different. The reason for doing this is to continue to learn and get better at what we do. Each discipline in the creation of applications can learn from the tools and techniques used in others.
 
 h2. So back to the questions
-
-How do you know if you're creating the right application?
 
 How do you talk with the customers?
 
@@ -77,4 +75,5 @@ Is that the first step?
 
 Would you take a different approach for business app vs product?
 
-There is a point in comparing and contrasting the business analyst and the digital product manager. The point is to create awareness that the two roles are more similar than they're different. The reason for doing this is to continue to learn and get better at what we do. Each discipline in the creation of applications can learn from the tools and techniques used in others.
+The first question at the beginning asked how do you know if you're creating the right application? We didn't get an answer to that. We haven't learned enough about the people yet. Next time we'll get another step closer.
+
