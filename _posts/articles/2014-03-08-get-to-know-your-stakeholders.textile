@@ -21,7 +21,7 @@ Let's just dive in and start asking people questions? That works, right? Well, t
 panel 1 (couple talking, enjoying a peaceful walk, guy hiding behind a bush): "What a peaceful, tranquil evening. Did you have a nice time at your bikram yo..."
 panel 2(guy in front of the couple): "Hi there! It looks like you like walking, I'm building a social community app that helps walkers find the most walkable walks in their community called 'Walkie-Talkie' and I have a SUPER AWESOME QUESTION TO ASK YOU!!!" -->
 
-h2. Differences with internal and external applications
+h2. business application vs. product
 
 Last time we got to know our potential customers by  breaking them into "audience segments":http://en.wikipedia.org/wiki/Audience_segmentation. We did this by the roles(e.g. Pool Manager, Pool Player) they play in our survivor pool. This wasn't done in random way. We interviewed some people and gathered data. We let that data guide us. Roles can be a good, quick way to create initial segments of your users.
 
@@ -45,7 +45,7 @@ Hmmm... well hold those thoughts as we look at the case of a Product Manager cre
 
 <div class="small-12 columns">
 
-Yes. It takes quite a bit of work trying to understand the problems of your potential customers. It's even harder if you go about it starting with creating aproduct first.
+Yes. It takes quite a bit of work trying to understand the problems of your potential customers. It's even harder if you go about it starting with a product first.
 
 The truth is, even though the starting points are different, both situations require research into who is going to use the solution. One factor, of course, is the size of your market/organization.
 
@@ -67,4 +67,14 @@ h2. Stakeholders is people! Market is people!
 The primary goal we should be focused on here is helping people solve problems. Let's not focus on whether we're calling those people stakeholders or a market segment. Let's also not focus on whether we're providing these people with a system or product. Let's then focus on the people, their problem, and a solution for their problem.
 
 classify and identify the different types of people.
+
+h2. So back to the questions
+
+How do you know if you're creating the right application?
+
+How do you talk with the customers?
+
+Is that the first step? 
+
+Would you take a different approach for business app vs product?
 
