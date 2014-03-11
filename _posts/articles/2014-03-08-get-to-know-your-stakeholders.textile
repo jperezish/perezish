@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Get to know your stakeholders
-description: What is the role of each stakeholder? What is their vested interest in your application?
+description: "What is the role of each stakeholder? What is their vested interest in your application?"
 categories: 2014 03
 author: Jason Perez
 type: article
@@ -12,24 +12,32 @@ published: true
 ---
 
 <p class="lead-in">
-  How do you know if you're creating the right thing? Yes, we've heard the advice to talk to your customers. It's great advice. But how do you do that? What about when you're part of an organization and the application is for stakeholder's internal to that organization. Are there things you'd do differently? Perhaps. Let's look at one thing that good product people do and apply that to applications internal to an organization.
+  How do you know if you're creating the right application? Yes, we know we should to talk to our customers. But how do you do that? Is that the first step? What about when you're creating applications for stakeholders internal to an organization. Would you take a different approach? 
 </p>
+
+Let's just dive in and start asking people questions? That works, right? Well, that might work. But there are a lot of things that _might_ work. Let's take a look at some common activities. These activities apply to internal business application and products.
 
 <!-- comic of someone hiding behind a bush and then jumping out in front of a couple on a walk:
 panel 1 (couple talking, enjoying a peaceful walk, guy hiding behind a bush): "What a peaceful, tranquil evening. Did you have a nice time at your bikram yo..."
 panel 2(guy in front of the couple): "Hi there! It looks like you like walking, I'm building a social community app that helps walkers find the most walkable walks in their community called 'Walkie-Talkie' and I have a SUPER AWESOME QUESTION TO ASK YOU!!!" -->
 
-h2. Differences in internal and external applications
+h2. business application vs. product
 
-One of the hardest parts of jumping into anything new is the beginning. The first thing you want to do is get at your audience. Who are they and what do they want? A product developed for a market needs a different approach to get to their customers versus a product created for stakeholders internal to a business. Take a look at this:
+Last time we got to know our potential customers by  breaking them into "audience segments":http://en.wikipedia.org/wiki/Audience_segmentation. We did this by the roles(e.g. Pool Manager, Pool Player) they play in our survivor pool. This wasn't done in random way. We interviewed some people and gathered data. We let that data guide us. Roles can be a good, quick way to create initial segments of your users.
+
+Maybe you don't create products for customers. Maybe you're a Business Analyst. You work on systems that support internal business functions in your organization. You may wonder how that product stuff applies to you.
+
+Let's explore this. For the sake of this example we'll assume that we will create some sort of application in both cases below.
+
+You're a Business Analyst. You're presented with a business problem. The first thing you want to do is identify all your stakeholders. Who are they and how are they involved in this problem? Since this app is internal to our organization we should have an easy time identifying the stakeholders. We know where they work and we can just talk to them!
 
 <div class="small-12 small-centered columns">
   <img src="/images/people_you_work_with.png" class="align-center" alt="A picture of a diagram showing that all of the stakeholders are internal to this particluar organization." title="This should be easy, right?" />
 </div>
 
-As you can see from this simplistic diagram all of the people you need to get to are in your organization! Nice! What's that you say? You have 2000 people in your company in three different locations across your country?
+As you can see from this simplistic diagram, the people you need to talk to are in your organization! Nice! This should be easy then. What's that you say? You have 2000 people in your company in three different locations across the country? There's an internal political struggle between two of the departments involved? One of the primary subject matter experts quit last week?
 
-Hmmm... well hold that thought as we look at the case of someone creating an application for an external market:
+Hmmm... well hold those thoughts as we look at the case of a Product Manager creating a product for an external market.
 
 <div class="small-12 small-centered columns">
   <img src="/images/the_users_dont_work_with_me.png" class="align-center" alt="A picture of a diagram showing that all of the potential users are external to this particluar organization." title="This should be harder, right?" />
@@ -37,7 +45,9 @@ Hmmm... well hold that thought as we look at the case of someone creating an app
 
 <div class="small-12 columns">
 
-The truth is, even thought the starting points are different, both situations require research into who is going to use the applications. One factor, of course, is the size of your market/organization.
+Yes. It takes quite a bit of work trying to understand the problems of your potential customers. It's even harder if you go about it starting with a product first.
+
+The truth is, even though the starting points are different, both situations require research into who is going to use the solution. One factor, of course, is the size of your market/organization.
 
 </div>
 
@@ -52,22 +62,19 @@ But it doesn't change the needs. Both have to solve a real need in order to be s
 
 Let's define a stakeholder as anyone with an interest in the actions you're undertaking.
 
-h2. Stakeholders is people!
+h2. Stakeholders is people! Market is people!
+
+The primary goal we should be focused on here is helping people solve problems. Let's not focus on whether we're calling those people stakeholders or a market segment. Let's also not focus on whether we're providing these people with a system or product. Let's then focus on the people, their problem, and a solution for their problem.
 
 classify and identify the different types of people.
 
-h2. The stakeholder analysis trap
+h2. So back to the questions
 
-Did you know there is a trap? A stakeholder analysis something you'll see in other disciplines. It encompasses the activities of discovering who the people are that have an interest in your project and also aims to define what type of involvement they'll have. In regards to creating a new application within your organization, let's make a clear distinction. Let's separate the people. Influence, like you'd see on a stakeholder matrix, will take a back seat to one key distinction: separate the stakeholder that will directly use the app from the ones that will indirectly benefit from the app.
+How do you know if you're creating the right application?
 
-This is important because the time will come when we need to do some additional digging into the direct users of the app.
+How do you talk with the customers?
 
-Helping to break them up in such a way also lets you not get distracted by the HiPPO.
+Is that the first step? 
 
-Get to know your stakeholders more like a potential market for a product, not like a high level decision maker.
-
-At the end of the day if you focus your efforts on the
-
-The problem is people hear stakeholder analysis and there's a tendency to focus on the HiPPO (Highest paid person's opinion ). The problem is the HiPPO the odds are that person won't interact with your system in a way that will really make a difference.
-
+Would you take a different approach for business app vs product?
 
