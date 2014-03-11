@@ -23,7 +23,7 @@ panel 2(guy in front of the couple): "Hi there! It looks like you like walking, 
 
 h2. business application vs. digital product
 
-Quick note on terms. Let's define a digital product as a product that requires no raw materials in the production of the product. So we're talking about software more than we're talking about finished goods like a toothbrush.
+Quick note on terms. Let's define a digital product as a product that requires no raw materials in the production of the product. So we're talking about software more than we're talking about finished goods like a toothbrush. Let's define a stakeholder as a person with a vested interest in the actions you're undertaking.
 
 Last time we learned more about our potential customers. We separated them into "audience segments":http://en.wikipedia.org/wiki/Audience_segmentation. We did this by the roles(e.g. Pool Manager, Pool Player) they play in our survivor pool. This wasn't done in a random way. We interviewed some people and gathered data. We let that data guide us. Roles can be a good, quick way to create initial segments of your users.
 
@@ -61,11 +61,9 @@ The truth is, even though the starting points are different, both situations req
 
 </div>
 
-Let's define a stakeholder as anyone with an interest in the actions you're undertaking.
-
 h2. Stakeholders is people! Market is people!
 
-The primary goal we should be focused on here is helping people solve problems. Let's not focus on whether we're calling those people stakeholders or a market segment. Let's also not focus on whether we're providing these people with a system or product. Let's then focus on the people, their problem, and a solution for their problem.
+The primary goal is to identify the right people for what we want to do right now. We may refer to groups of these people as stakeholders, market segments, or potential customers. 
 
 classify and identify the different types of people.
 
