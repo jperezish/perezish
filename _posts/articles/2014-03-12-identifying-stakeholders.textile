@@ -5,7 +5,7 @@ description: "Who are the stakeholders? What is the role of each one? What is th
 categories: 2014 03
 author: Jason Perez
 type: article
-"lead-image": "/images/penguins-and-personas.png"
+"lead-image": "/images/get_to_know_your_users.png"
 "lead-image-alt": derpy derp
 "lead-image-title": I love derps
 published: true
@@ -31,7 +31,7 @@ For the sake of this example we'll assume that we will create some sort of appli
 
 h3. you're a business analyst
 
-Maybe you don't create products for customers outside of your organization. Maybe you're a Business Analyst. You work on systems that support internal business functions in your organization. You may wonder how that product stuff applies to you.
+Maybe you don't create products for customers outside your organization. Maybe you're a Business Analyst. You work on systems that support internal business functions in your organization. You may wonder how that product stuff applies to you.
 
 As a Business Analyst, you're working with a group of users and notice a business problem. You take your time to better understand the problem and get the go ahead to explore the greater impact. The first thing you want to do is identify all your stakeholders. Who are they and how are they involved in this problem? Since this app is internal to your organization you won't have to hunt down all the stakeholders.
 
@@ -45,19 +45,19 @@ Hmmm... well hold those thoughts as we look at the case of a Product Manager cre
 
 h3. you're a product manager
 
-As a Product Manager, you're working at a product company and notice a new market segement. You do some initial research and find out where that group has their "digital water coolers" (e.g. blogs, niche social networks). Now you need to find potential customers in this new market.
+As a Product Manager, you're working at a product company and notice a new market segment. You do some initial research. You discover where that group has their "digital water coolers" (e.g. blogs, niche social networks). Now you need to find potential customers in this new market.
 
 <div class="small-12 small-centered columns">
-  <img src="/images/the_users_dont_work_with_me.png" class="align-center" alt="A picture of a diagram showing that all of the potential customers are external to this particluar organization." title="This should be harder, right?" />
+  <img src="/images/the_users_dont_work_with_me.png" class="align-center" alt="A picture of a diagram showing that all potential customers are external to this organization." title="This should be harder, right?" />
 </div>
 
 <div class="small-12 columns">
 
-Well this problem is a little different than that of the business analyst. Here the product manager needs figure out how to get to even just one, single potential customer. But that won't be enough to make decisions.
+Well this problem is a little different than that of the business analyst. Here the product manager needs figure out how to get to even just one, single, potential customer. But that won't be enough to make decisions.
 
-Both the business analyst and the product manager need to better understand their audience. They both start with the same goal. 
+Both the business analyst and the product manager need to better understand their audience. They both start with the same goal.
 
-The truth is, even though the starting points are different, both situations require research into who is going to use the solution. 
+We can see that the starting points are different. But both situations need research into who is going to use the solution.
 
 </div>
 
