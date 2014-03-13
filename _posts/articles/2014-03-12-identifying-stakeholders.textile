@@ -17,10 +17,6 @@ published: true
 
 Let's just dive in and start asking people questions? That works, right? Well, that might work. But there are a lot of things that _might_ work. Let's take a look at some common activities. These activities apply to internal business application and digital products (e.g. "SaaS applications":http://en.wikipedia.org/wiki/Software_as_a_service) as well.
 
-<!-- comic of someone hiding behind a bush and then jumping out in front of a couple on a walk:
-panel 1 (couple talking, enjoying a peaceful walk, guy hiding behind a bush): "What a peaceful, tranquil evening. Did you have a nice time at your bikram yo..."
-panel 2(guy in front of the couple): "Hi there! It looks like you like walking, I'm building a social community app that helps walkers find the most walkable walks in their community called 'Walkie-Talkie' and I have a SUPER AWESOME QUESTION TO ASK YOU!!!" -->
-
 h2. business application vs. digital product
 
 Quick note on terms. Let's define a digital product as a product that requires no raw materials in the production of the product. So we're talking about software more than we're talking about finished goods like a toothbrush. Let's define a stakeholder as a person with a vested interest in the actions you're undertaking.
@@ -63,7 +59,7 @@ We can see that the starting points are different. But both situations need rese
 
 h2. Stakeholders is people! Market is people!
 
-The primary goal is to identify the right people for what we want to do right now. We may refer to groups of these people as stakeholders, market segments, or potential customers. 
+The primary goal is to identify the right people for what we want to do right now. We may refer to groups of these people as stakeholders, market segments, or potential customers.
 
 There is a point in comparing and contrasting the business analyst and the digital product manager. The point is to create an awareness that the two roles are more similar than they're different. The reason for doing this is to continue to learn and get better at what we do. Each discipline in the creation of applications can learn from the tools and techniques used in others.
 
