@@ -1,0 +1,17 @@
+---
+published: false
+---
+
+customer: I need track pantone color codes for all of our products
+software team member: okay cool. How are you going to use that?
+customer: Well the sales team wants to be more informed about the colors we have on differrent products and they're getting asked about this quite a bit.
+software team member: Do we have 
+customer:
+software team member:
+customer:
+software team member:
+
+h2. Waterfall
+
+customer: I need track pantone color codes for all of our products
+software team member: 
