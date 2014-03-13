@@ -8,14 +8,14 @@ type: article
 "lead-image": "/images/get_to_know_your_users.png"
 "lead-image-alt": derpy derp
 "lead-image-title": I love derps
-published: true
+published: false
 ---
 
 <p class="lead-in">
   How do you know if you're creating the right application? Yes, we should to talk to our customers. But how do you do that? Is that the first step? What about when you're creating applications for stakeholders internal to an organization. Would you take a different approach?
 </p>
 
-Let's just dive in and start asking people questions? That works, right? Well, that might work. But there are a lot of things that _might_ work. Let's take a look at some common activities. These activities apply to internal business application and digital products (e.g. "SaaS applications":http://en.wikipedia.org/wiki/Software_as_a_service) as well.
+Let's just dive in and start asking people questions. That works, right? Well, that might work. But there are a lot of things that _might_ work. Let's take a look at some common activities. These activities apply to internal business applications as well as digital products (e.g. "SaaS applications":http://en.wikipedia.org/wiki/Software_as_a_service).
 
 h2. business application vs. digital product
 
