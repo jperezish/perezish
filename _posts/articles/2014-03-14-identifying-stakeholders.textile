@@ -1,0 +1,68 @@
+---
+layout: post
+title: identifying stakeholders
+description: "How do you identify your stakeholders? How does this differ for a business analyst versus a digital product manager?"
+categories: 2014 03
+author: Jason Perez
+type: article
+"lead-image": "/images/get_to_know_your_users.png"
+"lead-image-alt": A comic about a guy in a park interrupting someone else's moment.
+"lead-image-title": Some things help you get to know your customers better than others
+published: true
+---
+
+<p class="lead-in">
+  How do you know if you're creating the right system? Well you can start by talking to customers. But how do you do that? Who are they? How do you find them? What about when you're creating systems for stakeholders internal to an organization. Would you take a different approach?
+</p>
+
+Let's just dive in and start asking people questions. That works, right? Well, that might work. But there are a lot of things that _might_ work. Let's compare the activity of identifying customers in two different environments:
+
+# For a business system internal to an organization
+# For a digital product (e.g. "SaaS applications":http://en.wikipedia.org/wiki/Software_as_a_service)
+
+h2. business system vs. digital product
+
+Quick note on terms. Let's define a digital product as a product that requires no raw materials in the production of the product. We're talking about software like "Basecamp":https://basecamp.com/ more than we're talking about finished goods like a toothbrush. Let's define a stakeholder as a person with a vested interest in the actions you're undertaking.
+
+"Last time":/2014/01/how-i-use-personas/ we learned more about our potential customers. We separated them into "audience segments":http://en.wikipedia.org/wiki/Audience_segmentation. We did this by the roles(e.g. Pool Manager, Pool Player) they play in our survivor pool. This wasn't done in a random way. We interviewed some people and gathered data. We let that data guide us. Roles can be a good, quick way to create initial segments of your users. We did some research to identify them. So what would we do different if, instead of building an external web application, we were building an internal system?
+
+For the sake of this example we'll assume that we will create some sort of system in both cases below.
+
+h3. you're a business analyst
+
+Maybe you don't create products for customers outside your organization. Maybe you're a Business Analyst. You work on systems that support internal business functions in your organization. You may wonder how that product stuff applies to you.
+
+As a Business Analyst, you're working with a group of users and notice a business problem. You take your time to better understand the problem and you explore the greater impact this has on the organization and its goals. The first thing you want to do is identify all your stakeholders. Who are they and how are they involved in this problem? Since this app is internal to your organization you won't have to hunt down all the stakeholders.
+
+<div class="small-12 small-centered columns">
+  <img src="/images/people_you_work_with.png" class="align-center" alt="A picture of a diagram showing that all of the stakeholders are internal to this particluar organization." title="This should be easy, right?" />
+</div>
+
+As you can see from this simplistic diagram, the people you need to talk to are in your organization! Nice! This should be easy then. What's that you say? You have 2000 people in your company in three different locations across the country? Some of the vocal, opinionated groups are volunteering unsolicited information every day. But it seems like you're missing a silent contingent that doesn't want to change. Wait, what's that now? There's an internal political struggle between two of the departments involved? One of the primary subject matter experts quit last week?
+
+Hmmm... well hold those thoughts as we look at the case of a Product Manager creating a product for an external market.
+
+h3. you're a product manager
+
+As a Product Manager, you're working at a product company and notice a new market segment. You do some initial research. You discover where that group has their "digital water coolers" (e.g. blogs, niche social networks). Now you need to find potential customers in this new market.
+
+<div class="small-12 small-centered columns">
+  <img src="/images/the_users_dont_work_with_me.png" class="align-center" alt="A picture of a diagram showing that all potential customers are external to this organization." title="This should be harder, right?" />
+</div>
+
+<div class="small-12 columns">
+
+Well this problem is a little different than that of the business analyst. Here the product manager needs figure out how to get even just one, single, potential customer. But that won't be enough to make decisions.
+
+Both the business analyst and the product manager need to better understand their audience. They both start with the same goal, identify stakeholders.
+
+We can see that the approaches in this example are different. But both situations need research into who is going to use the solution.
+
+</div>
+
+h2. What I'm trying to say is...
+
+Business analysts and digital product managers are similar roles. This is just one simple example. We'll explore this theme more in the future. It's important for people currently working as business analysts to see the similarities. Why? Options. Options for your career path. Options for your continued learning and growth in creating digital solutions for people. Each discipline in the creation of systems can learn from the tools and techniques used in others.
+
+The first question at the beginning asked how do you know if you're creating the right system? We didn't get an answer to that. We haven't learned enough about the people yet. Next time we'll get another step closer.
+
