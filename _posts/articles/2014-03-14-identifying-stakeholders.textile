@@ -1,6 +1,6 @@
 ---
 layout: post
-title: identifying stakeholders
+title: Identifying Stakeholders
 description: "How do you identify your stakeholders? How does this differ for a business analyst versus a digital product manager?"
 categories: 2014 03
 author: Jason Perez
