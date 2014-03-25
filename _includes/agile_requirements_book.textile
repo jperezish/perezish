@@ -1,8 +1,0 @@
-<div class="panel featured-panel" id="book-aside">
-  <div class="featured-header">
-    <a href="/agile-requirements"><img src="/images/agile_requirements_book.png" class="align-center"></a>
-  </div>
-  <div class="featured-body">
-    <a href="/agile-requirements" class="button" role="button"><span>Are your requirements agile?</span></a>
-  </div>
-</div>
